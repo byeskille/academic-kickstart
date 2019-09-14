@@ -3,13 +3,13 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `rose`, `strawberry`, `mr_robot`.
-color_theme = "default"
+color_theme = "byeskille"
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Font style.
 #   Choose from `default`, `classic`, `rose`, or `mr_robot`.
-font = "default"
+font = "byeskille"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -18,7 +18,7 @@ description = ""
 sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = ""
+twitter = "byeskille"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -45,13 +45,13 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 # `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
+date_format = "2 Jan, 2006"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "15:04"
 
 ############################
 ## Contact Widget setup   ##
@@ -63,8 +63,7 @@ phone = "888 888 88 88"
 address = "Building 1 Room 1, Stanford University, California, 90210, USA"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday 10:00 to 13:00<br>
-                  Wednesday 09:00 to 10:00"""
+office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = "https://calendly.com"
@@ -128,7 +127,7 @@ section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
-sharing = true
+sharing = false
 
 # Configuration of publication pages.
 [publications]
@@ -164,7 +163,7 @@ sharing = true
   # Configuration of Disqus.
   [comments.disqus]
     shortname = ""  # Paste the shortname from your Disqus dashboard.
-    show_count = true  # Show comment count in page header? (true/false)
+    show_count = false  # Show comment count in page header? (true/false)
 
 # Search.
 [search]
