@@ -1,199 +1,175 @@
 ---
-title: Writing technical content in Academic
-date: 2019-07-12
-math: true
-diagram: true
+title: Encrypted contact
+date: 2019-09-18
+math: false
+diagram: false
 markup: mmark
 image:
   placement: 3
-  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+  caption: 'PGP set up with physical smart cards – both YubiKey and OpenPGP card'
 ---
+As a journalist it is important to me anyone can contact me in a secure way.
 
-Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
+With that in mind I have set up a range of different options for both encrypted and anonymous communications (i.e. Signal, Wire, PGP and SecureDrop).
 
-**Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
+*If there is not a need for extra secure communications I can be reached through regular phone or email:<br/>
+Email (personal): [oyvind@byeskille.no](mailto:oyvind@byeskille.no)<br/>
+Email (work): [oyvind.bye.skille@nrk.no](mailto:oyvind.bye.skille@nrk.no)<br/>
+Cell: +47 41 47 32 20*
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Academic.
 
-## Examples
+## Encrypted
 
-### Code
+### Signal
 
-Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the `highlight` option in your `config/_default/params.toml` file.
+If you want to reduce the amount of metadata traces via texts or calls on the cell networks, you can communicate with me using the encrypted app [Signal](https://signal.org/). It offers both text messages, voice and video calls.
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
+The Signal app sends all communications as encrypted data packages.
 
-renders as
+As a result it does not leave a trace on the phone bill, or as open metadata from the cell networks about the contents of communications or who talks to each other. Signal is known for using open source code, is valued by many for solid encryption solutions and the developers running the system is known to collect [little metadata](https://signal.org/bigbrother/).
 
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
+**If you want to get in touch with me via Signal, use my cell number:<br/>
++47 41473220**
+
+### Wire
+
+A drawback for the Signal app is the requirement to register your account with the service using your personal phone number. If you do not want to tie your actual phone number to the encrypted communication, or share your phone number in order to communicate securely, another service might be an option.
+
+One alternative is the app [Wire](https://wire.com/en/).
+
+Wire is very similar to Signal, both in use and technology. Though when using Wire it is possible to set up an account using an email address and not a phone number. You are also not required to share the email address or a phone number with anyone in order to establish contact through the Wire app – you can share a username instead.
+
+Here is a guide on [how to set up Wire without a phone number](https://medium.com/@wireapp/staying-anonymous-on-wire-22faa13aba4d).
+
+**If you want to reach me through Wire, you find me under the username:<br/>
+byeskille**
+
+### Encrypted email PGP
+
+For secure email use PGP. My public key [can be downloaded here](https://www.byeskille.no/byeskille-BA3721AF33FB6D2A.asc.txt).
+
+Here is some info about it:
+```
+4096R/0xBA3721AF33FB6D2A 2016-05-28 [expires: 2020-06-11]
+Key fingerprint = D901 EA75 C112 A105 2AD9 90B3 BA37 21AF 33FB 6D2A
+uid Øyvind Bye Skille – oyvind.bye.skille @ nrk.no
+uid Øyvind Bye Skille – oyvind @ byeskille.no
+uid Øyvind Bye Skille – oyvind @ byeskille.net
 ```
 
-### Math
+**NOTICE:** PGP only encrypts the contents of the email, not the subject or any metadata about who communicate. AS a result encrypted email with PGP will leak more info through metadata about the communication to anyone monitoring network traffic.
 
-Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.toml` file and adding `markup: mmark` to your page front matter.
+To communicate with me using PGP you will need my public PGP key. It can be downloaded [here](https://www.byeskille.no/byeskille-BA3721AF33FB6D2A.asc.txt), through [Keybase](https://keybase.io/byeskille) or via key servers as [keys.openpgp.org](https://keys.openpgp.org/search?q=oyvind.bye.skille%40nrk.no).
 
-To render *inline* or *block* math, wrap your LaTeX math with `$$...$$`.
+PGP can also be used to encrypt files, that later on can be transferred through other channeles than email.
 
-Example **math block**:
+In June 2018 [I changed my PGP setup](https://byeskille.no/2018/06/ny-pgp-nokkel-new-pgp-key/) where private/secret keys, never have, or will be directly exposed on computers connected to the internet.
 
-```tex
-$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+To achieve this I use physical smart cards and YubiKey.
+
+When changing the setup I also changed my encryption keys, and made a cryptographically signed key transition statement.
+
+The key transition statement can be viewed below and downloaded [here](https://byeskille.no/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt).
+
+**Key transition statement:**
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: 2018-06-12
+
+To increase the overall security of my setup, I have started using a new OpenPGP key regularly,
+and will be transitioning away from my old one.
+
+I'm transitioning from a more simple setup to a system with master key generated offline,
+and where all regular usage is done with subkeys on smartcard.
+
+The old key has not been compromised and will therefore not be revoked.
+The old key will expire soon, and I prefer all
+future correspondence to come to the new one.
+
+This message is signed by both keys to certify the transition.
+I will also introduce the new key to Keybase and other natural places.
+
+The old key was:
+
+pub   4096R0x7B44C24E6BD4E124 2011-06-27
+      Key fingerprint = E12F B0A6 293C FEA9 DD83  4A48 7B44 C24E 6BD4 E124
+
+And the new key is:
+
+pub   4096R/0xBA3721AF33FB6D2A 2016-05-28
+      Key fingerprint = D901 EA75 C112 A105 2AD9  90B3 BA37 21AF 33FB 6D2A
+
+To fetch the full key from a public key server, you can simply do:
+
+  gpg --keyserver keys.riseup.net --recv-key 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+  gpg --check-sigs 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+If you don't already know my old key, or you just want to be double
+extra paranoid, you can check the fingerprint against the one above:
+
+  gpg --fingerprint 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+To verify the integrity of this statement:
+
+  wget -q -O- https://byeskille.no/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt | gpg --verify
+
+Please let me know if you have any questions, or problems, and sorry
+for the inconvenience.
+
+Øyvind Bye Skille, Oslo 12th of June 2018
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE+JAV+kkeNkHWAO+AqObKY8Zj3MwFAlsgJVMACgkQqObKY8Zj
+3Mzl0g/+O2TzS7EsSobH20uCg7Vtjq0jz362cxUCDWfKwF94YHPY5m214JwY/zGC
+etBkTfXnbReE6V0FyiTEMx8fcMmjqWwLl8lm1K8fXPc+VcyuCa8037PuTaB94+At
+h8J8P6/zPm7g8U5yi4iX149xZ1oxxMAIL5NlA/Uy6fGc+EzsM/YlVCwg6xgXklIe
+KcrAx6dLw6lOVtk77K6IKJIkzwOthbja9KSdTqufi84YKGIJWPqdPKproV5V5WkX
+31lTRxtgxFJ1/X1rSfq0oqtF8MGBR77fcIgWakmWRhHKsw942tRzC+ISeN1FhRSd
+6dQd/uUgpw341HC+/RfPVm4xWKlRpvR6sVk5OUz33o8uGjdirKS2nlDZ+BZQJ22m
+V0qGR3cuTvQCo7137DWlhX3lL4edNifNNBKmoi3Ggi9SQDad5rsnV9Zuw8sZan+M
+zpji7ZO7iXshlTOYfu7IS+SbyOFW2xkSw8o7BNqYfKtEx7fmNOJkyJk9WbisDHFV
+izieeet2n3F00vBk649se7XeITczsmPr3vWYUaElMFl7txUvY9T99p7JX0EJ53ei
+IYwxvMchkgwqbMsl81G4KO5Q9iIlmgN+3AOPKxQ5erVq+hRol2vkM98wWCWvSWY+
+WrV2F6yOUiT2+7BL8KayAqruTWnpEGzVvMoJK6ohOlBI00Fe6PSJAjMEAQEKAB0W
+IQRh5LnAYkxORlwAByBs2IF8cn46pwUCWyAlUwAKCRBs2IF8cn46pwhtD/wOwJHl
+A830pkYZ/n9P304UR92epSM8mhQHOhslfT95cfW6kv7JfvcV6W1/hseBvUzm4wpX
+vi8j0gFogVyFODWcNEFLe/qU3cSjrw/t9Pny6huUTkX9Kg9n/xuY4EFTqhLB1nNJ
+/WwadhDM7VbK+XS3Y3tlp9u6uKkugQOELwjpZV2D/jOlvyAbwaaQU5aI7kXSSTBi
+YtuhYKHwIqFMccL3i3UE/aRTgCevGUSa0Yf3kfh15wLPgdN6PsGg4mtQvg6A3U54
+B+anJYrJjgMLmdhPiZK5cRRSgESMvA38HUvKnEYaEO+o+AN1oRJP8+2q0z9g8UGP
+8F9mmqrlpfbCA5xNxPWN2Vo4+QV8tzC0e9GOabPbSdeTkD4jCoMAfY/Rpj8gDYBb
++bUJh5SLhDfwzSAnXQeiSPZ3y3zbx8yqYa+Gw5gpDT07KMHxKU1u57AbNH6OJIW7
+nQLm+9Pt6k+EXfL0NvLGrcdq/xIqO2a9UbbkcmNXDqd4T6PloGUkBonONQRctJE/
+LvfkmfInaMXXwl22m8tJkWcUEHUGHo2yffnHwk3m17nWttZiET8DkEEZwlmzDYk8
+CvgTWIHHlkY3JnPmhDlPYG4Ke1QG1Z1XT1iaPL8tQ0aADiyQAKl+EvWuzkWYbVbC
+6Y4fmSYV6jK0i37kQcdOXwjy357LbxD2A/8Lig==
+=TYR1
+-----END PGP SIGNATURE-----
 ```
 
-renders as
+## Anonymous communications
 
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+### SecureDrop
 
-Example **inline math** `$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$` renders as $$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$ .
+If you are in a situation where someone might want to reveal you have communications with a journalist, it might be wise to take some extra precautions.
 
-Example **multi-line math** using the `\\` math linebreak:
+By routing the communications via the tor network, in addition to encryption, you can avoid anyone tracking down any trace the contact took place.
 
-```tex
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
-1-p_0^* & \text {if }k=0.\end{cases}$$
-```
+The SecureDrop system make it possible to secure all communications to/from the media organization and/or journalist by routing the traffic via the tor network and using strong encryption.
 
-renders as
+**Advice: In such a situation I would still advice not to use equipment (computers/mobile phones) or networks connected to the ones who might have an incentive to track down the source (employer/organization etc).**
 
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
-1-p_0^* & \text {if }k=0.\end{cases}$$
+Do not use your work computer or the mobile phone give to you by your employer. You could also use a network not directly connected to yourself.
 
-### Diagrams
+If you want to get in touch with me as a journalist with the extra security and possibility to be anonymous, you can submit info via the SecureDrop instance of the NRK:
 
-Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
 
-An example **flowchart**:
-
-    ```mermaid
-    graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-    ```
-
-renders as
-
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-      participant Alice
-      participant Bob
-      Alice->John: Hello John, how are you?
-      loop Healthcheck
-          John->John: Fight against hypochondria
-      end
-      Note right of John: Rational thoughts <br/>prevail...
-      John-->Alice: Great!
-      John->Bob: How about you?
-      Bob-->John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice->John: Hello John, how are you?
-  loop Healthcheck
-      John->John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts <br/>prevail...
-  John-->Alice: Great!
-  John->Bob: How about you?
-  Bob-->John: Jolly good!
-```
-
-An example **Gantt diagram**:
-
-    ```mermaid
-    gantt
-      dateFormat  YYYY-MM-DD
-      section Section
-      A task           :a1, 2014-01-01, 30d
-      Another task     :after a1  , 20d
-      section Another
-      Task in sec      :2014-01-12  , 12d
-      another task      : 24d
-    ```
-
-renders as
-
-```mermaid
-gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d
-```
-
-### Todo lists
-
-You can even write your todo lists in Academic too:
-
-```markdown
-- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-```
-
-renders as
-
-- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-
-### Tables
-
-Represent your data in tables:
-
-```markdown
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-```
-
-renders as
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Asides
-
-Academic supports a Markdown extension for asides, also referred to as *notices* or *hints*. By prefixing a paragraph with `A>`, it will render as an aside. You can enable this feature by adding `markup: mmark` to your page front matter, or alternatively using the [*Alert* shortcode](https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts).
-
-```markdown
-A> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-```
-
-renders as
-
-A> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-
-### Did you find this page helpful? Consider sharing it 🙌
+- Download the Tor browser from __www.torproject.org__
+- Visit __www.nrk.no/varsle__
+- Send in any info, and label it with my name
