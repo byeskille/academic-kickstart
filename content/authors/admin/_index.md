@@ -29,7 +29,7 @@ education:
   courses:
   - course: Bachelor i Journalistikk
     institution: Høgskulen i Volda
-    year: 2015-2018
+    year: 2005-2008
 
 
 # Social/Academic Networking
