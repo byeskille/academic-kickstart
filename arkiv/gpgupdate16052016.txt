@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Oppdatert GPG-nøkkel // Updated GPG key
+
+Jeg har nettopp forlenget levetiden for mine krypteringsnøkler (PGP / GPG). // I have just extended the lifetime of my encryption keys (PGP / GPG).
+
+Nøklene er de samme og har fortsatt samme fingeravtrykk
+
+E12F B0A6 293C FEA9 DD83 4A48 7B44 C24E 6BD4 E124
+
+Etter endringen løper nøklene først ut den 13. juni 2018.
+
+Hvis du vil kommunisere med meg kryptert kan du hente ned min offentlige nøkkel et av følgende steder:
+
+byeskille.no (HTTPS)
+keybase.io (HTTPS + verifisert mot sosiale medier)
+pgp.mit.edu (standard nøkkelserver)
+Hvis du ikke kan bruke PGP / GPG er det også mulig å sende meg ei tekstmelding eller ringe meg ved hjelp av appen Signal.
+
+//
+
+My key is still the same and have the same fingerprint
+
+E12F B0A6 293C FEA9 DD83 4A48 7B44 C24E 6BD4 E124
+
+The change is in the expiration date, it has been changed to 13th of June 2018.
+
+If you want to communicate with me through encrypted channels you can get my public key one of the following places:
+
+byeskille.no (HTTPS)
+keybase.io (HTTPS + verified with social media)
+pgp.mit.edu (standard key server)
+If you are not into PGP / GPG you can also text and call me encrypted using Signal.
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQIcBAEBCAAGBQJXOcLyAAoJEKjmymPGY9zMFAoP/RJGM4Uu2/1aBE0ekERnka+S
+PzEZFHMdcVGxE/c9a3tv+r0iteN+MeGvH0AoHuw92FIiZ8gXwWiQdqXFvgYrRlKG
+cFcCuop4XCKkmmOHEhH8SqBio15XF/zlEwbfwgmakrno4feieQkPpVgyJ4oxwvcG
+SLoD/IEHESTdw7Af0Vo91DR9H3xCkibmIsat3HeulEqAg0gMINiHuCics5tPQIok
+5Sj05uUDH/pPXENhiPNiLKQgytdR+0VhyPMEN5hEAIKb9nYHOSAxBYMOJoUeyIXx
++AGT2/2pfN4FeqNbWNvIHZVDFDNChvMJjrCgfnWS+KCdeVD94l4ZowieR34BttVz
+ZoJYLSvaOk305zOtt1VZrQel8FsUHQKhczPkhoY+WdHqBScnxCOOn9UIvNcniDiq
+Drb+EXnq0dtoAc4pzR8iVQDx0gLh3YZirlkViP28zgovw44bRdLs0Ro6bAQdEHkQ
+yOB+RZurfIntDwwzwGhDLe/ZJnQIujR239dQi3u5h+vbdyKXzmQD3JDIqexM2yav
+uuIOX4bmVEbbn1jBug3NygMnYkuRwKIJAuShgqKZFn5pbw0JGjStqJVYp8Z9+4mk
+kzvzuTGgevp5PfUjFIR4fXate0UGF/kzBOF0ZG2MLM2wRODgVjdPw6GRA36EuXC7
+ij1VuAIOmtLKgH9TPsNS
+=pHjZ
+-----END PGP SIGNATURE----- 

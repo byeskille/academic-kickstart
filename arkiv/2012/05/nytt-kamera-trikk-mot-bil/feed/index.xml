@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Kommentarer til: Nytt kamera: Trikk mot bil</title>
+	<atom:link href="/2012/05/nytt-kamera-trikk-mot-bil/feed/" rel="self" type="application/rss+xml" />
+	<link>/2012/05/nytt-kamera-trikk-mot-bil/</link>
+	<description></description>
+	<lastBuildDate>Tue, 20 Sep 2016 13:44:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Av: Bilbrann Vålerenga &#8211; Øyvind Bye Skille</title>
+		<link>/2012/05/nytt-kamera-trikk-mot-bil/#comment-1477</link>
+		<dc:creator><![CDATA[Bilbrann Vålerenga &#8211; Øyvind Bye Skille]]></dc:creator>
+		<pubDate>Mon, 19 May 2014 20:51:57 +0000</pubDate>
+		<guid isPermaLink="false">http://byeskille.net/?p=184#comment-1477</guid>
+		<description><![CDATA[[&#8230;] Se også: Nytt kamera – trikk mot bil [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] Se også: Nytt kamera – trikk mot bil [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Av: Bilbrann Vålerenga &#8211; Øyvind Bye Skille</title>
+		<link>/2012/05/nytt-kamera-trikk-mot-bil/#comment-148</link>
+		<dc:creator><![CDATA[Bilbrann Vålerenga &#8211; Øyvind Bye Skille]]></dc:creator>
+		<pubDate>Tue, 05 Jun 2012 22:39:19 +0000</pubDate>
+		<guid isPermaLink="false">http://byeskille.net/?p=184#comment-148</guid>
+		<description><![CDATA[[...] Se også: Nytt kamera – trikk mot bil [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] Se også: Nytt kamera – trikk mot bil [&#8230;]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

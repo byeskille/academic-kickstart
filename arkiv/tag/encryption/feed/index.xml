@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>encryption &#8211; Bye Skille</title>
+	<atom:link href="/tag/encryption/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Oppdatert GPG-nøkkel // Updated GPG key</title>
+		<link>/2016/05/oppdatert-gpg-nokkel-updated-gpg-key/</link>
+		<comments>/2016/05/oppdatert-gpg-nokkel-updated-gpg-key/#respond</comments>
+		<pubDate>Mon, 16 May 2016 12:32:39 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[contact]]></category>
+		<category><![CDATA[email]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[gpg]]></category>
+		<category><![CDATA[pgp]]></category>
+
+		<guid isPermaLink="false">/?p=1111</guid>
+		<description><![CDATA[Jeg har nettopp forlenget levetiden for mine krypteringsnøkler (PGP / GPG). // I have just extended the lifetime of my encryption keys (PGP / GPG). Nøklene er de samme og [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>Jeg har nettopp forlenget levetiden for mine krypteringsnøkler (PGP / GPG). // I have just extended the lifetime of my encryption keys (PGP / GPG).</strong><span id="more-1111"></span></p>
+<p>Nøklene er de samme og har fortsatt samme fingeravtrykk</p>
+<p>E12F B0A6 293C FEA9 DD83 4A48 7B44 C24E 6BD4 E124</p>
+<p>Etter endringen løper nøklene først ut den 13. juni 2018.</p>
+<p>Hvis du vil kommunisere med meg kryptert kan du hente ned min offentlige nøkkel et av følgende steder:</p>
+<ul>
+<li><a href="https://www.byeskille.no/byeskille-6BD4E124.asc.txt">byeskille.no</a> (HTTPS)</li>
+<li><a href="https://keybase.io/byeskille#show-public">keybase.io</a> (HTTPS + verifisert mot sosiale medier)</li>
+<li><a href="http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x7B44C24E6BD4E124">pgp.mit.edu</a> (standard nøkkelserver)</li>
+</ul>
+<p>Hvis du ikke kan bruke PGP / GPG er det også mulig <a href="/2015/11/sikrere-kommunikasjon-signal/">å sende meg ei tekstmelding eller ringe meg ved hjelp av appen Signal.</a></p>
+<p>//</p>
+<p>My key is still the same and have the same fingerprint</p>
+<p>E12F B0A6 293C FEA9 DD83 4A48 7B44 C24E 6BD4 E124</p>
+<p>The change is in the expiration date, it has been changed to 13th of June 2018.</p>
+<p>If you want to communicate with me through encrypted channels you can get my public key one of the following places:</p>
+<ul>
+<li><a href="https://www.byeskille.no/byeskille-6BD4E124.asc.txt">byeskille.no</a> (HTTPS)</li>
+<li><a href="https://keybase.io/byeskille#show-public">keybase.io</a> (HTTPS + verified with social media)</li>
+<li><a href="http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x7B44C24E6BD4E124">pgp.mit.edu</a> (standard key server)</li>
+</ul>
+<p>If you are not into PGP / GPG you can also <a href="/2015/11/sikrere-kommunikasjon-signal/">text and call me encrypted using Signal</a>.</p>
+<p>&nbsp;</p>
+<p>Denne oppdateringen er signert med min krypteringsnøkkel – du kan se <a href="/gpgupdate16052016.txt">denne tekstfila</a>.</p>
+<p>This update is signed with my encryption key – you can check <a href="/gpgupdate16052016.txt">this text file</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/05/oppdatert-gpg-nokkel-updated-gpg-key/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

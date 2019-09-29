@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>driftsmelding &#8211; Bye Skille</title>
+	<atom:link href="/tag/driftsmelding/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Tomt .. enn så lenge</title>
+		<link>/2011/12/tomt-enn-sa-lenge/</link>
+		<comments>/2011/12/tomt-enn-sa-lenge/#comments</comments>
+		<pubDate>Sat, 03 Dec 2011 22:08:23 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[byeskille.net]]></category>
+		<category><![CDATA[driftsmelding]]></category>
+		<category><![CDATA[oppdatering]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=28</guid>
+		<description><![CDATA[Klarte å slette absolutt alt innholdet som lå på byeskille.net. Dermed er det kanskje like greit å starte på med blanke ark og fargestifter til (eller for min del speilreflekskamera). [...]]]></description>
+				<content:encoded><![CDATA[<p>Klarte å slette absolutt alt innholdet som lå på byeskille.net.</p>
+<p>Dermed er det kanskje like greit å starte på med blanke ark og fargestifter til (eller for min del speilreflekskamera).</p>
+<p>Jeg hadde backup, men den virker å være korrupt på et vis. Ved gjenoppretting klarer jeg å finne mye innhold, men det krasjer med mer moderne temaer for WordPress virker det som.</p>
+<p>Satser på å legge inn mer innhold når jeg har tid til det.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2011/12/tomt-enn-sa-lenge/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>

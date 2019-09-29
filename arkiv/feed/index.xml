@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bye Skille</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Ny PGP-nøkkel // New PGP key</title>
+		<link>/2018/06/ny-pgp-nokkel-new-pgp-key/</link>
+		<pubDate>Tue, 12 Jun 2018 20:09:06 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[gpg]]></category>
+		<category><![CDATA[OpenPGP]]></category>
+		<category><![CDATA[pgp]]></category>
+
+		<guid isPermaLink="false">/?p=1289</guid>
+		<description><![CDATA[I have created a new encryption key, and will transition away from the old one.]]></description>
+				<content:encoded><![CDATA[<p><strong>Jeg har laget meg ny krypteringsnøkkel, og vil gå over til å bruke den framover. // I have created a new encryption key, and will transition away from the old one.</strong><span id="more-1289"></span></p>
+<p>Det nye oppsettet innebærer at jeg aldri har de hemmelige nøklene på datamaskinene jeg bruker i det daglige. Nøklene ligger på smartkort, og har bare blitt behandlet på en datamaskin uten tilkobling til internett.</p>
+<p>Selv bruker jeg både en <a href="https://www.yubico.com/product/yubikey-4-series/" target="_blank" rel="noopener">Yubikey 4</a> og et faktisk <a href="https://en.cryptoshop.com/open-pgp-smartcard-v2.html?SID=2nol5dlh8i21evfmd16286i5n3&amp;___store=english&amp;___from_store=default" target="_blank" rel="noopener">smartkort</a>.</p>
+<p>Jeg har laget en kryptografisk signert bekreftelse på overgangen fra gamle til nye krypteringsnøkler. Den kan sees under og lastes ned her: <a href="/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt">/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt</a></p>
+<p><strong>Min nye nøkkel er:</strong></p>
+<p><small>4096R/0xBA3721AF33FB6D2A 2016-05-28<br />
+[gyldig til: 2020-06-11]<br />
+uid Øyvind Bye Skille &lt;oyvind.bye.skille@nrk.no&gt;<br />
+uid Øyvind Bye Skille &lt;oyvind@byeskille.no&gt;<br />
+uid Øyvind Bye Skille &lt;oyvind@byeskille.net&gt;</p>
+<p>Nøkkelfingeravtrykket er: D901 EA75 C112 A105 2AD9 90B3 BA37 21AF 33FB 6D2A</small></p>
+<p><strong>Nøkkelen kan lastes ned <a href="https://www.byeskille.no/byeskille-BA3721AF33FB6D2A.asc.txt">her</a>, på <a href="https://keybase.io/byeskille">Keybase</a> eller fra en nøkkeltjener.</strong></p>
+<p>&nbsp;</p>
+<p>//</p>
+<p>&nbsp;</p>
+<p>My new PGP setup involves not having the secret keys on my everyday computers. The keys are stored on smartcards, and have only been on offline computers.</p>
+<p>I&#8217;m using the <a href="https://www.yubico.com/product/yubikey-4-series/" target="_blank" rel="noopener">Yubikey 4</a> and an actual <a href="https://en.cryptoshop.com/catalogsearch/result/?q=openpgp" target="_blank" rel="noopener">smartcard</a>.</p>
+<p>I have made a key transition statement to confirm the change of keys. It can be viewed below, or downloaded from here: <a href="/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt">/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt</a></p>
+<p><strong>My new key is:</strong></p>
+<p><small>4096R/0xBA3721AF33FB6D2A 2016-05-28<br />
+[valid to: 2020-06-11]<br />
+uid Øyvind Bye Skille &lt;oyvind.bye.skille@nrk.no&gt;<br />
+uid Øyvind Bye Skille &lt;oyvind@byeskille.no&gt;<br />
+uid Øyvind Bye Skille &lt;oyvind@byeskille.net&gt;</p>
+<p>Fingerprint: D901 EA75 C112 A105 2AD9 90B3 BA37 21AF 33FB 6D2A</small></p>
+<p><strong>The new key can be downloaded <a href="https://www.byeskille.no/byeskille-BA3721AF33FB6D2A.asc.txt">here</a>, from <a href="https://keybase.io/byeskille">Keybase</a> or from a keyserver.</strong></p>
+<p>&nbsp;</p>
+<p><strong>Key transition statement:</strong></p>
+<pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: 2018-06-12
+
+To increase the overall security of my setup, I have started using a new OpenPGP key regularly,
+and will be transitioning away from my old one.
+
+I'm transitioning from a more simple setup to a system with master key generated offline,
+and where all regular usage is done with subkeys on smartcard.
+
+The old key has not been compromised and will therefore not be revoked.
+The old key will expire soon, and I prefer all
+future correspondence to come to the new one.
+
+This message is signed by both keys to certify the transition.
+I will also introduce the new key to Keybase and other natural places.
+
+The old key was:
+
+pub   4096R0x7B44C24E6BD4E124 2011-06-27
+      Key fingerprint = E12F B0A6 293C FEA9 DD83  4A48 7B44 C24E 6BD4 E124
+
+And the new key is:
+
+pub   4096R/0xBA3721AF33FB6D2A 2016-05-28
+      Key fingerprint = D901 EA75 C112 A105 2AD9  90B3 BA37 21AF 33FB 6D2A
+
+To fetch the full key from a public key server, you can simply do:
+
+  gpg --keyserver keys.riseup.net --recv-key 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+  gpg --check-sigs 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+If you don't already know my old key, or you just want to be double
+extra paranoid, you can check the fingerprint against the one above:
+
+  gpg --fingerprint 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+To verify the integrity of this statement:
+
+  wget -q -O- /20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt | gpg --verify
+
+Please let me know if you have any questions, or problems, and sorry
+for the inconvenience.
+
+Øyvind Bye Skille, Oslo 12th of June 2018
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE+JAV+kkeNkHWAO+AqObKY8Zj3MwFAlsgJVMACgkQqObKY8Zj
+3Mzl0g/+O2TzS7EsSobH20uCg7Vtjq0jz362cxUCDWfKwF94YHPY5m214JwY/zGC
+etBkTfXnbReE6V0FyiTEMx8fcMmjqWwLl8lm1K8fXPc+VcyuCa8037PuTaB94+At
+h8J8P6/zPm7g8U5yi4iX149xZ1oxxMAIL5NlA/Uy6fGc+EzsM/YlVCwg6xgXklIe
+KcrAx6dLw6lOVtk77K6IKJIkzwOthbja9KSdTqufi84YKGIJWPqdPKproV5V5WkX
+31lTRxtgxFJ1/X1rSfq0oqtF8MGBR77fcIgWakmWRhHKsw942tRzC+ISeN1FhRSd
+6dQd/uUgpw341HC+/RfPVm4xWKlRpvR6sVk5OUz33o8uGjdirKS2nlDZ+BZQJ22m
+V0qGR3cuTvQCo7137DWlhX3lL4edNifNNBKmoi3Ggi9SQDad5rsnV9Zuw8sZan+M
+zpji7ZO7iXshlTOYfu7IS+SbyOFW2xkSw8o7BNqYfKtEx7fmNOJkyJk9WbisDHFV
+izieeet2n3F00vBk649se7XeITczsmPr3vWYUaElMFl7txUvY9T99p7JX0EJ53ei
+IYwxvMchkgwqbMsl81G4KO5Q9iIlmgN+3AOPKxQ5erVq+hRol2vkM98wWCWvSWY+
+WrV2F6yOUiT2+7BL8KayAqruTWnpEGzVvMoJK6ohOlBI00Fe6PSJAjMEAQEKAB0W
+IQRh5LnAYkxORlwAByBs2IF8cn46pwUCWyAlUwAKCRBs2IF8cn46pwhtD/wOwJHl
+A830pkYZ/n9P304UR92epSM8mhQHOhslfT95cfW6kv7JfvcV6W1/hseBvUzm4wpX
+vi8j0gFogVyFODWcNEFLe/qU3cSjrw/t9Pny6huUTkX9Kg9n/xuY4EFTqhLB1nNJ
+/WwadhDM7VbK+XS3Y3tlp9u6uKkugQOELwjpZV2D/jOlvyAbwaaQU5aI7kXSSTBi
+YtuhYKHwIqFMccL3i3UE/aRTgCevGUSa0Yf3kfh15wLPgdN6PsGg4mtQvg6A3U54
+B+anJYrJjgMLmdhPiZK5cRRSgESMvA38HUvKnEYaEO+o+AN1oRJP8+2q0z9g8UGP
+8F9mmqrlpfbCA5xNxPWN2Vo4+QV8tzC0e9GOabPbSdeTkD4jCoMAfY/Rpj8gDYBb
++bUJh5SLhDfwzSAnXQeiSPZ3y3zbx8yqYa+Gw5gpDT07KMHxKU1u57AbNH6OJIW7
+nQLm+9Pt6k+EXfL0NvLGrcdq/xIqO2a9UbbkcmNXDqd4T6PloGUkBonONQRctJE/
+LvfkmfInaMXXwl22m8tJkWcUEHUGHo2yffnHwk3m17nWttZiET8DkEEZwlmzDYk8
+CvgTWIHHlkY3JnPmhDlPYG4Ke1QG1Z1XT1iaPL8tQ0aADiyQAKl+EvWuzkWYbVbC
+6Y4fmSYV6jK0i37kQcdOXwjy357LbxD2A/8Lig==
+=TYR1
+-----END PGP SIGNATURE-----
+</pre>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Streik i NRK</title>
+		<link>/2018/05/streik-i-nrk/</link>
+		<comments>/2018/05/streik-i-nrk/#respond</comments>
+		<pubDate>Sat, 26 May 2018 22:06:42 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Fotografi]]></category>
+
+		<guid isPermaLink="false">/?p=1260</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[
+<a href='/2018/05/streik-i-nrk/20180523_byeskille_nrkstreik-1520_export/'><img width="860" height="517" src="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1520_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1520_export.jpg 950w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1520_export-620x373.jpg 620w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1520_export-768x462.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180523_byeskille_nrkstreik-1505_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1505_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1505_export.jpg 950w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1505_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1505_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180523_byeskille_nrkstreik-1495_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1495_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1495_export.jpg 950w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1495_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1495_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180523_byeskille_nrkstreik-1486_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1486_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1486_export.jpg 950w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1486_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1486_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180523_byeskille_nrkstreik-1483_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1483_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1483_export.jpg 950w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1483_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1483_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180523_byeskille_nrkstreik-1475_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1475_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1475_export.jpg 950w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1475_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1475_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180523_byeskille_nrkstreik-1469_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1469_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1469_export.jpg 950w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1469_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180523_BYESKILLE_nrkstreik-1469_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1467_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1467_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1467_export.jpg 950w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1467_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1467_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1460_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1460_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1460_export.jpg 950w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1460_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1460_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1430_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1430_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1430_export.jpg 950w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1430_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1430_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1422_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1422_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1422_export.jpg 950w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1422_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1422_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1406_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1406_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1406_export.jpg 950w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1406_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1406_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1401_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1401_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1401_export.jpg 950w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1401_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1401_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1392_export/'><img width="633" height="950" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1392_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1392_export.jpg 633w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1392_export-620x930.jpg 620w" sizes="(max-width: 633px) 100vw, 633px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1385_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1385_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1385_export.jpg 950w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1385_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1385_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180522_byeskille_nrkstreik-1388_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1388_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1388_export.jpg 950w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1388_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180522_BYESKILLE_nrkstreik-1388_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180518_byeskille_nrkstreik-1377_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1377_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1377_export.jpg 950w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1377_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1377_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180518_byeskille_nrkstreik-1349_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1349_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1349_export.jpg 950w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1349_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1349_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180518_byeskille_nrkstreik-1342_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1342_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1342_export.jpg 950w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1342_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1342_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180518_byeskille_nrkstreik-1332_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1332_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1332_export.jpg 950w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1332_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1332_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180518_byeskille_nrkstreik-1330_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1330_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1330_export.jpg 950w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1330_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1330_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180518_byeskille_nrkstreik-1328_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1328_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1328_export.jpg 950w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1328_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1328_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180516_byeskille_nrkstreik-1284_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180516_BYESKILLE_nrkstreik-1284_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180516_BYESKILLE_nrkstreik-1284_export.jpg 950w, /wp-content/uploads/2018/05/20180516_BYESKILLE_nrkstreik-1284_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180516_BYESKILLE_nrkstreik-1284_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+<a href='/2018/05/streik-i-nrk/20180518_byeskille_nrkstreik-1305_export/'><img width="860" height="573" src="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1305_export.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1305_export.jpg 950w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1305_export-620x413.jpg 620w, /wp-content/uploads/2018/05/20180518_BYESKILLE_nrkstreik-1305_export-768x512.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+
+]]></content:encoded>
+			<wfw:commentRss>/2018/05/streik-i-nrk/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Nei takk til HTTP</title>
+		<link>/2018/01/nei-takk-til-http/</link>
+		<comments>/2018/01/nei-takk-til-http/#respond</comments>
+		<pubDate>Fri, 26 Jan 2018 22:08:56 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+
+		<guid isPermaLink="false">/?p=1245</guid>
+		<description><![CDATA[på byeskille.no]]></description>
+				<content:encoded><![CDATA[<p><strong>&#8230; på byeskille.no</strong></p>
+<p><a href="/wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829.jpg"><img class="aligncenter size-large wp-image-1246" src="/wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829-1000x648.jpg" alt="" width="860" height="557" srcset="/wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829-1000x648.jpg 1000w, /wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829-620x402.jpg 620w, /wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829-768x497.jpg 768w, /wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829.jpg 1280w" sizes="(max-width: 860px) 100vw, 860px" /></a></p>
+<p><span id="more-1245"></span></p>
+<p>Fra og med denne uka er det ikke mulig å sende og forespørre data til/fra byeskille.no fra nettlesere.</p>
+<p>Jeg har nå innført hardkodet HSTS (<a href="https://hstspreload.org/?domain=byeskille.no" target="_blank" rel="noopener">HTTP Strict Transport Security preloading</a>), og hele domenet er definert til å bare kunne besøkes kryptert. Hardkodingen innebærer at det ligger data i nettleserne om at de bare skal bruke krypterte tilkoblinger med TLS og -adresser./</p>
+<p>Det er en stund siden prosessen for dette startet, men fra og med denne uka er det i drift for alle brukere av nettleseren Chrome (og er på vei eller allerede på plass i nettleserne Firefox, Edge og IE).</p>
+<p>Dette sikkerhetstiltaket beskytter mot nettverksmanipulering der noen med onde hensikter ville forsøke å tvinge trafikken tilbake på usikre og ukrypterte HTTP-tilkoblinger.</p>
+<p>Om det forsøkes HTTP-trafikk vil nettleseren gjøre intern-omdirigering (status 307) før trafikken sendes ut på nettverket.</p>
+<p><a href="/wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740.png"><img class="size-medium wp-image-1251 alignnone" src="/wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740-620x232.png" alt="" width="620" height="232" srcset="/wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740-620x232.png 620w, /wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740-768x288.png 768w, /wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740.png 796w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Les mer om HSTS og hardkoding (preloading) hos:</p>
+<ul>
+<li><a href="https://scotthelme.co.uk/hsts-preloading/" target="_blank" rel="noopener">Scott Helme</a></li>
+<li><a href="https://www.troyhunt.com/understanding-http-strict-transport/" target="_blank" rel="noopener">Troy Hunt</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>/2018/01/nei-takk-til-http/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Fototur 7. januar 2018</title>
+		<link>/2018/01/fototur-7-januar-2018/</link>
+		<comments>/2018/01/fototur-7-januar-2018/#respond</comments>
+		<pubDate>Sun, 07 Jan 2018 17:51:01 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Fotografi]]></category>
+		<category><![CDATA[fototur]]></category>
+
+		<guid isPermaLink="false">/?p=1234</guid>
+		<description><![CDATA[&#160;]]></description>
+				<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9933_860px.jpg"><img class="aligncenter size-medium wp-image-1235" src="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9933_860px-620x413.jpg" alt="Sykkelstativer i Bjørvika / Barcode" width="620" height="413" srcset="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9933_860px-620x413.jpg 620w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9933_860px-768x512.jpg 768w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9933_860px.jpg 860w" sizes="(max-width: 620px) 100vw, 620px" /></a><a href="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9947_860px.jpg"><img class="aligncenter size-medium wp-image-1236" src="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9947_860px-620x620.jpg" alt="" width="620" height="620" srcset="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9947_860px-620x620.jpg 620w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9947_860px-150x150.jpg 150w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9947_860px-768x768.jpg 768w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9947_860px-90x90.jpg 90w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9947_860px-75x75.jpg 75w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9947_860px.jpg 860w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9941_860px.jpg"><img class="aligncenter size-medium wp-image-1237" src="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9941_860px-620x413.jpg" alt="" width="620" height="413" srcset="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9941_860px-620x413.jpg 620w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9941_860px-768x512.jpg 768w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9941_860px.jpg 860w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9921_860px.jpg"><img class="aligncenter size-medium wp-image-1238" src="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9921_860px-620x413.jpg" alt="" width="620" height="413" srcset="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9921_860px-620x413.jpg 620w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9921_860px-768x512.jpg 768w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9921_860px.jpg 860w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9917_860px.jpg"><img class="aligncenter size-medium wp-image-1239" src="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9917_860px-620x413.jpg" alt="" width="620" height="413" srcset="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9917_860px-620x413.jpg 620w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9917_860px-768x512.jpg 768w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9917_860px.jpg 860w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9907_860px.jpg"><img class="aligncenter size-medium wp-image-1241" src="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9907_860px-620x413.jpg" alt="" width="620" height="413" srcset="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9907_860px-620x413.jpg 620w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9907_860px-768x512.jpg 768w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9907_860px.jpg 860w" sizes="(max-width: 620px) 100vw, 620px" /></a><a href="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9909_860px.jpg"><img class="aligncenter size-medium wp-image-1240" src="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9909_860px-620x413.jpg" alt="" width="620" height="413" srcset="/wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9909_860px-620x413.jpg 620w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9909_860px-768x512.jpg 768w, /wp-content/uploads/2018/01/20180107_BYESKILLE_sondagstur24-70-9909_860px.jpg 860w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>/2018/01/fototur-7-januar-2018/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Stemmetelling tilkoblet internett</title>
+		<link>/2017/10/stemmetelling-tilkoblet-internett/</link>
+		<pubDate>Sun, 08 Oct 2017 20:51:38 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1220</guid>
+		<description><![CDATA[IT-eksperter var bekymret for at eventuell manipulering av valget ikke skulle bli oppdaget når stemmene telles maskinelt. Bekymringsmeldingene førte til forskrift om manuell telling.]]></description>
+				<content:encoded><![CDATA[<p style="text-align: right;font-size:60%;"><em>(Foto: Oslo kommune/Sturlason)</em></p>
+<p style="text-align: left;"><strong style="font-size: 0.95em;">IT-eksperter var bekymret for at eventuell manipulering av valget ikke skulle bli oppdaget. Datasystemer som brukes til stemmetelling i Norge er tilkoblet internett og dermed utsatt for risiko. Bekymringsmeldinger førte til forskrift om manuell telling.</strong></p>
+<p><span id="more-1220"></span></p>
+<p>NRK plukket opp hvordan IT-eksperter hadde begynt å gå datasystemene som brukes i norske valg etter i sømmene.</p>
+<p>Sentralt var dataprogrammene og systemene som ofte bare omtales som EVA. En forkortelse som vel opprinnelig stod for <a href="https://valg.no/om-valg/om-valg2/det-elektroniske-valgsystemet-eva/" target="_blank" rel="noopener">Elektronisk valgadministrasjonssystem</a>.</p>
+<p>Systemet både registrerer og lagrer, teller opp og summerer stemmer i valget.</p>
+<p>Ekspertene hadde bitt seg merke i hvordan stemmesedler ble talt med maskiner som skannet dem og tolket hvilke stemmesedler folk hadde valgt, og hvilke endringer de hadde påført stemmen.</p>
+<p>Skannerne ble styrt av en programvarepakke kalt EVA Skannning. Det som bekymret eksperter som programvareutvikler Patricia Aas var mangelen på sikkerhetsvurderinger og at systemet kjørte på ordinære Windows-maskiner som man var usikre på hvor godt var låst ned – de var jo tross alt tilkoblet internett.</p>
+<ul>
+<li><strong>Les saken:</strong> <a href="https://www.nrk.no/norge/teller-opp-stemmer-i-valget-pa-datamaskiner-tilkoblet-internett-1.13660659" target="_blank" rel="noopener">Teller opp stemmer i valget på datamaskiner tilkoblet internett</a></li>
+</ul>
+<p>Valgdirektoratet som var ansvarlige for systemet forsikret likevel til NRK at alt var trygt.</p>
+<p>– Det norske folk kan stole på at de valgresultatene vi presenterer er korrekte, og at de representerer de stemmene velgerne har avgitt i stemmeavlukkene, sa direktør Bjørn Berg i direktoratet til meg den 27. august.</p>
+<p>Bare noen dager senere skulle det dog bli oppdaget at sensitive filer var på avveie.</p>
+<p>Klientsertifikat-filer som er et ledd i å gi tilgang til EVA-systemet hadde blitt fanget opp av nettleseren Edge og havnet i søkemotoren Bing.</p>
+<ul>
+<li><strong>Les saken:</strong> <a href="https://www.nrk.no/norge/sensitive-valg-filer-for-tre-kommuner-var-tilgjengelig-for-hele-verden-1.13664601" target="_blank" rel="noopener">Sensitive valg-filer for tre kommuner var tilgjengelig for hele verden</a></li>
+</ul>
+<p>Bekymringen fra IT-ekspertene og sakene må ha ført til en del møter i diverse offentlige organer.</p>
+<p>For under en uke etter den første saken fra NRK <a href="https://www.nrk.no/norge/krever-manuell-stemmetelling-i-alle-kommuner-1.13668374" target="_blank" rel="noopener">kom beskjeden</a> i pressemelding fra regjeringen:</p>
+<blockquote><p><strong>Øker sikkerheten rundt valggjennomføringen<br />
+</strong>– Valgsystemet vårt er godt testet og sikret. Vi ønsker å unngå spekulasjoner og usikkerhet rundt valgresultatet. Trygghet og tillit er avgjørende i gjennomføringen av valget. Derfor skjerper vi nå sikkerheten ytterligere, sier kommunal- og moderniseringsminister Jan Tore Sanner. Kommunal- og moderniseringsdepartementet ber nå alle kommuner om å ha minst én manuell telling av stemmene til stortingsvalget. I tillegg skjerpes sikkerheten rundt datasystemene.<br />
+<em><a href="https://www.regjeringen.no/no/aktuelt/oker-sikkerheten-rundt-valggjennomforingen/id2569117/" target="_blank" rel="noopener">Pressemelding fra Kommunal- og moderniseringsdepartementet</a><br />
+1. september 2017</em></p></blockquote>
+<p>Både programvareutvikler Patricia Aas som i stor grad startet det hele og andre var lettet og fornøyd.</p>
+<p>– Det er en seier for vanlige mennesker. Når du går inn i et stemmelokale og avgir din stemme, må du vite at den faktisk teller. Det er grunnsteinen i et demokrati, <a href="https://www.nrk.no/norge/om-stemmekontrollen_-_-det-er-en-seier-for-vanlige-mennesker-1.13668804" target="_blank" rel="noopener">sa Aas til NRK</a>.</p>
+<p>Også de som var lokalt ansvarlige for valggjennomføringen i Oslo uttrykte lettelse.</p>
+<p>Valgstyret i Oslo hadde allerede ved starten av året sagt at de var bekymret for sikkerheten i det elektroniske valgsystemet EVA. Med krav om manuell telling sa de dette <a href="https://www.nrk.no/norge/bekymret-for-sikkerheten-i-valgdatasystemet-i-flere-maneder-_-lettet-over-manuell-telling-1.13676927" target="_blank" rel="noopener">til NRK</a>:</p>
+<p>– Jo mer det ble snakket om, jo større anså vi risikoen for at noen faktisk ville prøve seg. Det at vi nå får manuell telling, det gjør at alle kan senke skuldrene, sa Øystein Sundelin (H) som var medlem i valgstyret.</p>
+<ul>
+<li><strong>Les også:</strong> <a href="https://vivaldi.com/blog/weve-got-this/" target="_blank" rel="noopener">Bloggposten fra Patricia Aas om saken</a></li>
+</ul>
+<p><em><a href="https://www.flickr.com/photos/oslobystyre/32924912111/in/album-72157677156794643/" target="_blank" rel="noopener">Bildet</a> i toppen av saken er generøst delt av Oslo kommune med en <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/" target="_blank" rel="noopener">Creative Commons-lisens CC-BY-NC-ND 2.0</a> (Foto: Oslo kommune/Sturlason)</em></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Stopper millioner/tusenvis falske e-poster</title>
+		<link>/2017/01/stopper-millionertusenvis-falske-e-poster/</link>
+		<comments>/2017/01/stopper-millionertusenvis-falske-e-poster/#respond</comments>
+		<pubDate>Thu, 05 Jan 2017 22:06:38 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1203</guid>
+		<description><![CDATA[Spam, phishing og svindel. Innboksene rundt om renner over av meldinger som ikke egentlig er ønsket. Noen utgir seg i tillegg for å ha en avsender du skulle tro du kunne [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>Spam, phishing og svindel. Innboksene rundt om renner over av meldinger som ikke egentlig er ønsket. Noen utgir seg i tillegg for å ha en avsender du skulle tro du kunne stole på. Med DMARC har jeg sporet at det faktisk er tusenvis av meldinger som har forsøkt å utgi seg for å være meg.</strong></p>
+<p><span id="more-1203"></span></p>
+<p>Dette nettstedet ligger på byeskille.no (og tidligere byeskille.net). Begge to er domener som jeg bruker til min personlige e-post.</p>
+<p>Siden jeg er litt opptatt av sikkerhetsteknologier fant jeg ut at jeg skulle sjekke om jeg kunne innføre noen nye løsninger for e-postsikkerhet på eget domene.</p>
+<p>Teknologiene heter DKIM og DMARC.</p>
+<p>DKIM er krypteringssystemer som teknisk merker alle meldinger fra epostserveren med en kryptografisk signatur som er nesten umulig å forfalske.</p>
+<p><a href="https://dmarc.org/overview/" target="_blank">DMARC</a> bruker informasjon om DKIM-krypteringsnøkler og hvilke e-postservere som får lov til å sende ut e-post for domenet (SPF) for å vurdere om en e-post er ekte, hva som skal gjøres med falsk e-post og eventuell rapportering om forfalsket e-post.</p>
+<p>Jeg sjekket først om eksisterende e-postleverandør for byeskille.no kunne få til en løsning med disse teknologiene, men de støttet ikke DKIM.</p>
+<p>Dermed ble det flytting til en annen leverandør der jeg i stor grad kunne sette opp alt selv.</p>
+<h3>Hva gjør dette?</h3>
+<p>Teknologiene gjør at om noen forsøker seg på å sende ut en e-post som utgir seg for å være fra oyvind@byeskille.no vil de ikke kunne følge samme sikkerhetsnivå med kryptografisk signering (DKIM), og e-postene vil ikke komme fra en av de godkjente serverne satt opp i SPF.</p>
+<p>Når en slik e-post kommer f.eks. til Gmail vil Google sjekke hva jeg har bedt dem om å gjøre med e-post som ikke følger sikkerhetskravene:</p>
+<ul>
+<li>Putt den i spam-mappa og gi meg beskjed</li>
+</ul>
+<p>Dette får Google vite ved å se på denne tekniske strengen som jeg har lagt inn i DNS for domenet byeskille.no:</p>
+<p><code>v=DMARC1; p=quarantine; rua=mailto:dmarc@byeskille.no,mailto:exorqlrd@ag.dmarcian-eu.com;</code></p>
+<p>Resultatet er at mottakere ikke skal få slike falske e-poster i innboksen i det hele tatt.</p>
+<p>Kort forklart gjøres dette:</p>
+<ul>
+<li>v=DMARC1: Sier at systemet bruker DMARC</li>
+<li>p=quarantine: Sier at e-poster som ikke følger reglene skal legges i spam-mappe eller lignende</li>
+<li>rua=mailto:dmarc@byeskille.no,mailto:exorqlrd@ag.dmarcian-eu.com: Ber om at rapporter om overtredelser sendes sendes til disse to e-postadressene.</li>
+</ul>
+<p>Mottakere som Gmail sjekker om e-postene følger reglene ved å slå opp to andre oppføringer i DNS:</p>
+<p>SPF: <code>v=spf1 include:_spf.google.com ~all</code><br />
+Sier at den skal hente listen med godkjente e-postservere fra _spf.google.com siden jeg bruker Google G Suite for å styre e-posten.</p>
+<p>DKIM: <code>v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvFr/dgjyDVIgG2OGac/nJO+QEdO+8NXMSMzKtLUxfB9uPn1V6HMsC4pqU7BFCoXlb3yIqyZ26PR+aQIdR6JErdwXuiaAOw28ZSLNxD2kRRoa56vSmhlL4hS2vhmgMa+Hp8hhoKXxsA1dttDKqY4kg1jISmY9bswO5xoVePNMob/TVw680VwlAN5ri24QbNoOS9JKr/o0hVjzkvchMdb5auAAWXf6jCoO8DDgou5cP+gUtjYjS8fcot6OTHvOTHaK1AxZyRctGLxteszS/CjBl5yPpyypIfDMDx8h9eYRqy77JPjkbG7tWRa145TZ2jdADav+z5ha5LxzBQJ0RicHRwIDAQAB</code></p>
+<p>Inneholder den offentlige nøkkelen som Gmail eller andre kan bruke for å se om e-poster er signert med riktig hemmelig krypteringsnøkkel.</p>
+<h3>Tallene</h3>
+<p>Etter å ha satt opp dette og rapportering kunne jeg se at det faktisk var en del spam der ute som utga seg for å være meg.</p>
+<p><strong>Data fra Gmail, Hotmail og andre store e-postboks-leverandører viste at nesten 2 000 meldinger hadde kommet dit fra systemer som slett ikke var meg – selv om de utga seg å komme fra adresser som sluttet på @byeskille.no eller @byeskille.net.</strong></p>
+<p>Å stoppe spam og i verste fall svindelforsøk på denne måten brukes av stadig flere.</p>
+<p>Britiske myndigheter skrev i slutten av november <a href="https://hmrcdigital.blog.gov.uk/2016/11/25/combatting-phishing-a-very-big-milestone/" target="_blank">hvordan skattemyndighetene der har stoppet over 300 millioner</a> slike falske e-poster.</p>
+<p>Jeg valgte derfor å lage noen saker for nrk.no om teknologien, hva de har gjort i Storbritannia og hvordan det står til her i Norge.</p>
+<p>Her er sakene:</p>
+<ul>
+<li><a href="https://www.nrk.no/dokumentar/xl/stoppet-over-300-millioner-svindel-eposter-1.13284672" target="_blank">Stoppet over 300 millioner svindel-eposter (nrk.no)</a></li>
+<li><a href="https://www.nrk.no/dokumentar/stopper-falske-nettbanker-nesten-daglig-1.13285516" target="_blank">Stopper falske nettbanker nesten daglig (nrk.no)</a></li>
+<li><a href="https://www.nrk.no/dokumentar/bare-fire-kommuner-med-epostsikring-1.13285472" target="_blank">Bare fire kommuner med epostsikring (nrk.no)</a></li>
+</ul>
+<p>For å sjekke hvordan det står til i Norge valgte jeg å gjøre noen egne undersøkelser.</p>
+<p>Enkle undersøkelser kan gjøres med flere nettsider fra ulike teknologileverandører (eksempler er <a href="https://dmarcian-eu.com/dmarc-inspector/" target="_blank">Dmarcian</a>, <a href="https://www.agari.com/project/dmarc/" target="_blank">Agari</a> og <a href="http://mxtoolbox.com/dmarc.aspx" target="_blank">MXToolbox</a>).</p>
+<p>Men jeg ønsket f.eks. å kunne teste alle kommunene med basis i domenelistene jeg skaffet da jeg sjekket bruken av HTTPS i Norge.</p>
+<p>Jeg lette derfor etter et verktøy som gjorde at jeg kunne masseteste med basis i ei stor liste.</p>
+<p>Til slutt endte jeg på verktøyet <strong>zdns</strong> fra folkene bak prosjektet zmap som driver med skanning av store deler av internett som en del av forskning.</p>
+<p>Med <a href="https://github.com/zmap/zdns" target="_blank">zdns</a> kunne jeg dermed mate inn lista med alle domenene til norske kommuner og skrive ut resultatet til ei fil som json-data, slik:</p>
+<p><code>cat kommune-herad-ks-med-mx.csv | /home/oyvind/go/bin/zdns DMARC --prefix=_dmarc. --threads 5 &gt; /home/oyvind/dmarc/results/kommune-dmarc-21122016.json</code></p>
+<p>Dette ble så konvertert til regneark-vennlig csv med <a href="https://konklone.io/json/" target="_blank">dette verktøyet</a> fra Eric Mill.</p>
+<p>Etter dette kunne jeg filtrere, studere og telle opp i Excel eller et databaseprogram.</p>
+<p>Da kunne jeg se følgende:</p>
+<ul>
+<li><strong>Bare 4 kommuner hadde eksplisitt satt opp DMARC</strong></li>
+<li><strong>Bare 8 av totalt 40 domener for offentlige etater som er medlemmer av Forum for store offentlige nettsteder var sikret med DMARC</strong></li>
+<li><strong>Et bedre inntrykk blant banker og noen domener knyttet til helse</strong></li>
+</ul>
+<p><strong>Noen nyttige ressurser om teknologiene:</strong></p>
+<p>DMARC – forklaring: <a href="https://dmarc.org/overview/" target="_blank">https://dmarc.org/overview/</a><br />
+Hvordan sette det opp om du har e-posten gjennom Google G Suite / Google Apps: <a href="https://support.google.com/a/answer/174124?hl=en&amp;ref_topic=2752442&amp;visit_id=0-636192510148805944-686382464&amp;rd=1" target="_blank">DKIM</a>, <a href="https://support.google.com/a/answer/33786?hl=en&amp;ref_topic=2759192&amp;visit_id=0-636192510148805944-686382464&amp;rd=1" target="_blank">SPF</a> og <a href="https://support.google.com/a/answer/2466563?hl=en" target="_blank">DMARC</a><br />
+Hvordan sette det opp om du har e-posten gjennom <a href="https://technet.microsoft.com/nb-no/library/mt734386(v=exchg.150).aspx" target="_blank">Microsoft Office 365</a><br />
+Interessant <a href="https://blogs.msdn.microsoft.com/tzink/" target="_blank">blogg fra Terry Zink i Microsoft</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2017/01/stopper-millionertusenvis-falske-e-poster/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lusebehandling og rekefelt</title>
+		<link>/2016/11/lusebehandling-og-rekefelt/</link>
+		<pubDate>Sun, 27 Nov 2016 13:43:32 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1186</guid>
+		<description><![CDATA[Myndighetene hadde advart i nesten 20 år mot farene ved en rekke lusemidler. Likevel kunne NRK se at stoffene fortsatt brukes like ved eller rett over kjente rekefelt.]]></description>
+				<content:encoded><![CDATA[<p><strong>Myndighetene hadde advart i nesten 20 år mot farene ved en rekke lusemidler. De kunne skade reker og andre skalldyr. Likevel kunne NRK se at stoffene fortsatt brukes like ved eller rett over kjente rekefelt – ved å koble data om utlevering av stoffer, hvor oppdrettsanleggene ligger og data om rekefelt fra Fiskeridirektoratet.</strong><br />
+<span id="more-1186"></span></p>
+<p>Gode kolleger i Brennpunkt, Harald Eraker og Ole Reinert Omvik, har laget en dokumentarfilm om oppdrettsnæringen.</p>
+<p>I filmen «<a href="https://tv.nrk.no/serie/brennpunkt/MDDP11001516/10-11-2016" target="_blank">Lakseeventyret</a>» ser de på ulike forhold rundt næringen som både skaper mange arbeidsplasser og er omstridt for sin miljøpåvirkning.</p>
+<p>I forbindelse med researchen til filmen hadde de skaffet seg data om alle utleveringer av medikamenter og kjemikalier til oppdrettsselskaper for bruk i oppdrettsanlegg. Informasjonen stammet fra rapportering til Mattilsynet fra selskapene som selger disse stoffene.</p>
+<p>Siden veldig mye av dataene var knyttet til konkrete oppdrettsanlegg i havet spurte de om jeg ikke kunne se på dem i kart: <em>Kanskje vi kan vise noe kult?</em></p>
+<p>Sentralt stod hypotesen: <em><strong>Har oppdrettsselskapene brukt disse stoffene slik at de kan ha påvirket reker negativt?</strong></em></p>
+<p>Brennpunkt fikk så tilgang på følgende data:</p>
+<ul>
+<li>Plasseringen til alle norske oppdrettsanlegg fra Akvakulturregisteret hos Fiskeridirektoratet</li>
+<li>Dataene om medikamenter og kjemikalier fra Mattilsynet – som også inneholdt den samme lokalitets-ID-en brukt i Akvakulturregisteret</li>
+<li>Plassering av alle kjente rekefelt fra Fiskeridirektoratet</li>
+</ul>
+<p>Alle dataene ble lastet inn i Carto (tidligere Cartodb) i hvert sitt datasett.</p>
+<p><strong>Les artikkelen som bruker disse undersøkelsene:</strong></p>
+<ul>
+<li><strong><a href="https://www.nrk.no/dokumentar/xl/advart-mot-rekedod-siden-1998-1.13223172" target="_blank">Advart mot rekedød siden 1998 (nrk.no)</a></strong></li>
+</ul>
+<h3>Bakgrunnsresearch</h3>
+<p>Først koblet jeg lokalitetene fra Akvakulturregisteret med lokalitets-ID i Mattilsynets medikament/kjemikalie-data. Dermed fikk jeg plasseringen til all bruk av disse stoffene.</p>
+<p>Deretter la jeg rekefeltene og medikamentbruken inn i hvert sitt lag i kartet slik at vi kunne se visuelt hvor nært det var blitt brukt slike stoffer. Kollega Harald Eraker hadde satt seg inn i mange detaljer rundt de ulike lusemidlene og kunne bidra med at det var spesielt to stoffer som var interessante; <em>diflubenzuron</em> og <em>teflubenzuron (også omtalt som kitinsyntesehemmere)</em></p>
+<p>Han hadde også funnet ut at det nå ligger på bordet anbefalinger om å helt forby bruken av disse stoffene innenfor 1000 meter fra rekefelt.</p>
+<blockquote><p><em><strong>«Det skal være god miljøtilstand under akvakulturanlegget før bruk, det skal gå minst 6 måneder mellom hver behandling kitinsyntesehemmere skal ikke anvendes på lokaliteter som ligger nærmere enn 1000 meter fra rekefelt.»</strong></em></p></blockquote>
+<p>Medikamentbruken ble derfor filtrert med en SQL-spørring for å bare vise bruken av disse stoffene i forhold til rekefeltene:</p>
+<pre>SELECT * FROM "byeskille-nrk".medikamenter2014_2016peruke36_2016
+
+WHERE 
+virkestoff LIKE "Diflubenzuron" 
+OR 
+virkestoff LIKE "Teflubenzuron"</pre>
+<p>For enkelhets skyld eksporterte jeg akkurat disse dataene til et eget datasett også etterpå.</p>
+<h3>Kobling og kjøringer</h3>
+<p>For å forenkle spørringer og sammenligninger mot hvor rekefeltene befant seg lagde jeg også en versjon av det datasettet som bare har én stor form (multipolygon) for alle rekefeltene.</p>
+<p>Med denne som utgangspunkt kunne jeg lage oppføringer i databasen med utstrekning som tilsvarte ulike avstander fra rekefeltene, f.eks. 100 meter, 500 meter og 1000  meter. Her er ei kjøring for 1000 meter:</p>
+<pre>INSERT INTO rekebuffer_fiskeridir_jan2016 (the_geom, art, buffer_m)
+
+SELECT ST_Transform(ST_Buffer(ST_ Transform(the_geom,32633),1000) ,4326) AS the_geom, art, '1000' AS buffer_m
+
+FROM rekepoly_fiskeridir_jan2016</pre>
+<p>Etter dette kunne jeg enkelt gjøre kjøringer som sjekket hvor mange oppdrettsanlegg som lå så nært rekefelt:</p>
+<pre>SELECT COUNT(DISTINCT lok_nr) FROM "byeskille-nrk".akvakultur_ lokal_sjo AS lok, "byeskille-nrk".rekebuffer_ fiskeridir_jan2016 AS reke
+
+WHERE (lok.art LIKE '%Laks%' OR lok.art LIKE '%ørret%' OR lok.art LIKE '%Ørret%')
+
+AND (produksjonsform = 'Matfisk' OR produksjonsform = 'MATFISK')
+
+AND
+
+ST_Contains(reke.the_geom,lok. the_geom)
+
+AND reke.buffer_m = '1000'</pre>
+<p>eller hvor hvor mange som hadde brukt lusemidlene som myndighetene hadde advart om:</p>
+<pre>SELECT COUNT(DISTINCT meds.lokalitet) FROM "byeskille-nrk". benzuroner2014_2016peruke36_ 2016_aggregated AS meds, "byeskille-nrk".rekebuffer_ fiskeridir_jan2016 AS reke
+
+WHERE ST_Contains(reke.the_geom, meds.the_geom)
+
+AND reke.buffer_m = '1000'</pre>
+<h3>Resultater</h3>
+<p>Etter å ha gjort dette og mer til fant vi ut følgende om de 1 014 oppdrettsanleggene (lokalitetene) som var registrert per 12. september:</p>
+<ul>
+<li>245 anlegg ligger nærmere enn 1000 meter fra kjente rekefelt</li>
+<li>59 av disse anleggene som egentlig er for nært har brukt lusemidlene det er advart mot i perioden 2014 til uke 36 i 2016</li>
+<li>Bare i 2016 har det blitt brukt slike lusemidler 54 ganger i 46 forskjellige anlegg langs norskekysten. 12 av anleggene som har brukt stoffene i 2016 har gjort det innenfor 1000 meter av et kjent rekefelt</li>
+</ul>
+<p>Her er et kart som viser alle anleggene som har brukt lusemidlene det er advart om nærmere enn 1000 meter fra kjente rekefelt:</p>
+
+<!-- iframe plugin v.4.3 wordpress.org/plugins/iframe/ -->
+<iframe src="https://snutt.nrk.no/kart_apps/atlas_plugin/1.2/dist/?id=5822fe59b0c80726338b4573" width="100%" height="500" scrolling="yes" class="iframe-class" frameborder="0"></iframe>
+
+]]></content:encoded>
+			</item>
+		<item>
+		<title>«Gåten i Isdalen» – og jakten på nye svar</title>
+		<link>/2016/10/gaten-i-isdalen-og-jakten-pa-nye-svar/</link>
+		<comments>/2016/10/gaten-i-isdalen-og-jakten-pa-nye-svar/#respond</comments>
+		<pubDate>Fri, 21 Oct 2016 07:11:13 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1177</guid>
+		<description><![CDATA[En 46 år gammel sak med mange mysterier, et funn i en kjeller og veien videre for om mulig finne svar med ny og moderne teknologi.]]></description>
+				<content:encoded><![CDATA[<p><strong>En 46 år gammel sak med mange mysterier, et funn i en kjeller og veien videre for om mulig finne svar med ny og moderne teknologi.</strong></p>
+<p><span id="more-1177"></span></p>
+<p>Over en periode har NRK jobbet med saken om Isdalskvinnen. Kvinnen ble funnet død og forbrent utenfor Bergen sentrum den 29. november 1970.</p>
+<p>Helt siden den gang har det vært mange mysterier i saken, men ingen har klart å finne ut hvem hun var.</p>
+<p><strong>Les bakgrunn for historien:</strong> <a href="https://www.nrk.no/dokumentar/xl/gaten-i-isdalen-1.12987220" target="_blank">Gåten i Isdalen</a></p>
+<p><strong>Se tidslinje:</strong> <a href="https://www.nrk.no/tidslinje---gaten-i-isdalen-1.13180269" target="_blank">Politijakten 1970</a></p>
+<p>NRK fant i 2016 igjen biologiske spor etter kvinnen, og vil la publikum følge prosessen der vi sammen med politiet og fagfolk forsøker å få analysert vevsprøver og tennene hennes.</p>
+<p>Alt publiseres på nrk.no, og sentralt er både videoepisoder, artikler og bilder.</p>
+<p><strong>Følg saken her:</strong> <a href="https://www.nrk.no/dokumentar/gaten-i-isdalen-1.13182053" target="_blank">Gåten i Isdalen på nrk.no</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/10/gaten-i-isdalen-og-jakten-pa-nye-svar/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Øyafestivalen 2016</title>
+		<link>/2016/08/oyafestivalen-2016/</link>
+		<comments>/2016/08/oyafestivalen-2016/#respond</comments>
+		<pubDate>Sun, 14 Aug 2016 17:25:53 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Fotografi]]></category>
+		<category><![CDATA[øya]]></category>
+		<category><![CDATA[øya2016]]></category>
+		<category><![CDATA[øyafestivalen]]></category>
+
+		<guid isPermaLink="false">/?p=1143</guid>
+		<description><![CDATA[Et utvalg bilder jeg tok under Øyafestivalen 2016.]]></description>
+				<content:encoded><![CDATA[<p><strong>Et utvalg bilder jeg tok under Øyafestivalen 2016. Tidspunktet for når kameraet kom opp av veska var veldig tilfeldig, og dermed også hvilke konserter det er bilder fra.</strong><span id="more-1143"></span></p>
+<p style="text-align: center;">Bildet på toppen er fra konsert med Ary i teltet onsdag.</p>
+<p style="text-align: center;"><a href="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9692__960web.jpg"><img class="aligncenter size-medium wp-image-1146" src="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9692__960web-620x412.jpg" alt="20160809_BYESKILLE_oya2016-9692__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9692__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9692__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9692__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Hanne Kolstø på Internasjonalen – tirsdag 9. august 2016</em><a href="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9694__960web.jpg"><img class="aligncenter size-medium wp-image-1147" src="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9694__960web-620x412.jpg" alt="20160809_BYESKILLE_oya2016-9694__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9694__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9694__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9694__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Hanne Kolstø på Internasjonalen – tirsdag 9. august 2016</em> <a href="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9703__960web.jpg"><img class="aligncenter size-medium wp-image-1148" src="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9703__960web-620x412.jpg" alt="20160809_BYESKILLE_oya2016-9703__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9703__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9703__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-9703__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Atlanter på Internasjonalen – tirsdag 9. august 2016</em><a href="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-iphone-5348__960web.jpg"><img class="aligncenter size-medium wp-image-1149" src="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-iphone-5348__960web-620x413.jpg" alt="20160809_BYESKILLE_oya2016-iphone-5348__960web" width="620" height="413" srcset="/wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-iphone-5348__960web-620x413.jpg 620w, /wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-iphone-5348__960web-768x512.jpg 768w, /wp-content/uploads/2016/08/20160809_BYESKILLE_oya2016-iphone-5348__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>De Underjordiske på Internasjonalen – tirsdag 9. august 2016</em> <a href="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9731__960web.jpg"><img class="aligncenter size-medium wp-image-1150" src="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9731__960web-620x834.jpg" alt="20160810_BYESKILLE_oya2016-9731__960web" width="620" height="834" srcset="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9731__960web-620x834.jpg 620w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9731__960web.jpg 714w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Ary i teltet (Sirkus) – onsdag 10. august 2016</em></p>
+<p style="text-align: center;"><a href="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9739__960web.jpg"><img class="aligncenter size-medium wp-image-1151" src="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9739__960web-620x412.jpg" alt="20160810_BYESKILLE_oya2016-9739__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9739__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9739__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9739__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Ary i teltet (Sirkus) – onsdag 10. august 2016</em> <a href="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5385__960web.jpg"><img class="aligncenter size-medium wp-image-1156" src="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5385__960web-620x465.jpg" alt="20160810_BYESKILLE_oya2016-iphone-5385__960web" width="620" height="465" srcset="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5385__960web-620x465.jpg 620w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5385__960web-768x576.jpg 768w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5385__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Massive attack på hovedscenen (Amfiet) – onsdag 10. august</em><a href="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9781__960web.jpg"><img class="aligncenter size-medium wp-image-1152" src="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9781__960web-620x412.jpg" alt="20160810_BYESKILLE_oya2016-9781__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9781__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9781__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9781__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Massive attack på hovedscenen (Amfiet) – onsdag 10. august</em><a href="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9784__960web.jpg"><img class="aligncenter size-medium wp-image-1153" src="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9784__960web-620x412.jpg" alt="20160810_BYESKILLE_oya2016-9784__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9784__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9784__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9784__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Massive attack på hovedscenen (Amfiet) – onsdag 10. august</em> <a href="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9789__960web.jpg"><img class="aligncenter size-medium wp-image-1154" src="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9789__960web-620x412.jpg" alt="20160810_BYESKILLE_oya2016-9789__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9789__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9789__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-9789__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Massive attack på hovedscenen (Amfiet) – onsdag 10. august</em><a href="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5376__960web.jpg"><img class="aligncenter size-medium wp-image-1155" src="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5376__960web-620x827.jpg" alt="20160810_BYESKILLE_oya2016-iphone-5376__960web" width="620" height="827" srcset="/wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5376__960web-620x827.jpg 620w, /wp-content/uploads/2016/08/20160810_BYESKILLE_oya2016-iphone-5376__960web.jpg 720w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Aurora på hovedscenen (Amfiet) – onsdag 10. august</em></p>
+<p style="text-align: center;"><a href="/wp-content/uploads/2016/08/20160811_BYESKILLE_oya2016-iphone-5406__960web.jpg"><img class="aligncenter size-full wp-image-1166" src="/wp-content/uploads/2016/08/20160811_BYESKILLE_oya2016-iphone-5406__960web.jpg" alt="20160811_BYESKILLE_oya2016-iphone-5406__960web" width="540" height="960" /></a><em>Sol på plen, i bakgrunnen Erlend Ropstad på scenen Hagen – torsdag 11. august</em></p>
+<p style="text-align: center;"><a href="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9808__960web.jpg"><img class="aligncenter size-medium wp-image-1157" src="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9808__960web-620x412.jpg" alt="20160812_BYESKILLE_oya2016-9808__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9808__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9808__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9808__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Gundelach i teltet (Sirkus) – fredag 12. august</em></p>
+<p style="text-align: center;"><a href="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9841__960web.jpg"><img class="aligncenter size-medium wp-image-1158" src="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9841__960web-620x412.jpg" alt="20160812_BYESKILLE_oya2016-9841__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9841__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9841__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9841__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Band of Gold på hovedscenen (Amfiet) – fredag 12. august</em> <a href="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9842__960web.jpg"><img class="aligncenter size-medium wp-image-1159" src="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9842__960web-620x412.jpg" alt="20160812_BYESKILLE_oya2016-9842__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9842__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9842__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9842__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Band of Gold på hovedscenen (Amfiet) – fredag 12. august</em> <a href="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9852__960web.jpg"><img class="aligncenter size-medium wp-image-1160" src="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9852__960web-620x412.jpg" alt="20160812_BYESKILLE_oya2016-9852__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9852__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9852__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9852__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Band of Gold på hovedscenen (Amfiet) – fredag 12. august</em> <a href="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9855__960web.jpg"><img class="aligncenter size-medium wp-image-1161" src="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9855__960web-620x412.jpg" alt="20160812_BYESKILLE_oya2016-9855__960web" width="620" height="412" srcset="/wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9855__960web-620x412.jpg 620w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9855__960web-768x510.jpg 768w, /wp-content/uploads/2016/08/20160812_BYESKILLE_oya2016-9855__960web.jpg 960w" sizes="(max-width: 620px) 100vw, 620px" /></a><em>Lush i teltet (Sirkus) – fredag 12. august</em></p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/08/oyafestivalen-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hvordan fant journalistene egentlig ut det der?</title>
+		<link>/2016/05/hvordan-fant-journalistene-egentlig-ut-det-der/</link>
+		<comments>/2016/05/hvordan-fant-journalistene-egentlig-ut-det-der/#comments</comments>
+		<pubDate>Sun, 29 May 2016 14:20:26 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+		<category><![CDATA[åpenhet]]></category>
+		<category><![CDATA[innsyn]]></category>
+		<category><![CDATA[metode]]></category>
+		<category><![CDATA[metoderapport]]></category>
+
+		<guid isPermaLink="false">/?p=1099</guid>
+		<description><![CDATA[Åpenhet om metode og åpenhet som verktøy i jobben som journalist.]]></description>
+				<content:encoded><![CDATA[<p><strong>Åpenhet om metode og åpenhet som verktøy i jobben som journalist.</strong><span id="more-1099"></span></p>
+<p>Mange vet overraskende lite om hvordan journalister jobber. I møte med vanlige folk er det ofte kjent for dem at jeg som journalist lager nyhetssaker til radio, tv, på nett eller i ei avis hvis jeg sier at jeg er journalist.</p>
+<p>Hvordan de sakene er blitt til er derimot mer diffust for flere.</p>
+<p>Det er litt synd at mange ikke vet hvor omfattende bakgrunnsarbeid som kan ligge bak en nyhetssak. Slik kunnskap er med på å skape bedre forståelse mellom folk flest og mediene.</p>
+<h3>Åpenhet om metode</h3>
+<p>Fra norske medier og journalister har det heldigvis blitt mer vanlig med åpenhet rundt metodene som ligger bak sakene som kommer på trykk eller på lufta. Ved store satsninger, som kanskje også er litt kontroversielle, er det nå ikke så uvanlig at en redaktør eller leder skriver om hvordan arbeidet har vært og hvorfor saken publiseres.</p>
+<p>Et annet veldig godt eksempel på åpenhet er nok egentlig mest kjent internt i pressekretser.</p>
+<p>Hvert år publiseres det flere titalls rapporter om metodene bak de største sakene laget i året som gikk. Metoderapportene publiseres på <a href="http://www.skup.no/">www.skup.no</a> av Stiftelsen for en Kritisk og Undersøkende Pressse (SKUP).</p>
+<p>I metoderapportene er det mulig å lese hvordan norske journalister har jobbet seg fram til mye omtalte saker – saker som ofte satte dagsorden. Det kommer ofte fram både hva som var utgangspunktet for saken, hvilken bakgrunnsundersøkelser som ble gjort og hvilke humper i veien journalistene har møtt.</p>
+<p>Alt dette er veldig nyttig for å skjønne hvordan slike saker jobbes fram, og kanskje burde metoderapportene tilgjengeliggjøres og bli lesning for andre enn bare journalister i større grad enn slik det er nå.</p>
+<p>For noe av innholdet kan nok til tider virke faginternt for journalistkretser, og rapportene er tross alt skrevet som et bidrag til den årlige SKUP-konferansen og er inngangsbilletten for konkurransen om den høythengende SKUP-prisen. Samtidig er det helt sikkert mulig å lære noe både for vanlige folk og for andre journalister.</p>
+<p>Selv kan jeg si at jeg har lært helt konkrete triks og metoder fra å lese i metoderapporter og høre kolleger fortelle om sitt arbeid på SKUP-konferansen.</p>
+<div id="attachment_1127" style="width: 630px" class="wp-caption aligncenter"><img class="size-medium wp-image-1127" src="/wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o-620x349.jpg" alt="20110402 TØNSBERG: Nick Davies and David Leigh of The Guardian and Kristinn Hrafnsson of Wikileaks talks at a panel debate during the Norwegian journalism conference SKUP." width="620" height="349" srcset="/wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o-620x349.jpg 620w, /wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o-768x432.jpg 768w, /wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o-1000x563.jpg 1000w, /wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o.jpg 1280w" sizes="(max-width: 620px) 100vw, 620px" /><p class="wp-caption-text"><em>På SKUP-konferansen deles det metoder, tips og triks mellom journalister. Her fra en paneldebatt om Wikileaks året etter de første store lekkasjene fra det amerikanske forsvaret: Skal alt publiseres rått som Wikileaks eller skal det filtreres som i vanlige medier? (foto: Øyvind Bye Skille)</em></p></div>
+<p>Her er metoderapportene som pdf-filer fra vinnerne av SKUP-prisen de siste årene:</p>
+<ul>
+<li>2015: <a href="http://www.skup.no/wp-content/uploads/2016/04/24-Våtdraktmysteriet.pdf" target="_blank">Dagbladet – Våtdraktmysteriet</a></li>
+<li>2014: <a href="http://2014.metoderapporter.skup.no/Nigeria%20full%20pakke%20-%20uten%20vedlegg.pdf" target="_blank">Dagbladet – Nigeria-båtene</a></li>
+<li>2013: <a href="http://2013.metoderapporter.skup.no/04-Jannes-historie-Bergens-Tidende.pdf" target="_blank">Bergens tidende – Jannes historie</a> og <a href="http://2013.metoderapporter.skup.no/21-Null%20CTRL%20-%20Dagbladet.pdf" target="_blank">Dagbladet – Null CTRL</a></li>
+<li>2012: <a href="http://2012.metoderapporter.skup.no/2012-9_Dopingmafiaen.pdf" target="_blank">Dagens Næringsliv – Dopingmafiaen</a></li>
+<li>2011: <a href="http://2011.metoderapporter.skup.no/2011-37%20Pengebingen.pdf" target="_blank">Dagens Næringsliv – Pengebingen</a></li>
+</ul>
+<p>Alle metoderapportene kan som nevnt <a href="http://www.skup.no/tidligere-metoderapporter/">finnes på nettsidene til SKUP</a>.</p>
+<h3>Forståelse for åpenhet</h3>
+<p>Selv har jeg opplevd at til og med svært medievante personer ikke forstår hva som er bakgrunnen for saker jeg har jobbet med.</p>
+<p>I fjor laget jeg noen saker som fikk Kristin Clemet til å først rope ut <strong>lekkasje! </strong></p>
+<p>Da hun fikk vite at NRK og VG hadde fått dokumenter gjennom normale metoder ved å be om å få innsyn hos offentlige etater <a href="http://clemet.blogg.no/1422571341_syretesten__ikke_best.html" target="_blank">skrev hun</a>: «Da er det, såvidt jeg kan skjønne, en saksbehandlingsfeil.»</p>
+<p>Sakene handlet om hvordan den mye omtalte instruksen som førte til at Najmuddin Faraj Ahmad skulle tvangsflyttes til Kyrksæterøra hadde blitt til i forvaltningen og hos politikerne i Høyre/Frp-regjeringen – ofte omtalt som Krekar-instruksen.</p>
+<p>Clemet reagerte visst svært kraftig på at de interne diskusjonene var blitt spredt i pressen, og at det kom fram hvilken informasjon politikerne hadde fått fra sine fagfolk før de laget de nye reglene. Regler som helt tydelig var svært tett knyttet til enkeltsaken til Najmuddin Faraj Ahmad.</p>
+<p>Som journalister hadde vi bare brukt et svært vanlig og nyttig arbeidsredskap, innsynsretten.</p>
+<p>Her er formuleringen jeg sendte til Justis- og beredskapsdepartementet for å be om å få vite hva som egentlig hadde skjedd i saken rundt instruksen:</p>
+<p style="padding-left: 30px;">«NRK ønsker innsyn i alle dokumenter i saken som omhandler</p>
+<p style="padding-left: 30px;"><em>Instruks om bestemt oppholdssted og meldeplikt</em></p>
+<p style="padding-left: 30px;">Med alle dokumenter mener vi alle registreringer som er relevante for saken. Dette inkluderer brev, e-poster, notater, SMS-er og alt annet som etter arkivloven og arkivforskriften burde være journalført på saken fordi de er relevante for saksbehandlingen.»</p>
+<p>Hovedregelen i Norge er at alle dokumentene som offentlige etater og kontorer jobber med er mulige å se for både journalister og vanlige innbyggere. Dette prinsippet kalles offentlighetsprinsippet, og er beskrevet slik i loven:</p>
+<blockquote><p><em>Formålet med lova er å leggje til rette for at offentleg verksemd er open og gjennomsiktig, for slik å styrkje informasjons- og ytringsfridommen, den demokratiske deltakinga, rettstryggleiken for den enkelte, tilliten til det offentlege og kontrollen frå ålmenta. Lova skal òg leggje til rette for vidarebruk av offentleg informasjon.</em><br />
+– <a href="https://lovdata.no/dokument/NL/lov/2006-05-19-16/KAPITTEL_1#§1" target="_blank">Offentleglova § 1</a></p></blockquote>
+<p>Dette prinsippet er så viktig at det til og med er tatt med i grunnloven:</p>
+<blockquote><p>Enhver har rett til innsyn i statens og kommunenes dokumenter og til å følge forhandlingene i rettsmøter og folkevalgte organer. Det kan i lov fastsettes begrensninger i denne rett ut fra hensyn til personvern og av andre tungtveiende grunner.<br />
+– <a href="https://lovdata.no/dokument/NL/lov/1814-05-17/KAPITTEL_5#§100" target="_blank">Grunnloven § 100</a></p></blockquote>
+<p>Disse reglene er noe jeg bruker mye i mitt arbeid, og det var blant annet med på å gjøre det mulig å lage saken om USAs ønske om at Snowden skulle arresteres om han kom hit.</p>
+<ul>
+<li><a href="/2015/10/hemmelig-snowden-press-us-pressure-on-snowden-kept-secret/">Hemmelig Snowden-press // US pressure on Snowden kept secret</a></li>
+</ul>
+<p>Nå er den saken <a href="http://www.nrk.no/kultur/medieorganisasjonene-skal-hjelpe-snowden-i-soksmalet-mot-norge-1.12959550" target="_blank">mer aktuell</a> enn på lenge med <a href="http://www.nrk.no/urix/edward-snowden-saksoker-norge-1.12911684" target="_blank">søksmålet Snowden har startet</a> mot staten.<br />
+Hvis noen vil vite litt mer om hvordan jeg og vi i NRK jobber.</p>
+<p>Her er noen av metoderapportene jeg har vært med på å lage:</p>
+<ul>
+<li>2015: <a href="/nrk-radondfare-metode-skup.pdf" target="_blank">Radonfare</a>: Påvirkning fra radon i norske boliger, skoler og barnehager<br />
+– sammen med Marit Higraff</li>
+<li>2015: <a href="/nrk-forsvaretsomforsvant-metode-skup.pdf" target="_blank">Forsvaret som forsvant</a>: Eiendomsforvaltning og bruk av offentlige midler etter den kalde krige<br />
+– sammen med Ståle Hansen, Marit Higraff, Espen Andersen og Eirik Veum</li>
+<li>2015: <a href="/nrk-scandiland-metode-skup.pdf" target="_blank">Scandiland</a>: Et skandinavisk forum for pedofile på det mørke nettet<br />
+– sammen med Henrik Lied, Marius Arnesen, Ellen Borge Kristoffersen, Ståle Hansen</li>
+<li>2014: <a href="http://2014.metoderapporter.skup.no/63%20-%20%20jakten%20p%c3%a5%20IS.pdf" target="_blank">Jakten på IS</a>: Om kontakt med en IS-avhopper og hvordan Norge betalte for et sykehus i IS-område – sammen med Mohammed Alayoubi og Tormod Strand</li>
+<li>2012: <a href="http://2012.metoderapporter.skup.no/2012-41_Trobbel_i_tarnet2_.pdf" target="_blank">Trøbbel i tårnet</a>: Om hvordan lønnskamp blant flygeledere og dårlig styring fra Avinor fikk store konsekvenser for mange flypassasjerer  – sammen med Peter Svaar</li>
+<li>2011: <a href="http://2011.metoderapporter.skup.no/2011-32%20En%20r%c3%b8d%20gummib%c3%a5t%20-%20Aksjon%20og%20beredskap%2022.%20juli.pdf" target="_blank">En rød gummibåt</a>: Om hvordan NRK jobbet med saker om beredskap etter 22. juli – sammen med resten av NRKs 22. juli-redaksjon</li>
+<li>2010: <a href="http://2010.metoderapporter.skup.no/2010-46%20Nåla%20i%20høystakken.pdf" target="_blank">Nåla i høystakken</a>: Om hvordan NRK jobbet med lekkede Wikileaks-dokumenter fra krigen i Afghanistan – sammen med bl.a. Astrid Randen og Espen Andersen</li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>/2016/05/hvordan-fant-journalistene-egentlig-ut-det-der/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

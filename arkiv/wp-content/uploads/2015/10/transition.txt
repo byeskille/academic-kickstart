@@ -1,0 +1,27 @@
+Hele dette nettstedet og min hovedinnboks for e-post er nå flyttet til byeskille.no. // This website and my main e-mail inbox have been transitioned to the domain byeskille.no.
+
+Jeg har eid domenet byeskille.no i litt over ett år, men valgte i første omgang å bare videresende trafikk til eksisterende nettside og e-postadresse på byeskille.net.
+
+Nå har jeg derimot valgt å bytte til .no-domenet fordi det er mer passende siden jeg er en norsk person.
+
+Det kan da nevnes at bakgrunnen er at det fra og med juni 2014 ble mulig å registrere .no-domener for privatpersoner. Se mer info hos Norid.
+
+Det er satt opp videresending som skal gjøre at alle tidligere adresser på byeskille.net fortsatt skal komme fram til innholdet som nå ligger på byeskille.no. Hvis du vet om noe som ikke fungerer blir jeg glad om du sier fra.
+
+Også e-postadressen jeg bruker er lagt om til oyvind@byeskille.no – fra oyvind@byeskille.net som nå videresendes dit.
+
+For å bevise at dette er gjort av meg er denne bloggposten signert av min eksisterende PGP-nøkkel. Se signatur på bunnen.
+
+//
+
+The domain byeskille.no has been in registered by me for just over a year, but first off I decided to just use my existing website at byeskille.net and forward traffic from the new domain there.
+
+Now I have decided to transition both my website and my e-mail to the .no-domain. I think it is suitable to use a Norwegian domain as I am a Norwegian citizen.
+
+The web server is set up to redirect traffic to the old byeskille.net domain to the new site. So all former content should still be reachable at their old adresses through the redirect. If you know of broken links or content, just let me know.
+
+I have also changed the address of my main inbox for personal e-mail to oyvind@byeskille.no. oyvind@byeskille.net is still active and all e-mail is forwarded automatically.
+
+To prove this transition is being done by me I have decided to sign this blog post with my existing PGP key.
+
+(innholdet som er signert er all tekst utenom tittel // content signed is the the text in this blogpost excluding title)

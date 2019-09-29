@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Diverse &#8211; Bye Skille</title>
+	<atom:link href="/category/diverse/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Ny PGP-nøkkel // New PGP key</title>
+		<link>/2018/06/ny-pgp-nokkel-new-pgp-key/</link>
+		<pubDate>Tue, 12 Jun 2018 20:09:06 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[gpg]]></category>
+		<category><![CDATA[OpenPGP]]></category>
+		<category><![CDATA[pgp]]></category>
+
+		<guid isPermaLink="false">/?p=1289</guid>
+		<description><![CDATA[I have created a new encryption key, and will transition away from the old one.]]></description>
+				<content:encoded><![CDATA[<p><strong>Jeg har laget meg ny krypteringsnøkkel, og vil gå over til å bruke den framover. // I have created a new encryption key, and will transition away from the old one.</strong><span id="more-1289"></span></p>
+<p>Det nye oppsettet innebærer at jeg aldri har de hemmelige nøklene på datamaskinene jeg bruker i det daglige. Nøklene ligger på smartkort, og har bare blitt behandlet på en datamaskin uten tilkobling til internett.</p>
+<p>Selv bruker jeg både en <a href="https://www.yubico.com/product/yubikey-4-series/" target="_blank" rel="noopener">Yubikey 4</a> og et faktisk <a href="https://en.cryptoshop.com/open-pgp-smartcard-v2.html?SID=2nol5dlh8i21evfmd16286i5n3&amp;___store=english&amp;___from_store=default" target="_blank" rel="noopener">smartkort</a>.</p>
+<p>Jeg har laget en kryptografisk signert bekreftelse på overgangen fra gamle til nye krypteringsnøkler. Den kan sees under og lastes ned her: <a href="/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt">/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt</a></p>
+<p><strong>Min nye nøkkel er:</strong></p>
+<p><small>4096R/0xBA3721AF33FB6D2A 2016-05-28<br />
+[gyldig til: 2020-06-11]<br />
+uid Øyvind Bye Skille &lt;oyvind.bye.skille@nrk.no&gt;<br />
+uid Øyvind Bye Skille &lt;oyvind@byeskille.no&gt;<br />
+uid Øyvind Bye Skille &lt;oyvind@byeskille.net&gt;</p>
+<p>Nøkkelfingeravtrykket er: D901 EA75 C112 A105 2AD9 90B3 BA37 21AF 33FB 6D2A</small></p>
+<p><strong>Nøkkelen kan lastes ned <a href="https://www.byeskille.no/byeskille-BA3721AF33FB6D2A.asc.txt">her</a>, på <a href="https://keybase.io/byeskille">Keybase</a> eller fra en nøkkeltjener.</strong></p>
+<p>&nbsp;</p>
+<p>//</p>
+<p>&nbsp;</p>
+<p>My new PGP setup involves not having the secret keys on my everyday computers. The keys are stored on smartcards, and have only been on offline computers.</p>
+<p>I&#8217;m using the <a href="https://www.yubico.com/product/yubikey-4-series/" target="_blank" rel="noopener">Yubikey 4</a> and an actual <a href="https://en.cryptoshop.com/catalogsearch/result/?q=openpgp" target="_blank" rel="noopener">smartcard</a>.</p>
+<p>I have made a key transition statement to confirm the change of keys. It can be viewed below, or downloaded from here: <a href="/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt">/20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt</a></p>
+<p><strong>My new key is:</strong></p>
+<p><small>4096R/0xBA3721AF33FB6D2A 2016-05-28<br />
+[valid to: 2020-06-11]<br />
+uid Øyvind Bye Skille &lt;oyvind.bye.skille@nrk.no&gt;<br />
+uid Øyvind Bye Skille &lt;oyvind@byeskille.no&gt;<br />
+uid Øyvind Bye Skille &lt;oyvind@byeskille.net&gt;</p>
+<p>Fingerprint: D901 EA75 C112 A105 2AD9 90B3 BA37 21AF 33FB 6D2A</small></p>
+<p><strong>The new key can be downloaded <a href="https://www.byeskille.no/byeskille-BA3721AF33FB6D2A.asc.txt">here</a>, from <a href="https://keybase.io/byeskille">Keybase</a> or from a keyserver.</strong></p>
+<p>&nbsp;</p>
+<p><strong>Key transition statement:</strong></p>
+<pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: 2018-06-12
+
+To increase the overall security of my setup, I have started using a new OpenPGP key regularly,
+and will be transitioning away from my old one.
+
+I'm transitioning from a more simple setup to a system with master key generated offline,
+and where all regular usage is done with subkeys on smartcard.
+
+The old key has not been compromised and will therefore not be revoked.
+The old key will expire soon, and I prefer all
+future correspondence to come to the new one.
+
+This message is signed by both keys to certify the transition.
+I will also introduce the new key to Keybase and other natural places.
+
+The old key was:
+
+pub   4096R0x7B44C24E6BD4E124 2011-06-27
+      Key fingerprint = E12F B0A6 293C FEA9 DD83  4A48 7B44 C24E 6BD4 E124
+
+And the new key is:
+
+pub   4096R/0xBA3721AF33FB6D2A 2016-05-28
+      Key fingerprint = D901 EA75 C112 A105 2AD9  90B3 BA37 21AF 33FB 6D2A
+
+To fetch the full key from a public key server, you can simply do:
+
+  gpg --keyserver keys.riseup.net --recv-key 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+  gpg --check-sigs 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+If you don't already know my old key, or you just want to be double
+extra paranoid, you can check the fingerprint against the one above:
+
+  gpg --fingerprint 'D901EA75C112A1052AD990B3BA3721AF33FB6D2A'
+
+To verify the integrity of this statement:
+
+  wget -q -O- /20180612-key-transition-byeskille7B44C24E6BD4E124-to-byeskilleBA3721AF33FB6D2A-signed.txt | gpg --verify
+
+Please let me know if you have any questions, or problems, and sorry
+for the inconvenience.
+
+Øyvind Bye Skille, Oslo 12th of June 2018
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE+JAV+kkeNkHWAO+AqObKY8Zj3MwFAlsgJVMACgkQqObKY8Zj
+3Mzl0g/+O2TzS7EsSobH20uCg7Vtjq0jz362cxUCDWfKwF94YHPY5m214JwY/zGC
+etBkTfXnbReE6V0FyiTEMx8fcMmjqWwLl8lm1K8fXPc+VcyuCa8037PuTaB94+At
+h8J8P6/zPm7g8U5yi4iX149xZ1oxxMAIL5NlA/Uy6fGc+EzsM/YlVCwg6xgXklIe
+KcrAx6dLw6lOVtk77K6IKJIkzwOthbja9KSdTqufi84YKGIJWPqdPKproV5V5WkX
+31lTRxtgxFJ1/X1rSfq0oqtF8MGBR77fcIgWakmWRhHKsw942tRzC+ISeN1FhRSd
+6dQd/uUgpw341HC+/RfPVm4xWKlRpvR6sVk5OUz33o8uGjdirKS2nlDZ+BZQJ22m
+V0qGR3cuTvQCo7137DWlhX3lL4edNifNNBKmoi3Ggi9SQDad5rsnV9Zuw8sZan+M
+zpji7ZO7iXshlTOYfu7IS+SbyOFW2xkSw8o7BNqYfKtEx7fmNOJkyJk9WbisDHFV
+izieeet2n3F00vBk649se7XeITczsmPr3vWYUaElMFl7txUvY9T99p7JX0EJ53ei
+IYwxvMchkgwqbMsl81G4KO5Q9iIlmgN+3AOPKxQ5erVq+hRol2vkM98wWCWvSWY+
+WrV2F6yOUiT2+7BL8KayAqruTWnpEGzVvMoJK6ohOlBI00Fe6PSJAjMEAQEKAB0W
+IQRh5LnAYkxORlwAByBs2IF8cn46pwUCWyAlUwAKCRBs2IF8cn46pwhtD/wOwJHl
+A830pkYZ/n9P304UR92epSM8mhQHOhslfT95cfW6kv7JfvcV6W1/hseBvUzm4wpX
+vi8j0gFogVyFODWcNEFLe/qU3cSjrw/t9Pny6huUTkX9Kg9n/xuY4EFTqhLB1nNJ
+/WwadhDM7VbK+XS3Y3tlp9u6uKkugQOELwjpZV2D/jOlvyAbwaaQU5aI7kXSSTBi
+YtuhYKHwIqFMccL3i3UE/aRTgCevGUSa0Yf3kfh15wLPgdN6PsGg4mtQvg6A3U54
+B+anJYrJjgMLmdhPiZK5cRRSgESMvA38HUvKnEYaEO+o+AN1oRJP8+2q0z9g8UGP
+8F9mmqrlpfbCA5xNxPWN2Vo4+QV8tzC0e9GOabPbSdeTkD4jCoMAfY/Rpj8gDYBb
++bUJh5SLhDfwzSAnXQeiSPZ3y3zbx8yqYa+Gw5gpDT07KMHxKU1u57AbNH6OJIW7
+nQLm+9Pt6k+EXfL0NvLGrcdq/xIqO2a9UbbkcmNXDqd4T6PloGUkBonONQRctJE/
+LvfkmfInaMXXwl22m8tJkWcUEHUGHo2yffnHwk3m17nWttZiET8DkEEZwlmzDYk8
+CvgTWIHHlkY3JnPmhDlPYG4Ke1QG1Z1XT1iaPL8tQ0aADiyQAKl+EvWuzkWYbVbC
+6Y4fmSYV6jK0i37kQcdOXwjy357LbxD2A/8Lig==
+=TYR1
+-----END PGP SIGNATURE-----
+</pre>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Nei takk til HTTP</title>
+		<link>/2018/01/nei-takk-til-http/</link>
+		<comments>/2018/01/nei-takk-til-http/#respond</comments>
+		<pubDate>Fri, 26 Jan 2018 22:08:56 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+
+		<guid isPermaLink="false">/?p=1245</guid>
+		<description><![CDATA[på byeskille.no]]></description>
+				<content:encoded><![CDATA[<p><strong>&#8230; på byeskille.no</strong></p>
+<p><a href="/wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829.jpg"><img class="aligncenter size-large wp-image-1246" src="/wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829-1000x648.jpg" alt="" width="860" height="557" srcset="/wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829-1000x648.jpg 1000w, /wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829-620x402.jpg 620w, /wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829-768x497.jpg 768w, /wp-content/uploads/2018/01/CC-Chrome-Header-Graphic-for-WEB-1280x829.jpg 1280w" sizes="(max-width: 860px) 100vw, 860px" /></a></p>
+<p><span id="more-1245"></span></p>
+<p>Fra og med denne uka er det ikke mulig å sende og forespørre data til/fra byeskille.no fra nettlesere.</p>
+<p>Jeg har nå innført hardkodet HSTS (<a href="https://hstspreload.org/?domain=byeskille.no" target="_blank" rel="noopener">HTTP Strict Transport Security preloading</a>), og hele domenet er definert til å bare kunne besøkes kryptert. Hardkodingen innebærer at det ligger data i nettleserne om at de bare skal bruke krypterte tilkoblinger med TLS og -adresser./</p>
+<p>Det er en stund siden prosessen for dette startet, men fra og med denne uka er det i drift for alle brukere av nettleseren Chrome (og er på vei eller allerede på plass i nettleserne Firefox, Edge og IE).</p>
+<p>Dette sikkerhetstiltaket beskytter mot nettverksmanipulering der noen med onde hensikter ville forsøke å tvinge trafikken tilbake på usikre og ukrypterte HTTP-tilkoblinger.</p>
+<p>Om det forsøkes HTTP-trafikk vil nettleseren gjøre intern-omdirigering (status 307) før trafikken sendes ut på nettverket.</p>
+<p><a href="/wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740.png"><img class="size-medium wp-image-1251 alignnone" src="/wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740-620x232.png" alt="" width="620" height="232" srcset="/wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740-620x232.png 620w, /wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740-768x288.png 768w, /wp-content/uploads/2018/01/Skjermbilde-2018-01-26-kl.-23.12.33-e1517004841740.png 796w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Les mer om HSTS og hardkoding (preloading) hos:</p>
+<ul>
+<li><a href="https://scotthelme.co.uk/hsts-preloading/" target="_blank" rel="noopener">Scott Helme</a></li>
+<li><a href="https://www.troyhunt.com/understanding-http-strict-transport/" target="_blank" rel="noopener">Troy Hunt</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>/2018/01/nei-takk-til-http/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Oppdatert GPG-nøkkel // Updated GPG key</title>
+		<link>/2016/05/oppdatert-gpg-nokkel-updated-gpg-key/</link>
+		<comments>/2016/05/oppdatert-gpg-nokkel-updated-gpg-key/#respond</comments>
+		<pubDate>Mon, 16 May 2016 12:32:39 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[contact]]></category>
+		<category><![CDATA[email]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[gpg]]></category>
+		<category><![CDATA[pgp]]></category>
+
+		<guid isPermaLink="false">/?p=1111</guid>
+		<description><![CDATA[Jeg har nettopp forlenget levetiden for mine krypteringsnøkler (PGP / GPG). // I have just extended the lifetime of my encryption keys (PGP / GPG). Nøklene er de samme og [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>Jeg har nettopp forlenget levetiden for mine krypteringsnøkler (PGP / GPG). // I have just extended the lifetime of my encryption keys (PGP / GPG).</strong><span id="more-1111"></span></p>
+<p>Nøklene er de samme og har fortsatt samme fingeravtrykk</p>
+<p>E12F B0A6 293C FEA9 DD83 4A48 7B44 C24E 6BD4 E124</p>
+<p>Etter endringen løper nøklene først ut den 13. juni 2018.</p>
+<p>Hvis du vil kommunisere med meg kryptert kan du hente ned min offentlige nøkkel et av følgende steder:</p>
+<ul>
+<li><a href="https://www.byeskille.no/byeskille-6BD4E124.asc.txt">byeskille.no</a> (HTTPS)</li>
+<li><a href="https://keybase.io/byeskille#show-public">keybase.io</a> (HTTPS + verifisert mot sosiale medier)</li>
+<li><a href="http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x7B44C24E6BD4E124">pgp.mit.edu</a> (standard nøkkelserver)</li>
+</ul>
+<p>Hvis du ikke kan bruke PGP / GPG er det også mulig <a href="/2015/11/sikrere-kommunikasjon-signal/">å sende meg ei tekstmelding eller ringe meg ved hjelp av appen Signal.</a></p>
+<p>//</p>
+<p>My key is still the same and have the same fingerprint</p>
+<p>E12F B0A6 293C FEA9 DD83 4A48 7B44 C24E 6BD4 E124</p>
+<p>The change is in the expiration date, it has been changed to 13th of June 2018.</p>
+<p>If you want to communicate with me through encrypted channels you can get my public key one of the following places:</p>
+<ul>
+<li><a href="https://www.byeskille.no/byeskille-6BD4E124.asc.txt">byeskille.no</a> (HTTPS)</li>
+<li><a href="https://keybase.io/byeskille#show-public">keybase.io</a> (HTTPS + verified with social media)</li>
+<li><a href="http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x7B44C24E6BD4E124">pgp.mit.edu</a> (standard key server)</li>
+</ul>
+<p>If you are not into PGP / GPG you can also <a href="/2015/11/sikrere-kommunikasjon-signal/">text and call me encrypted using Signal</a>.</p>
+<p>&nbsp;</p>
+<p>Denne oppdateringen er signert med min krypteringsnøkkel – du kan se <a href="/gpgupdate16052016.txt">denne tekstfila</a>.</p>
+<p>This update is signed with my encryption key – you can check <a href="/gpgupdate16052016.txt">this text file</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/05/oppdatert-gpg-nokkel-updated-gpg-key/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Forskjellige verdenskart</title>
+		<link>/2016/02/forskjellige-verdenskart/</link>
+		<comments>/2016/02/forskjellige-verdenskart/#respond</comments>
+		<pubDate>Wed, 10 Feb 2016 21:57:15 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+
+		<guid isPermaLink="false">/?p=1079</guid>
+		<description><![CDATA[Verden trenger ikke se lik ut på kartet. Alle verdenskart på papir eller flate skjermer er en forenkling av jorda, som egentlig er en klode. De flate versjonene av verden [...]]]></description>
+				<content:encoded><![CDATA[<p>Verden trenger ikke se lik ut på kartet.<span id="more-1079"></span></p>
+<p>Alle verdenskart på papir eller flate skjermer er en forenkling av jorda, som egentlig er en klode. De flate versjonene av verden er definert av projeksjoner til papir eller skjerm.</p>
+<p>Mest vanlig er projeksjonen <a href="https://en.wikipedia.org/wiki/Mercator_projection">Mercator</a>. Det er den måten vi er mest vant til å se verden på kart. Samtidig er fremstillingen noe kritisert fordi den viser Afrika ganske mye mindre enn kontinentet i areal egentlig er sammenlignet med f.eks. Europa.</p>
+<p>De aller fleste kart på nettet er tegnet ut med en forenklet form av Mercator – <a href="https://en.wikipedia.org/wiki/Web_Mercator">WebMercator</a>.</p>
+<p>Her er WebMercator</p>
+<p><iframe src="//byeskille.cartodb.com/viz/3aa3222c-cf63-11e5-a642-0ea31932ec1d/embed_map" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Men det går faktisk an å tegne ut verden på andre måter også på nettet i interaktive kart.</p>
+<p>Her er <a href="https://en.wikipedia.org/wiki/Van_der_Grinten_projection">Van der Grinten</a>, en uttegning som tar mer hensyn til Afrikas størrelse og er mer arealriktig:<br />
+<iframe width="100%" height="520" frameborder="0" src="https://byeskille.carto.com/viz/7949b0ff-387e-4950-bf52-0b81e37d6e76/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
+<p>Her er <a href="https://en.wikipedia.org/wiki/Gall_stereographic_projection">Sphere Gall Stereographic</a>, en uttegning som tar mer hensyn til Afrikas størrelse.</p>
+<p><iframe src="//byeskille.cartodb.com/viz/3074e178-cf63-11e5-81ea-0e674067d321/embed_map" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Og her er <a href="https://en.wikipedia.org/wiki/Cassini_projection">Cassini</a>, som er en gammel måte å tegne verdenskartet med hovedfokus på det som er i samme område som Storbritannia.</p>
+<p><iframe src="//byeskille.cartodb.com/viz/907132c4-cf64-11e5-9860-0ecfd53eb7d3/embed_map" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Å tegne slike interaktive kart med andre projeksjoner har jeg gjort ved hjelp av <a href="http://blog.cartodb.com/free-your-maps-web-mercator/">denne forklaringen.</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/02/forskjellige-verdenskart/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ny versjon av internett – HTTP/2</title>
+		<link>/2016/01/ny-versjon-av-internett-http2/</link>
+		<comments>/2016/01/ny-versjon-av-internett-http2/#respond</comments>
+		<pubDate>Sat, 30 Jan 2016 08:13:26 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+
+		<guid isPermaLink="false">/?p=1072</guid>
+		<description><![CDATA[Siste måned har 12% av oppkoblingene til denne siden blitt gjort med HTTP/2.]]></description>
+				<content:encoded><![CDATA[<p><strong>Siste måned har 12% av oppkoblingene til denne siden blitt gjort på en mer moderne måte enn resten. Nettleserne som har besøkt siden på denne måten støtter HTTP/2.</strong><span id="more-1072"></span></p>
+<p>Sentralt for at vi kan kan surfe rundt på internett på ulike nettsider er protokollen HTTP. <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History" target="_blank">Hypertext Transfer Protocol (HTTP)</a> har vært der siden internetts barndom da <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a> var med på å skape de aller første nettsidene ved CERN i Sveits.</p>
+<p>Nå er det <a href="https://httpwg.github.io/specs/rfc7540.html" target="_blank">nylig kommet</a> en helt ny versjon av HTTP kalt HTTP/2.</p>
+<p>Den siste måneden har jeg overvåket hvor stor andel av oppkoblingene til byeskille.no som bruker denne nye protokollen. Resultatet ser slik ut:</p>
+<p>68% HTTP 1.1 (15509)<br />
+20% HTTP 1.0 (4655)<br />
+<strong>12% HTTP 2.0 (2783)</strong></p>
+<p>HTTP/2 gjør blant annet at moderne nettlesere <a href="https://scotthelme.co.uk/http-2-is-here/" target="_blank">kan laste inn sider raskere</a> og mer effektivt.</p>
+<p>De tidlige nettsidene til Berners-Lee og andre bestod som regel bare av enkel tekst. Moderne nettsider består av en haug med ulike filer som definerer både tekst, layout og bilder. Forrige versjon av HTTP (HTTP 1.1) tillot bare et visst antall oppkoblinger for å laste ned slike filer samtidig, og dermed var det ikke uvanlig at nettlesere som Chrome, Firefox osv endte med å lage køsystem og dermed forsinkelser for nettsider.</p>
+<p>Se en test som illustrerer dette <a href="https://http2.akamai.com/demo" target="_blank">hos Akamai</a>.</p>
+<p>Tallene jeg har samlet den siste måneden er nok ikke representative for hvor mange som kan bruke den nye standarden. Disse sidene har veldig liten trafikk og i ei ren teknisk måling tas også roboter som er innom bare for å hente info til søkemotorer og lignende med. Dermed er nok en god del av grunnlaget noe annet enn vanlige brukere med nettlesere som Chrome, Safari og Firefox.</p>
+<h3>HTTPS</h3>
+<p>I samme slengen som jeg overvåket bruken av HTTP/2 førte jeg også statistikk over hvilken kryptert forbindelse besøkende satte opp mot byeskille.no</p>
+<p>Ganske lenge <a href="/2014/05/950-fremmede-banket-pa-serverdora/">har all kommunikasjon med disse sidene gått kryptert over TLS</a> – sees ved at adressene er på formen /&#8230;</p>
+<p>Her er statistikken for protokoller og krypteringsalgoritmene som brukes (absolutte tall i antall forespørsler i parantes bak):</p>
+<p><strong>Protokoll:</strong></p>
+<p>75% TLS v1.2 (17 224)<br />
+0% TLS v1.1 (72)<br />
+25 % TLS v1 (5 650)</p>
+<p>&nbsp;</p>
+<p><strong>Krypteringsalgortime:</strong></p>
+<p>66% ECDHE-RSA-AES128-GCM-SHA256 (15 218)<br />
+10% AES128-SHA (2 272)<br />
+8% ECDHE-RSA-AES128-SHA (1 828)<br />
+8% DHE-RSA-AES128-GCM-SHA256 (1 834)<br />
+7% DHE-RSA-AES128-SHA (1 652)<br />
+0% ECDHE-RSA-AES128-SHA256 (114)<br />
+0% DHE-RSA-AES128-SHA256 (17)<br />
+0% DES-CBC3-SHA (5)</p>
+<p>&nbsp;</p>
+<p><em>Alle statistikkene er laget ved hjelp av en egendefinert logging fra webserveren Nginx og logganalyse <a href="https://scotthelme.co.uk/monitoring-http-2-usage-in-the-wild/" target="_blank">som beskrevet på sidene til Scott Helme</a>.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/01/ny-versjon-av-internett-http2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sikrere kommunikasjon: Signal</title>
+		<link>/2015/11/sikrere-kommunikasjon-signal/</link>
+		<comments>/2015/11/sikrere-kommunikasjon-signal/#comments</comments>
+		<pubDate>Sun, 22 Nov 2015 20:18:16 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+
+		<guid isPermaLink="false">/?p=1050</guid>
+		<description><![CDATA[Appen Signal gjør at du både kan sende meldinger og ringe kryptert uten at det enkelt kan spores.]]></description>
+				<content:encoded><![CDATA[<p><strong>Hvis du ikke ønsker å legge igjen for mange spor i teledata finnes det løsninger. Appen Signal gjør at du både kan sende meldinger og ringe kryptert uten at det enkelt kan spores.</strong></p>
+<p><span id="more-1050"></span></p>
+<p>Utviklingen i samfunnet og flere avsløringer av masseovervåking har vist at det både er mulig og at det gjøres sporing av kommunikasjon.</p>
+<p>Snowden avslørte hvordan den amerikanske etterretningsorganisasjonen NSA overvåker hvem som ringer hvem for millioner av telefoner.</p>
+<p>Også i Norge har det vist seg at blant annet politiet og PST går svært langt i å kreve utlevert telefonspor – også i jakten på kildene til journalister.</p>
+<p>Journalister og medier ønsker å bidra til debatt om samfunnet og samfunnsutviklingen. Da er det av og til nødvendig at noen følger sin samvittighet og velger å si fra om forhold de mener er problematiske. Slike varslere tar ofte stor risiko når de velger å si fra om problemer og kritikkverdige forhold.</p>
+<h3>Telefonproblemet</h3>
+<p>Vi bruker alle telefoner daglig. Problemet med telefonene ved kontakt om sensitiv informasjon eller kontakt som kan være ubehagelig for noen er at de legger igjen mange spor.</p>
+<p><strong>Regningen:</strong> Med spesifiserte telefonregninger kan det leses av i ettertid hvem telefonen har hatt kontakt med både via tekstmeldinger og telefonsamtaler som er tatt.</p>
+<p><strong>Teledata:</strong> Teleselskapene registrerer alt om telefonens bruk. Da også mottak av tekstmeldinger og telefonsamtaler. Slike data kan fort utleveres til bedrifter som abonnementet er via eller til politi og sikkerhetstjenester.</p>
+<h3>Signal</h3>
+<p>Signal er en app som sender all kommunikasjon som krypterte datapakker.</p>
+<p>Dermed legges det ikke igjen spor i verken telefonregningen eller som data i telenettene som kan si noe om hva som ble kommunisert eller hvem som kommuniserte med hverandre.</p>
+<p><strong>Hvis du vil kommunisere med meg via Signal bruker du mitt telefonnummer:</strong></p>
+<p><strong>+47 41473220</strong></p>
+<p>Fra og med november 2015 finnes appen under navnet Signal både til Iphone og Android-telefoner (Samsung, Sony, Huawei osv.).</p>
+<p>Info om <a href="https://whispersystems.org/" target="_blank">Signal hos Open Whisper Systems</a> som lager den.</p>
+<p>Direkte lenke til appene for</p>
+<p><a href="https://itunes.apple.com/us/app/signal-private-messenger/id874139669" target="_blank">iOS</a></p>
+<p><a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&amp;referrer=utm_source%3DOWS%26utm_medium%3DWeb%26utm_campaign%3DNav" target="_blank">Android</a></p>
+<p>Koden til både appene, serverprogramvaren og protokollen de baserer seg på er åpen kildekode. Det er også gjennomført uavhengige sikkerhetsgjennomganger.</p>
+<p>Flere kjente sikkerhetseksperter, kryptografieksperter og også Edward Snowden selv har pekt på Signal og programvaren fra Open Whisper Systems som et godt steg for å kommunisere mer sikkert.</p>
+<h3>OBS – TENK PÅ DETTE</h3>
+<p>I noen situasjoner kan det være lurt å tenke over hvilke datamaskiner, telefoner og systemer du bruker i tillegg til konkret programvare.</p>
+<p>Er det et problem om arbeidsgiver eller andre får vite om at du har kommunikasjon om noe <strong>kan det være lurt å ikke bruke datamaskiner, telefoner, mobiltelefoner eller datanettverk som er eid av bedriften/organisasjonen.</strong></p>
+<p>App-installering: Om mobiltelefonen du installerer Signal-appen på er satt opp av bedriften/organisasjonen eller er knyttet til bedriftsinterne systemer kan ofte it-avdelingen overvåke hvilke apper som er installert og hvilke apper som blir installert på telefonen via så kalte MDM-systemer. Installering av programvare kan skape mistenksomhet selv om de ikke vet hva den brukes til konkret.</p>
+<p>Kontaktliste: Mange smarttelefoner brukt i bedrifter/organisasjoner er satt opp til å synkronisere kontaktlisten med systemet som brukes for e-post/kontaktlister også inne på kontoret. Dette gjøres ofte ved at kontaktlisten lagres på en server kontrollert av it-avdelingen og dermed kan de også i prinsippet se hvem du mest sannsynlig kommunsierer med. For å kunne kommunisere med Signal trengs et telefonnummer til den andre parten. Vær da nøye med å ikke lagre kontakten i ei kontaktliste som er koblet til en e-postadresse/sentral kontaktliste hvis du vil holde kommunikasjonen skjult.</p>
+<p>Nettverk: Bruker du det trådløse nettverket i en bedrift/organisasjon til å installere appene kan det nok også oppdages at det blir gjort. Kommunikasjonen når appen er ferdig installert vil nok også kunne sees som Signal-trafikk, men fordi den er kryptert kan man ikke se innholdet eller hvem meldingen/telefonsamtalen skal til.</p>
+<p>Andre løsninger:</p>
+<p>I tillegg til Signal kan man kommunisere kryptert med meg via blant annet kryptert e-post (PGP/GPG) eller OTR-kryptert chat. Se info på <a href="/kontakt/">kontaktsiden</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2015/11/sikrere-kommunikasjon-signal/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Overgang til byeskille.no // Transition to .no</title>
+		<link>/2015/10/overgang-til-byeskille-no-transition-to-no/</link>
+		<comments>/2015/10/overgang-til-byeskille-no-transition-to-no/#respond</comments>
+		<pubDate>Fri, 30 Oct 2015 17:20:09 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+
+		<guid isPermaLink="false">/?p=1023</guid>
+		<description><![CDATA[Hele dette nettstedet og min hovedinnboks for e-post er nå flyttet til byeskille.no. // This website and my main e-mail inbox have been transitioned to the domain byeskille.no.]]></description>
+				<content:encoded><![CDATA[<p><strong>Hele dette nettstedet og min hovedinnboks for e-post er nå flyttet til byeskille.no. // This website and my main e-mail inbox have been transitioned to the domain byeskille.no.</strong><span id="more-1023"></span></p>
+<p>Jeg har eid domenet byeskille.no i litt over ett år, men valgte i første omgang å bare videresende trafikk til eksisterende nettside og e-postadresse på byeskille.net.</p>
+<p>Nå har jeg derimot valgt å bytte til .no-domenet fordi det er mer passende siden jeg er en norsk person.</p>
+<p>Det kan da nevnes at bakgrunnen er at det fra og med juni 2014 ble mulig å registrere .no-domener for privatpersoner. Se <a href="https://www.norid.no/no/nytt/pressemelding20140606/" target="_blank">mer info hos Norid</a>.</p>
+<p>Det er satt opp videresending som skal gjøre at alle tidligere adresser på byeskille.net fortsatt skal komme fram til innholdet som nå ligger på byeskille.no. Hvis du vet om noe som ikke fungerer blir jeg glad om du <a href="/kontakt/">sier fra.</a></p>
+<p>Også e-postadressen jeg bruker er lagt om til oyvind@byeskille.no – fra oyvind@byeskille.net som nå videresendes dit.</p>
+<p>For å bevise at dette er gjort av meg er denne bloggposten signert av min eksisterende PGP-nøkkel. Se signatur <a href="#signature">på bunnen</a>.</p>
+<p>//</p>
+<p>The domain byeskille.no has been in registered by me for just over a year, but first off I decided to just use my existing website at byeskille.net and forward traffic from the new domain there.</p>
+<p>Now I have decided to transition both my website and my e-mail to the .no-domain. I think it is suitable to use a Norwegian domain as I am a Norwegian citizen.</p>
+<p>The web server is set up to redirect traffic to the old byeskille.net domain to the new site. So all former content should still be reachable at their old adresses through the redirect. If you know of broken links or content, just <a href="/kontakt/">let me know</a>.</p>
+<p>I have also changed the address of my main inbox for personal e-mail to oyvind@byeskille.no. oyvind@byeskille.net is still active and all e-mail is forwarded automatically.</p>
+<p>To prove this transition is being done by me I have decided to sign this blog post with my existing PGP key.</p>
+<p>(innholdet som er signert er all tekst utenom tittel // content signed is the the text in this blogpost excluding title)</p>
+<p><a href="/wp-content/uploads/2015/10/transition.txt">text as .txt file</a><br />
+<a href="/wp-content/uploads/2015/10/transition.txt.sig_.txt">signature file</a> <a title="signature" name="signature"></a>.</p>
+<p>&#8212;&#8211;BEGIN PGP SIGNATURE&#8212;&#8211;<br />
+Comment: GPGTools &#8211; http://gpgtools.org/</p>
+<p>iQIcBAABCAAGBQJWM6e3AAoJEKjmymPGY9zMkXMP/37pvSK7jW4/taynmyOG1MWs<br />
+WqAiG9X+9ntv1XYv4d/w0ryxtUZhUgA9gFcZAaIVHfxG4hy/AjryNxpvnC7+uo6N<br />
+7gy2MAdfo/bzmUlKnevVtzbZMGE7+jipilbFrG8C36Gk6Ls2FZUZmeeWqvMR6hWk<br />
+qvO+zPNNwWOqOza7EW4EbUHnn6liOcpgN6Z/khVU2Dkj+yg+usNiKrn7kC8Stofa<br />
+BPiLDjNz18Yd/rlf1orbWI4amkInYiXMxKnbx4o0AznhHk9jclMvEtOId8JGvA+C<br />
+PGt+RfnqX1A+g7lv27zpfu4snBKEbE6FkL8Y10vIrzOpYjFRYyfXQr4ysgKAopl9<br />
+5WcqYZvOEXQQxRt+YCd9yjDpOB8NiRkbBx8slrBKR2LqOM6b82zJ4aA5chyrjxkd<br />
+d74ZYEcI6g7Z232c4CO2gpmV3oc+VV+0SOoiGjYkwls++2ZxJDkH6gpUrzRpGQIT<br />
+EpDEy6LLEr6smUQay/FFMApojhfc9IlgvTVR/h83DWKGWMVVU1sO6gSk0uLtpU++<br />
+vqaGF9rl64pMlK2O/uExCJXSlHDT+fZyMwMAhNMDXwtLjS0hp7YBzeKRvc7ljdMJ<br />
+ZqM9rjzWJmWhSLcCfLvhlg7TJRBJOHAFOXwIb99NPv2IprsuzzzqQ+5hGkajLWm4<br />
+3BI94DWGtdqFjTTbHGOj<br />
+=9yzA<br />
+&#8212;&#8211;END PGP SIGNATURE&#8212;&#8211;</p>
+]]></content:encoded>
+			<wfw:commentRss>/2015/10/overgang-til-byeskille-no-transition-to-no/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Forhåndsbefaring i ny leilighet</title>
+		<link>/2014/08/forhandsbefaring-i-ny-leilighet/</link>
+		<comments>/2014/08/forhandsbefaring-i-ny-leilighet/#respond</comments>
+		<pubDate>Sat, 23 Aug 2014 10:54:14 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[befaring]]></category>
+		<category><![CDATA[qben]]></category>
+		<category><![CDATA[tomtebefaring]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?p=945</guid>
+		<description><![CDATA[Da har jeg hatt forhåndsbefaring i den nye leiligheten som var praktisk talt helt ferdig. På befaringen ble det ført mangelliste på forhold som ikke var helt ferdig, feil eller [...]]]></description>
+				<content:encoded><![CDATA[<p>Da har jeg hatt forhåndsbefaring i den nye leiligheten som var praktisk talt helt ferdig.</p>
+<p>På befaringen ble det ført mangelliste på forhold som ikke var helt ferdig, feil eller måtte sjekkes før jeg tar over og flytter inn i september</p>
+<p><img class="alignnone size-large wp-image-947" src="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8102_960px.jpg" alt="20140822_BYESKILLE_qben-befaring-8102_960px" width="960" height="640" srcset="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8102_960px.jpg 960w, /wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8102_960px-620x413.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /> <img class="alignnone size-large wp-image-950" src="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8096_960px.jpg" alt="20140822_BYESKILLE_qben-befaring-8096_960px" width="960" height="640" srcset="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8096_960px.jpg 960w, /wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8096_960px-620x413.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /> <img class="alignnone size-full wp-image-946" src="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8103_960px.jpg" alt="20140822_BYESKILLE_qben-befaring-8103_960px" width="960" height="640" srcset="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8103_960px.jpg 960w, /wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8103_960px-620x413.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /> <img class="alignnone size-large wp-image-948" src="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8101_960px.jpg" alt="20140822_BYESKILLE_qben-befaring-8101_960px" width="960" height="640" srcset="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8101_960px.jpg 960w, /wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8101_960px-620x413.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /> <img class="alignnone size-large wp-image-949" src="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8098_960px.jpg" alt="20140822_BYESKILLE_qben-befaring-8098_960px" width="960" height="640" srcset="/wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8098_960px.jpg 960w, /wp-content/uploads/2014/08/20140822_BYESKILLE_qben-befaring-8098_960px-620x413.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /></p>
+<p><strong>Se også for flere bilder:</strong> <a title="Leiligheta innendørs" href="/2014/06/leiligheta-innendors/">Byggeplassbefaring i Qben</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2014/08/forhandsbefaring-i-ny-leilighet/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Prosjektet på nabotomta</title>
+		<link>/2014/08/prosjektet-pa-nabotomta/</link>
+		<comments>/2014/08/prosjektet-pa-nabotomta/#respond</comments>
+		<pubDate>Wed, 20 Aug 2014 21:33:22 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[Malmøgata 1]]></category>
+		<category><![CDATA[qben]]></category>
+		<category><![CDATA[tegninger]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?p=935</guid>
+		<description><![CDATA[Nabotomta til Qben har blitt prosjektert til bolig og kontorer, Malmøgata 1 &#8211; 5 &#8211; Gøteborggata 26 Enerhaugen arkitektkontor AS har laget planene og har en egen kort presentasjon her. Byggesaken [...]]]></description>
+				<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-941" src="/wp-content/uploads/2014/08/kveldsbilde_2-674x504.jpg" alt="kveldsbilde_2-674x504" width="674" height="504" srcset="/wp-content/uploads/2014/08/kveldsbilde_2-674x504.jpg 674w, /wp-content/uploads/2014/08/kveldsbilde_2-674x504-620x464.jpg 620w" sizes="(max-width: 674px) 100vw, 674px" /></p>
+<p>Nabotomta til Qben har blitt prosjektert til bolig og kontorer, Malmøgata 1 &#8211; 5 &#8211; Gøteborggata 26<br />
+Enerhaugen arkitektkontor AS har laget planene og har en egen kort presentasjon <a title="Malmøgata 1 – Enerhaugen Arkitektkontor AS" href="http://www.enerhaugen.com/prosjekt/malmogata-1/" target="_blank">her</a>.</p>
+<p>Byggesaken hos Plan- og bygningsetaten i Oslo kommune har saksnummer <a title="Malmøgata 1 saksnr 201105299 – PBE Oslo kommune" href="http://web102881.pbe.oslo.kommune.no/saksinnsyn/casedet.asp?mode=all&amp;caseno=201105299" target="_blank">201105299 og kan følges her.</a></p>
+<p>Jeg fikk ut noen av fasadetegningene og utomhusplanen fra arkitekten i desember 2013 (så tar forbehold om at de mindre endringene i senere tid har ført til at ikke alt ser nøyaktig slik ut)</p>
+<p>Her er PDF-filer</p>
+<p><a href="/wp-content/uploads/2014/08/A-233-Snitt-E-og-F.pdf">A 233 Snitt E og F</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-232-Snitt-C-og-D.pdf">A 232 Snitt C og D</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-231-Snitt-A-og-B.pdf">A 231 Snitt A og B</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-242-Gårdsfasader.pdf">A 242 Gårdsfasader</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-241-Gatefasader.pdf">A 241 Gatefasader</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-203-Utomhusplan-gårdsnivå_-tak.pdf">A 203 Utomhusplan gårdsnivå_ tak</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2014/08/prosjektet-pa-nabotomta/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hva er sammenhengen mellom HipHop og PHP?</title>
+		<link>/2014/06/hva-er-sammenhengen-mellom-hiphop-og-php/</link>
+		<comments>/2014/06/hva-er-sammenhengen-mellom-hiphop-og-php/#respond</comments>
+		<pubDate>Mon, 09 Jun 2014 17:36:36 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[hhvm]]></category>
+		<category><![CDATA[hiphop virtual machine]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[webserver]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?p=863</guid>
+		<description><![CDATA[Etter at jeg la om det tekniske bak byeskille.no har en del vanlige programvaresnutter for servere blitt byttet ut med andre og kanskje mer effektive. I dag stiftet jeg bekjentskap [...]]]></description>
+				<content:encoded><![CDATA[<div id="attachment_864" style="width: 970px" class="wp-caption alignnone"><a href="/wp-content/uploads/2014/06/kanye_p3_hhvm.jpg"><img class="size-full wp-image-864" src="/wp-content/uploads/2014/06/kanye_p3_hhvm.jpg" alt="Siste versjon av HipHop Virtual Machine (HHVM) er døpt Kanye West (foto: Kim Erlandsen, NRK P3 (montasje)" width="960" height="540" srcset="/wp-content/uploads/2014/06/kanye_p3_hhvm.jpg 960w, /wp-content/uploads/2014/06/kanye_p3_hhvm-620x349.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /></a><p class="wp-caption-text">Siste versjon av HipHop Virtual Machine (HHVM) er døpt Kanye West (foto: <a title="Kanye West på Øyafestivalen 2011 på Flickr" href="https://www.flickr.com/photos/nrk-p3/6030994544/in/photolist-4ybnkT-4zP57P-abWquo-abUsom-abTzD8-abWqyy-abWq3f-abTzyv-abTz2V-abUnqN-abWrBA-abTyWv-abWq71">Kim Erlandsen, NRK P3</a> (montasje) lisensiert under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0</a></p></div>
+<p>Etter at jeg la om det tekniske bak byeskille.no har en del vanlige programvaresnutter for servere blitt byttet ut med andre og kanskje mer effektive. I dag stiftet jeg bekjentskap med et serverprogram som døper nye versjoner etter kjente rappere. Akkurat nå kjører byeskille.no HHVM versjon Kanye West.</p>
+<p><span id="more-863"></span></p>
+<p><em>Dette er nok ikke interessant for så veldig mange, men en del av lenkene kan være greie for andre som tenker å sette opp samme type programvare.</em></p>
+<p><a title="HHVM.com" href="http://hhvm.com/" target="_blank">HHVM</a> er serverprogramvare for behandling av dynamisk innhold og scripts, eller som de selv kaller det server-side scripting.</p>
+<p>For nettsidebruk er <a title="php.net" href="http://www.php.net/" target="_blank">PHP</a> et svært vanlig slikt script-språk. Plattformen WordPress som driver denne nettsiden er basert på PHP, og vanligvis drives slik sider av programvare med samme navn: PHP (eller <a title="PHP-FPM" href="http://php-fpm.org/" target="_blank">PHP-FPM</a>).</p>
+<p>HHVM som har det fulle navnet HipHop Virtual Machine er serverprogramvare laget av Facebook for å drive ulike deler av nettsider og tjenester som de tilbyr sine brukere. HHVM er laget for å kunne behandle PHP, og er til dels mye raskere enn f.eks. PHP5-FPM (se eksempler <a title="Kinsta.com – HHVM vs PHP" href="https://kinsta.com/blog/hhvm-and-wordpress/" target="_blank">her</a> og <a title="medium.com – WordPress faster in HHVM than PHP" href="https://medium.com/wordpress-school/wordpress-is-faster-in-hhvm-99bdbec8e0d3" target="_blank">her</a>).</p>
+<p>Dermed kan HHVM i mange tilfeller helt erstatte PHP-programvaren og gi bedre ytelse og opplevelse for brukeren. Litt spesielt at en slik modul som brukes av svært mange nettsider kan byttes ut med noe Facebook har laget.</p>
+<p>Her er siste annonsering av ny versjon slik Facebook formidlet den (på Facebook så klart):</p>
+<div id="fb-root"></div>
+<p><script>// <![CDATA[
+(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
+// ]]&gt;</script></p>
+<div class="fb-post" style="overflow-x: auto; max-width: 95%;" data-href="https://www.facebook.com/hhvm/posts/10152430184934326" data-width="350">
+<div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hhvm/posts/10152430184934326">Post</a> by <a href="https://www.facebook.com/hhvm">HHVM</a>.</div>
+</div>
+<p>&nbsp;</p>
+<h3>Litt om annen programvare som nå kjører byeskille.no:</h3>
+<p>&nbsp;</p>
+<ul>
+<li><a title="Apache HTTP server" href="http://httpd.apache.org/" target="_blank">Apache</a> er byttet ut med <a title="nginx.org" href="http://nginx.org/" target="_blank">Nginx</a></li>
+<li><a title="MySQL.com" href="http://www.mysql.com/" target="_blank">MySQL</a> er byttet ut med <a title="MariaDB.org" href="https://mariadb.org/" target="_blank">MariaDB</a></li>
+<li>+ serveren kjører <a title="varnish-cache.org" href="https://www.varnish-cache.org/" target="_blank">Varnish</a> cache for å øke hastighet og tåle mer trafikk (ikke det at det er så veldig mye trafikk på denne siden ;)</li>
+</ul>
+<p>Det kan nevnes at jeg kjører et slikt oppsett for webserver og caching for å få https-levering av sidene:</p>
+<blockquote><p>nginx TLS/SSL frontend proxy -&gt; Varnish cache (lokalt på samme maskin) -&gt; Nginx backend (lokalt på samme maskin) med kobling mot HHVM for PHP og MariaDB for database</p></blockquote>
+<p>Det å kjøre Varnish med TLS-kryptering og https-adresser virker det ikke som det er veldig mange som gjør, og dermed slet jeg litt med å finne perfekte instruksjoner. Ved å lese disse sidene fikk jeg det likevel til:</p>
+<p><a title="Varnish + SSL – Mikkel Høegh" href="http://mikkel.hoegh.org/blog/2012/07/24/varnish-as-reverse-proxy-with-nginx-as-web-server-and-ssl-terminator/" target="_blank">Varnish as reverse proxy with nginx as web server and SSL terminator @ mikkel.hoegh.org</a></p>
+<p><a title="Varnish + SSL – wiki.deimos.fr" href="https://wiki.deimos.fr/Nginx_%2B_Varnish_:_Cache_even_in_HTTPS_by_offloading_SSL" target="_blank">Nginx + Varnish : Cache even in HTTPS by offloading SSL @ wiki.deimos.fr</a></p>
+<p>WordPress-oppsett med Varnish: <a title="Varnish and WordPress – ewan.im" href="http://ewan.im/900/10-million-hits-a-day-with-wordpress-using-a-15-server" target="_blank">10 Million hits a day with WordPress using a $15 server</a></p>
+<p>&nbsp;</p>
+<p>Alt sammen kjører på en server i et datasenter i Nederland leid hos <a title="DigitalOcean" href="https://www.digitalocean.com/?refcode=a1b05e631bba" target="_blank">DigitalOcean.</a></p>
+<p><strong>For å få satt opp grunnoppsettet for webservern har jeg hatt mye glede av serien &laquo;<a title="Web served – Ars Technica" href="http://arstechnica.com/series/web-served/" target="_blank">Web served&raquo; hos Ars Technica</a> – anbefales virkelig selv om det er litt tid siden det ble publisert nå. </strong></p>
+<p>Og det måtte litt god gammeldags IRC til for å finne ut hvor HipHop-en hos Facebook kom fra:</p>
+<p>[8:40pm] Byeskille: stupid question, but here it comes: Why is HHVM named HipHop Virtual Machine?<br />
+[8:40pm] Scyks: facebooks first prove of concept was named by HipHop<br />
+[8:44pm] Scyks: Byeskille: the initiatin person at facebook is named by Haiping Zhao and he startet &laquo;HipHop for PHP&raquo;<br />
+[8:45pm] Scyks: Byeskille: this was just a codename by starting prove of conept in 2008<br />
+[8:46pm] Byeskille: ok, thanks for a detailed look back in time at Facebook<br />
+[8:47pm] Scyks: when you live in Germany, you can buy a magzin called PHPMagazin &#8211; there are 5 articles about hhvm and hack inside<br />
+[8:47pm] Scyks: Sebastian Bergman (PHPUnit) wrote the article about the history and how it works<br />
+[8:55pm] fred: Scyks: Byeskille: not quite right &#8211; it was originally hphp<br />
+[8:55pm] fred: it was renamed to HipHop when we released it externally, as the PHP license wouldn&#8217;t let us call it hphp<br />
+[8:55pm] Scyks: fred: HPHPc and HPHPi?<br />
+[8:55pm] fred: originally just hphp<br />
+[8:56pm] fred: then hphp + hphpi &#8211; then when hhvm came along, hphp got renamed to hphpc<br />
+[8:56pm] fred: (I think, not so sure there)<br />
+[9:05pm] Byeskille: fred: so the story about it being named partly after it’s lead developer is not so straight forward?<br />
+[9:06pm] fred: Byeskille: it doesn&#8217;t really change anything &#8211; just change the question to &#8216;Why was it called hphp?&#8217; ;)<br />
+[9:07pm] Byeskille: :)</p>
+<p><em>(fra irc-kanalen #hhvm på freenode-nettverket – brukeren fred er en av utviklerne på hhvm-prosjektet i Facebook)</em></p>
+]]></content:encoded>
+			<wfw:commentRss>/2014/06/hva-er-sammenhengen-mellom-hiphop-og-php/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

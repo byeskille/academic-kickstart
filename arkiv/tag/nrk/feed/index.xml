@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NRK &#8211; Bye Skille</title>
+	<atom:link href="/tag/nrk/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Telenor og Usbekistan</title>
+		<link>/2013/03/telenor-og-usbekistan/</link>
+		<comments>/2013/03/telenor-og-usbekistan/#respond</comments>
+		<pubDate>Sun, 31 Mar 2013 08:19:28 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+		<category><![CDATA[NRK]]></category>
+		<category><![CDATA[nrk-sak]]></category>
+		<category><![CDATA[Telenor]]></category>
+		<category><![CDATA[Usbekistan]]></category>
+		<category><![CDATA[Vimpelcom]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=310</guid>
+		<description><![CDATA[Før påskeferie ble det tid på jobb hos NRK til å lese seg opp på Telenors interesser i Usbekistan i lys av SVTs avsløringer av TeliaSoneras virksomhet i landet. Dagens [...]]]></description>
+				<content:encoded><![CDATA[<div id="attachment_311" style="width: 970px" class="wp-caption alignleft"><a href="/wp-content/uploads/2013/03/telenor-vimpelcom-20f.jpg"><img class=" wp-image-311 " src="/wp-content/uploads/2013/03/telenor-vimpelcom-20f.jpg" alt="Telemast og Vimpelcoms årsrapport for 2012 (foto: SVT/faksimile)" width="960" srcset="/wp-content/uploads/2013/03/telenor-vimpelcom-20f.jpg 1200w, /wp-content/uploads/2013/03/telenor-vimpelcom-20f-620x349.jpg 620w, /wp-content/uploads/2013/03/telenor-vimpelcom-20f-1000x563.jpg 1000w" sizes="(max-width: 1200px) 100vw, 1200px" /></a><p class="wp-caption-text">Telemast og Vimpelcoms årsrapport for 2012 (foto: SVT/faksimile)</p></div>
+<p>Før påskeferie ble det tid på jobb hos NRK til å lese seg opp på Telenors interesser i Usbekistan i lys av SVTs avsløringer av TeliaSoneras virksomhet i landet. Dagens Næringsliv har dekket interessene til Telenor gjennom selskapet Vimpelcom og varemerket Beeline ganske godt allerede, men NRK valgte å komme på banen.</p>
+<p>Blant annet <a title="Økokrim i jevnlig kontakt om korrupsjonsgranskning av telekom i Usbekistan" href="http://www.nrk.no/okonomi/okokrim-far-info-i-tele-gransking-1.10959082" target="_blank">fikk vi Økokrim i tale</a>, som sa at de følger med på hva som avdekkes og informeres jevnlig av etterforskningen i Sverige der Vimpelcoms lokale partner Takilant er involvert.</p>
+<p>Etter å ha lest en god del papirer <a title="Advarer Telenor om Usbekistan – kan ikke utelukke korrupsjonsgransking" href="http://www.nrk.no/okonomi/vimpelcom-frykter-gransking-1.10962211" target="_blank">oppdaget jeg også hvordan Vimpelcom sendte ut sin årsrapport rett før påske, der de advarer om risikoen for korrupsjonsetterforskning</a> av også dem.</p>
+<p><strong>Se alle sakene her:</strong> <a title="Telenor-saksunivers på nrk.no" href="http://www.nrk.no/nyheter/norge/1.549571" target="_blank">Telenor på nrk.no</a></p>
+<p>Forhåpentligvis klarer vi å holde tak i saken også framover.</p>
+<p><em><strong>Tips gjerne meg (<a title="Kontakt" href="/kontakt/">kontaktinfo og mulighet for kryptert kommunikasjon</a>) eller min kollega <a title="E-post til Trond Lydersen (NRK)" href="mailto:trond.lydersen@nrk.no">Trond Lydersen</a> hvis du vet noe! </strong></em></p>
+]]></content:encoded>
+			<wfw:commentRss>/2013/03/telenor-og-usbekistan/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SSB og lenkeråte</title>
+		<link>/2013/03/ssb-og-lenkerate/</link>
+		<comments>/2013/03/ssb-og-lenkerate/#respond</comments>
+		<pubDate>Thu, 14 Mar 2013 15:41:36 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+		<category><![CDATA[døde lenker]]></category>
+		<category><![CDATA[lenkeråte]]></category>
+		<category><![CDATA[NRK]]></category>
+		<category><![CDATA[nrk-sak]]></category>
+		<category><![CDATA[SSB]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=314</guid>
+		<description><![CDATA[Et tips fikk meg til å begynne å sjekke rundt SSBs nye nettsider. Tipset: Vi akademikere opplever nå at lenker til ssb.no som kilde i henvisninger, eller lenker vi spart [...]]]></description>
+				<content:encoded><![CDATA[<div id="attachment_315" style="width: 660px" class="wp-caption alignnone"><a href="/wp-content/uploads/2013/03/ssb-lenkeraate.png"><img class="size-full wp-image-315 " alt="SSB og lenkeråte (foto: faksimiler fra ssb.no, montasje)" src="/wp-content/uploads/2013/03/ssb-lenkeraate.png" width="650" height="368" srcset="/wp-content/uploads/2013/03/ssb-lenkeraate.png 650w, /wp-content/uploads/2013/03/ssb-lenkeraate-620x351.png 620w" sizes="(max-width: 650px) 100vw, 650px" /></a><p class="wp-caption-text">SSB og lenkeråte (foto: faksimiler fra ssb.no, montasje)</p></div>
+<p>Et tips fikk meg til å begynne å sjekke rundt SSBs nye nettsider.</p>
+<p><strong>Tipset:</strong> <em>Vi akademikere opplever nå at lenker til ssb.no som kilde i henvisninger, eller lenker vi spart på i arbeidet vårt,  går til feilmeldinger eller noe annet en det de skal.</em></p>
+<p>SSB hadde akkurat lansert nye nettsider, og jeg husket godt hvordan <a title="digi.no: SSB brukte 100 millioner på nettside" href="http://www.digi.no/898028/ssb-brukte-100-millioner-paa-nettside" target="_blank">digi.no</a> hadde skrevet om en rapport fra Det Norske Veritas om surr i nettsideprosjektet og enorm pengebruk.</p>
+<p>Kunne det være slik at de hadde brukt over 100 millioner kroner på nye nettsider, for så å gjøre mange eldre henvisninger til seg selv ubrukelige?</p>
+<p>Noen stikkprøver fra masteroppgaver på Universitetet i Oslos nettsider bekreftet mistanken.</p>
+<p><strong>Les sakene:</strong></p>
+<p><a title="SSB brukte 125 millioner kroner på nettsider – nå er lenker døde" href="http://www.nrk.no/nyheter/norge/1.10946059" target="_blank">SSB brukte 125 millioner på nettsider – nå er lenker døde</a></p>
+<p><a title="SSB retter ikke alle lenkefeilene" href="http://www.nrk.no/nyheter/norge/1.10947470" target="_blank">SSB retter ikke alle lenkefeilene – nettleksikon derimot lover fungerende lenker</a></p>
+<p>&nbsp;</p>
+<p><em>Takk til <a title="@skribente" href="https://twitter.com/skribente/" target="_blank">@skribente</a> på twitter for <a title="@skribente: Hva med nettleksika?" href="https://twitter.com/skribente/status/311748345431482368" target="_blank">idé til oppfølgingssak.</a></em></p>
+]]></content:encoded>
+			<wfw:commentRss>/2013/03/ssb-og-lenkerate/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

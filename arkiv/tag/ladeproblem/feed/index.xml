@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ladeproblem &#8211; Bye Skille</title>
+	<atom:link href="/tag/ladeproblem/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Problemer med å lade Iphone?</title>
+		<link>/2014/01/problemer-med-a-lade-iphone/</link>
+		<comments>/2014/01/problemer-med-a-lade-iphone/#comments</comments>
+		<pubDate>Wed, 01 Jan 2014 17:44:19 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[charging]]></category>
+		<category><![CDATA[charging problem]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[iphone5]]></category>
+		<category><![CDATA[lade]]></category>
+		<category><![CDATA[ladeproblem]]></category>
+		<category><![CDATA[lightning]]></category>
+		<category><![CDATA[problem]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=595</guid>
+		<description><![CDATA[Hvordan en tannpirker reparerte telefonen min. Symptomer Over en tid hadde min litt over ett år gamle Iphone 5 slitt stadig mer med å la seg lade. Telefonen var den [...]]]></description>
+				<content:encoded><![CDATA[<p>Hvordan en tannpirker reparerte telefonen min.</p>
+<p><span id="more-595"></span></p>
+<h3>Symptomer</h3>
+<p>Over en tid hadde min litt over ett år gamle Iphone 5 slitt stadig mer med å la seg lade. Telefonen var den første som fikk den nye lightening-porten for lading og tilkobling til datamaskin.</p>
+<p>Den tynne lille lightning-kabelen ville dog etter hvert ikke alltid å gi nødvendig strøm. Det måtte ofte en del lirking og justering til for at telefonen skulle gi fra seg sin sedvanlige lyd om at &laquo;nå lader jeg&raquo;. Problemet var at det ikke skulle mye bevegelse til før det igjen ikke var kontakt.</p>
+<p>Så en telefon lagt til lading kunne noen ganger hentes fram igjen timer senere like utladet for helt nødvendig spenning på batteriet.</p>
+<p>Til slutt var det så ille at jeg måtte gjøre noe. Jeg kunne ikke bruke flere minutter hver gang den skulle lades til å lirke og lure, for så å vite at det var litt bingo uansett.</p>
+<p>&nbsp;</p>
+<h3>Løsningen</h3>
+<p>Jeg vurderte å levere inn hele telefonen til service, men tenkte først jeg skulle sjekke om noen andre hadde hatt lignende problem.</p>
+<p>Så søkefeltet ble fylt ut med:</p>
+<p><strong>iphone trouble charging lightning </strong></p>
+<p>Da <a title="Apple.com - discussions: Iphone 5 lightning cable will not charge" href="https://discussions.apple.com/message/22888311#22888311" target="_blank">fant jeg tipset</a>: Pirk ut eventuell lo og skitt forsiktig fra ladeinngangen på telefonen med en tannpirker.</p>
+<p>Tannpirkeren (type ubrukt) ble funnet frem, det ble pirket forsiktig, forsiktig. Ut kom flere og flere små dotter av lo og det som sikkert er tekstilfibre fra mine mange bukselommer.</p>
+<p>Til slutt var det ikke mer å pirke ut.</p>
+<p>Etterpå er telefonen som ny når det kommer til ladekontakt. Ingen problemer lenger med å få kabelen til å levere lading. Suksess.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2014/01/problemer-med-a-lade-iphone/feed/</wfw:commentRss>
+		<slash:comments>30</slash:comments>
+		</item>
+	</channel>
+</rss>

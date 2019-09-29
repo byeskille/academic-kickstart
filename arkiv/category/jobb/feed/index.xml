@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jobb &#8211; Bye Skille</title>
+	<atom:link href="/category/jobb/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Stemmetelling tilkoblet internett</title>
+		<link>/2017/10/stemmetelling-tilkoblet-internett/</link>
+		<pubDate>Sun, 08 Oct 2017 20:51:38 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1220</guid>
+		<description><![CDATA[IT-eksperter var bekymret for at eventuell manipulering av valget ikke skulle bli oppdaget når stemmene telles maskinelt. Bekymringsmeldingene førte til forskrift om manuell telling.]]></description>
+				<content:encoded><![CDATA[<p style="text-align: right;font-size:60%;"><em>(Foto: Oslo kommune/Sturlason)</em></p>
+<p style="text-align: left;"><strong style="font-size: 0.95em;">IT-eksperter var bekymret for at eventuell manipulering av valget ikke skulle bli oppdaget. Datasystemer som brukes til stemmetelling i Norge er tilkoblet internett og dermed utsatt for risiko. Bekymringsmeldinger førte til forskrift om manuell telling.</strong></p>
+<p><span id="more-1220"></span></p>
+<p>NRK plukket opp hvordan IT-eksperter hadde begynt å gå datasystemene som brukes i norske valg etter i sømmene.</p>
+<p>Sentralt var dataprogrammene og systemene som ofte bare omtales som EVA. En forkortelse som vel opprinnelig stod for <a href="https://valg.no/om-valg/om-valg2/det-elektroniske-valgsystemet-eva/" target="_blank" rel="noopener">Elektronisk valgadministrasjonssystem</a>.</p>
+<p>Systemet både registrerer og lagrer, teller opp og summerer stemmer i valget.</p>
+<p>Ekspertene hadde bitt seg merke i hvordan stemmesedler ble talt med maskiner som skannet dem og tolket hvilke stemmesedler folk hadde valgt, og hvilke endringer de hadde påført stemmen.</p>
+<p>Skannerne ble styrt av en programvarepakke kalt EVA Skannning. Det som bekymret eksperter som programvareutvikler Patricia Aas var mangelen på sikkerhetsvurderinger og at systemet kjørte på ordinære Windows-maskiner som man var usikre på hvor godt var låst ned – de var jo tross alt tilkoblet internett.</p>
+<ul>
+<li><strong>Les saken:</strong> <a href="https://www.nrk.no/norge/teller-opp-stemmer-i-valget-pa-datamaskiner-tilkoblet-internett-1.13660659" target="_blank" rel="noopener">Teller opp stemmer i valget på datamaskiner tilkoblet internett</a></li>
+</ul>
+<p>Valgdirektoratet som var ansvarlige for systemet forsikret likevel til NRK at alt var trygt.</p>
+<p>– Det norske folk kan stole på at de valgresultatene vi presenterer er korrekte, og at de representerer de stemmene velgerne har avgitt i stemmeavlukkene, sa direktør Bjørn Berg i direktoratet til meg den 27. august.</p>
+<p>Bare noen dager senere skulle det dog bli oppdaget at sensitive filer var på avveie.</p>
+<p>Klientsertifikat-filer som er et ledd i å gi tilgang til EVA-systemet hadde blitt fanget opp av nettleseren Edge og havnet i søkemotoren Bing.</p>
+<ul>
+<li><strong>Les saken:</strong> <a href="https://www.nrk.no/norge/sensitive-valg-filer-for-tre-kommuner-var-tilgjengelig-for-hele-verden-1.13664601" target="_blank" rel="noopener">Sensitive valg-filer for tre kommuner var tilgjengelig for hele verden</a></li>
+</ul>
+<p>Bekymringen fra IT-ekspertene og sakene må ha ført til en del møter i diverse offentlige organer.</p>
+<p>For under en uke etter den første saken fra NRK <a href="https://www.nrk.no/norge/krever-manuell-stemmetelling-i-alle-kommuner-1.13668374" target="_blank" rel="noopener">kom beskjeden</a> i pressemelding fra regjeringen:</p>
+<blockquote><p><strong>Øker sikkerheten rundt valggjennomføringen<br />
+</strong>– Valgsystemet vårt er godt testet og sikret. Vi ønsker å unngå spekulasjoner og usikkerhet rundt valgresultatet. Trygghet og tillit er avgjørende i gjennomføringen av valget. Derfor skjerper vi nå sikkerheten ytterligere, sier kommunal- og moderniseringsminister Jan Tore Sanner. Kommunal- og moderniseringsdepartementet ber nå alle kommuner om å ha minst én manuell telling av stemmene til stortingsvalget. I tillegg skjerpes sikkerheten rundt datasystemene.<br />
+<em><a href="https://www.regjeringen.no/no/aktuelt/oker-sikkerheten-rundt-valggjennomforingen/id2569117/" target="_blank" rel="noopener">Pressemelding fra Kommunal- og moderniseringsdepartementet</a><br />
+1. september 2017</em></p></blockquote>
+<p>Både programvareutvikler Patricia Aas som i stor grad startet det hele og andre var lettet og fornøyd.</p>
+<p>– Det er en seier for vanlige mennesker. Når du går inn i et stemmelokale og avgir din stemme, må du vite at den faktisk teller. Det er grunnsteinen i et demokrati, <a href="https://www.nrk.no/norge/om-stemmekontrollen_-_-det-er-en-seier-for-vanlige-mennesker-1.13668804" target="_blank" rel="noopener">sa Aas til NRK</a>.</p>
+<p>Også de som var lokalt ansvarlige for valggjennomføringen i Oslo uttrykte lettelse.</p>
+<p>Valgstyret i Oslo hadde allerede ved starten av året sagt at de var bekymret for sikkerheten i det elektroniske valgsystemet EVA. Med krav om manuell telling sa de dette <a href="https://www.nrk.no/norge/bekymret-for-sikkerheten-i-valgdatasystemet-i-flere-maneder-_-lettet-over-manuell-telling-1.13676927" target="_blank" rel="noopener">til NRK</a>:</p>
+<p>– Jo mer det ble snakket om, jo større anså vi risikoen for at noen faktisk ville prøve seg. Det at vi nå får manuell telling, det gjør at alle kan senke skuldrene, sa Øystein Sundelin (H) som var medlem i valgstyret.</p>
+<ul>
+<li><strong>Les også:</strong> <a href="https://vivaldi.com/blog/weve-got-this/" target="_blank" rel="noopener">Bloggposten fra Patricia Aas om saken</a></li>
+</ul>
+<p><em><a href="https://www.flickr.com/photos/oslobystyre/32924912111/in/album-72157677156794643/" target="_blank" rel="noopener">Bildet</a> i toppen av saken er generøst delt av Oslo kommune med en <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/" target="_blank" rel="noopener">Creative Commons-lisens CC-BY-NC-ND 2.0</a> (Foto: Oslo kommune/Sturlason)</em></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Stopper millioner/tusenvis falske e-poster</title>
+		<link>/2017/01/stopper-millionertusenvis-falske-e-poster/</link>
+		<comments>/2017/01/stopper-millionertusenvis-falske-e-poster/#respond</comments>
+		<pubDate>Thu, 05 Jan 2017 22:06:38 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1203</guid>
+		<description><![CDATA[Spam, phishing og svindel. Innboksene rundt om renner over av meldinger som ikke egentlig er ønsket. Noen utgir seg i tillegg for å ha en avsender du skulle tro du kunne [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>Spam, phishing og svindel. Innboksene rundt om renner over av meldinger som ikke egentlig er ønsket. Noen utgir seg i tillegg for å ha en avsender du skulle tro du kunne stole på. Med DMARC har jeg sporet at det faktisk er tusenvis av meldinger som har forsøkt å utgi seg for å være meg.</strong></p>
+<p><span id="more-1203"></span></p>
+<p>Dette nettstedet ligger på byeskille.no (og tidligere byeskille.net). Begge to er domener som jeg bruker til min personlige e-post.</p>
+<p>Siden jeg er litt opptatt av sikkerhetsteknologier fant jeg ut at jeg skulle sjekke om jeg kunne innføre noen nye løsninger for e-postsikkerhet på eget domene.</p>
+<p>Teknologiene heter DKIM og DMARC.</p>
+<p>DKIM er krypteringssystemer som teknisk merker alle meldinger fra epostserveren med en kryptografisk signatur som er nesten umulig å forfalske.</p>
+<p><a href="https://dmarc.org/overview/" target="_blank">DMARC</a> bruker informasjon om DKIM-krypteringsnøkler og hvilke e-postservere som får lov til å sende ut e-post for domenet (SPF) for å vurdere om en e-post er ekte, hva som skal gjøres med falsk e-post og eventuell rapportering om forfalsket e-post.</p>
+<p>Jeg sjekket først om eksisterende e-postleverandør for byeskille.no kunne få til en løsning med disse teknologiene, men de støttet ikke DKIM.</p>
+<p>Dermed ble det flytting til en annen leverandør der jeg i stor grad kunne sette opp alt selv.</p>
+<h3>Hva gjør dette?</h3>
+<p>Teknologiene gjør at om noen forsøker seg på å sende ut en e-post som utgir seg for å være fra oyvind@byeskille.no vil de ikke kunne følge samme sikkerhetsnivå med kryptografisk signering (DKIM), og e-postene vil ikke komme fra en av de godkjente serverne satt opp i SPF.</p>
+<p>Når en slik e-post kommer f.eks. til Gmail vil Google sjekke hva jeg har bedt dem om å gjøre med e-post som ikke følger sikkerhetskravene:</p>
+<ul>
+<li>Putt den i spam-mappa og gi meg beskjed</li>
+</ul>
+<p>Dette får Google vite ved å se på denne tekniske strengen som jeg har lagt inn i DNS for domenet byeskille.no:</p>
+<p><code>v=DMARC1; p=quarantine; rua=mailto:dmarc@byeskille.no,mailto:exorqlrd@ag.dmarcian-eu.com;</code></p>
+<p>Resultatet er at mottakere ikke skal få slike falske e-poster i innboksen i det hele tatt.</p>
+<p>Kort forklart gjøres dette:</p>
+<ul>
+<li>v=DMARC1: Sier at systemet bruker DMARC</li>
+<li>p=quarantine: Sier at e-poster som ikke følger reglene skal legges i spam-mappe eller lignende</li>
+<li>rua=mailto:dmarc@byeskille.no,mailto:exorqlrd@ag.dmarcian-eu.com: Ber om at rapporter om overtredelser sendes sendes til disse to e-postadressene.</li>
+</ul>
+<p>Mottakere som Gmail sjekker om e-postene følger reglene ved å slå opp to andre oppføringer i DNS:</p>
+<p>SPF: <code>v=spf1 include:_spf.google.com ~all</code><br />
+Sier at den skal hente listen med godkjente e-postservere fra _spf.google.com siden jeg bruker Google G Suite for å styre e-posten.</p>
+<p>DKIM: <code>v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvFr/dgjyDVIgG2OGac/nJO+QEdO+8NXMSMzKtLUxfB9uPn1V6HMsC4pqU7BFCoXlb3yIqyZ26PR+aQIdR6JErdwXuiaAOw28ZSLNxD2kRRoa56vSmhlL4hS2vhmgMa+Hp8hhoKXxsA1dttDKqY4kg1jISmY9bswO5xoVePNMob/TVw680VwlAN5ri24QbNoOS9JKr/o0hVjzkvchMdb5auAAWXf6jCoO8DDgou5cP+gUtjYjS8fcot6OTHvOTHaK1AxZyRctGLxteszS/CjBl5yPpyypIfDMDx8h9eYRqy77JPjkbG7tWRa145TZ2jdADav+z5ha5LxzBQJ0RicHRwIDAQAB</code></p>
+<p>Inneholder den offentlige nøkkelen som Gmail eller andre kan bruke for å se om e-poster er signert med riktig hemmelig krypteringsnøkkel.</p>
+<h3>Tallene</h3>
+<p>Etter å ha satt opp dette og rapportering kunne jeg se at det faktisk var en del spam der ute som utga seg for å være meg.</p>
+<p><strong>Data fra Gmail, Hotmail og andre store e-postboks-leverandører viste at nesten 2 000 meldinger hadde kommet dit fra systemer som slett ikke var meg – selv om de utga seg å komme fra adresser som sluttet på @byeskille.no eller @byeskille.net.</strong></p>
+<p>Å stoppe spam og i verste fall svindelforsøk på denne måten brukes av stadig flere.</p>
+<p>Britiske myndigheter skrev i slutten av november <a href="https://hmrcdigital.blog.gov.uk/2016/11/25/combatting-phishing-a-very-big-milestone/" target="_blank">hvordan skattemyndighetene der har stoppet over 300 millioner</a> slike falske e-poster.</p>
+<p>Jeg valgte derfor å lage noen saker for nrk.no om teknologien, hva de har gjort i Storbritannia og hvordan det står til her i Norge.</p>
+<p>Her er sakene:</p>
+<ul>
+<li><a href="https://www.nrk.no/dokumentar/xl/stoppet-over-300-millioner-svindel-eposter-1.13284672" target="_blank">Stoppet over 300 millioner svindel-eposter (nrk.no)</a></li>
+<li><a href="https://www.nrk.no/dokumentar/stopper-falske-nettbanker-nesten-daglig-1.13285516" target="_blank">Stopper falske nettbanker nesten daglig (nrk.no)</a></li>
+<li><a href="https://www.nrk.no/dokumentar/bare-fire-kommuner-med-epostsikring-1.13285472" target="_blank">Bare fire kommuner med epostsikring (nrk.no)</a></li>
+</ul>
+<p>For å sjekke hvordan det står til i Norge valgte jeg å gjøre noen egne undersøkelser.</p>
+<p>Enkle undersøkelser kan gjøres med flere nettsider fra ulike teknologileverandører (eksempler er <a href="https://dmarcian-eu.com/dmarc-inspector/" target="_blank">Dmarcian</a>, <a href="https://www.agari.com/project/dmarc/" target="_blank">Agari</a> og <a href="http://mxtoolbox.com/dmarc.aspx" target="_blank">MXToolbox</a>).</p>
+<p>Men jeg ønsket f.eks. å kunne teste alle kommunene med basis i domenelistene jeg skaffet da jeg sjekket bruken av HTTPS i Norge.</p>
+<p>Jeg lette derfor etter et verktøy som gjorde at jeg kunne masseteste med basis i ei stor liste.</p>
+<p>Til slutt endte jeg på verktøyet <strong>zdns</strong> fra folkene bak prosjektet zmap som driver med skanning av store deler av internett som en del av forskning.</p>
+<p>Med <a href="https://github.com/zmap/zdns" target="_blank">zdns</a> kunne jeg dermed mate inn lista med alle domenene til norske kommuner og skrive ut resultatet til ei fil som json-data, slik:</p>
+<p><code>cat kommune-herad-ks-med-mx.csv | /home/oyvind/go/bin/zdns DMARC --prefix=_dmarc. --threads 5 &gt; /home/oyvind/dmarc/results/kommune-dmarc-21122016.json</code></p>
+<p>Dette ble så konvertert til regneark-vennlig csv med <a href="https://konklone.io/json/" target="_blank">dette verktøyet</a> fra Eric Mill.</p>
+<p>Etter dette kunne jeg filtrere, studere og telle opp i Excel eller et databaseprogram.</p>
+<p>Da kunne jeg se følgende:</p>
+<ul>
+<li><strong>Bare 4 kommuner hadde eksplisitt satt opp DMARC</strong></li>
+<li><strong>Bare 8 av totalt 40 domener for offentlige etater som er medlemmer av Forum for store offentlige nettsteder var sikret med DMARC</strong></li>
+<li><strong>Et bedre inntrykk blant banker og noen domener knyttet til helse</strong></li>
+</ul>
+<p><strong>Noen nyttige ressurser om teknologiene:</strong></p>
+<p>DMARC – forklaring: <a href="https://dmarc.org/overview/" target="_blank">https://dmarc.org/overview/</a><br />
+Hvordan sette det opp om du har e-posten gjennom Google G Suite / Google Apps: <a href="https://support.google.com/a/answer/174124?hl=en&amp;ref_topic=2752442&amp;visit_id=0-636192510148805944-686382464&amp;rd=1" target="_blank">DKIM</a>, <a href="https://support.google.com/a/answer/33786?hl=en&amp;ref_topic=2759192&amp;visit_id=0-636192510148805944-686382464&amp;rd=1" target="_blank">SPF</a> og <a href="https://support.google.com/a/answer/2466563?hl=en" target="_blank">DMARC</a><br />
+Hvordan sette det opp om du har e-posten gjennom <a href="https://technet.microsoft.com/nb-no/library/mt734386(v=exchg.150).aspx" target="_blank">Microsoft Office 365</a><br />
+Interessant <a href="https://blogs.msdn.microsoft.com/tzink/" target="_blank">blogg fra Terry Zink i Microsoft</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2017/01/stopper-millionertusenvis-falske-e-poster/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lusebehandling og rekefelt</title>
+		<link>/2016/11/lusebehandling-og-rekefelt/</link>
+		<pubDate>Sun, 27 Nov 2016 13:43:32 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1186</guid>
+		<description><![CDATA[Myndighetene hadde advart i nesten 20 år mot farene ved en rekke lusemidler. Likevel kunne NRK se at stoffene fortsatt brukes like ved eller rett over kjente rekefelt.]]></description>
+				<content:encoded><![CDATA[<p><strong>Myndighetene hadde advart i nesten 20 år mot farene ved en rekke lusemidler. De kunne skade reker og andre skalldyr. Likevel kunne NRK se at stoffene fortsatt brukes like ved eller rett over kjente rekefelt – ved å koble data om utlevering av stoffer, hvor oppdrettsanleggene ligger og data om rekefelt fra Fiskeridirektoratet.</strong><br />
+<span id="more-1186"></span></p>
+<p>Gode kolleger i Brennpunkt, Harald Eraker og Ole Reinert Omvik, har laget en dokumentarfilm om oppdrettsnæringen.</p>
+<p>I filmen «<a href="https://tv.nrk.no/serie/brennpunkt/MDDP11001516/10-11-2016" target="_blank">Lakseeventyret</a>» ser de på ulike forhold rundt næringen som både skaper mange arbeidsplasser og er omstridt for sin miljøpåvirkning.</p>
+<p>I forbindelse med researchen til filmen hadde de skaffet seg data om alle utleveringer av medikamenter og kjemikalier til oppdrettsselskaper for bruk i oppdrettsanlegg. Informasjonen stammet fra rapportering til Mattilsynet fra selskapene som selger disse stoffene.</p>
+<p>Siden veldig mye av dataene var knyttet til konkrete oppdrettsanlegg i havet spurte de om jeg ikke kunne se på dem i kart: <em>Kanskje vi kan vise noe kult?</em></p>
+<p>Sentralt stod hypotesen: <em><strong>Har oppdrettsselskapene brukt disse stoffene slik at de kan ha påvirket reker negativt?</strong></em></p>
+<p>Brennpunkt fikk så tilgang på følgende data:</p>
+<ul>
+<li>Plasseringen til alle norske oppdrettsanlegg fra Akvakulturregisteret hos Fiskeridirektoratet</li>
+<li>Dataene om medikamenter og kjemikalier fra Mattilsynet – som også inneholdt den samme lokalitets-ID-en brukt i Akvakulturregisteret</li>
+<li>Plassering av alle kjente rekefelt fra Fiskeridirektoratet</li>
+</ul>
+<p>Alle dataene ble lastet inn i Carto (tidligere Cartodb) i hvert sitt datasett.</p>
+<p><strong>Les artikkelen som bruker disse undersøkelsene:</strong></p>
+<ul>
+<li><strong><a href="https://www.nrk.no/dokumentar/xl/advart-mot-rekedod-siden-1998-1.13223172" target="_blank">Advart mot rekedød siden 1998 (nrk.no)</a></strong></li>
+</ul>
+<h3>Bakgrunnsresearch</h3>
+<p>Først koblet jeg lokalitetene fra Akvakulturregisteret med lokalitets-ID i Mattilsynets medikament/kjemikalie-data. Dermed fikk jeg plasseringen til all bruk av disse stoffene.</p>
+<p>Deretter la jeg rekefeltene og medikamentbruken inn i hvert sitt lag i kartet slik at vi kunne se visuelt hvor nært det var blitt brukt slike stoffer. Kollega Harald Eraker hadde satt seg inn i mange detaljer rundt de ulike lusemidlene og kunne bidra med at det var spesielt to stoffer som var interessante; <em>diflubenzuron</em> og <em>teflubenzuron (også omtalt som kitinsyntesehemmere)</em></p>
+<p>Han hadde også funnet ut at det nå ligger på bordet anbefalinger om å helt forby bruken av disse stoffene innenfor 1000 meter fra rekefelt.</p>
+<blockquote><p><em><strong>«Det skal være god miljøtilstand under akvakulturanlegget før bruk, det skal gå minst 6 måneder mellom hver behandling kitinsyntesehemmere skal ikke anvendes på lokaliteter som ligger nærmere enn 1000 meter fra rekefelt.»</strong></em></p></blockquote>
+<p>Medikamentbruken ble derfor filtrert med en SQL-spørring for å bare vise bruken av disse stoffene i forhold til rekefeltene:</p>
+<pre>SELECT * FROM "byeskille-nrk".medikamenter2014_2016peruke36_2016
+
+WHERE 
+virkestoff LIKE "Diflubenzuron" 
+OR 
+virkestoff LIKE "Teflubenzuron"</pre>
+<p>For enkelhets skyld eksporterte jeg akkurat disse dataene til et eget datasett også etterpå.</p>
+<h3>Kobling og kjøringer</h3>
+<p>For å forenkle spørringer og sammenligninger mot hvor rekefeltene befant seg lagde jeg også en versjon av det datasettet som bare har én stor form (multipolygon) for alle rekefeltene.</p>
+<p>Med denne som utgangspunkt kunne jeg lage oppføringer i databasen med utstrekning som tilsvarte ulike avstander fra rekefeltene, f.eks. 100 meter, 500 meter og 1000  meter. Her er ei kjøring for 1000 meter:</p>
+<pre>INSERT INTO rekebuffer_fiskeridir_jan2016 (the_geom, art, buffer_m)
+
+SELECT ST_Transform(ST_Buffer(ST_ Transform(the_geom,32633),1000) ,4326) AS the_geom, art, '1000' AS buffer_m
+
+FROM rekepoly_fiskeridir_jan2016</pre>
+<p>Etter dette kunne jeg enkelt gjøre kjøringer som sjekket hvor mange oppdrettsanlegg som lå så nært rekefelt:</p>
+<pre>SELECT COUNT(DISTINCT lok_nr) FROM "byeskille-nrk".akvakultur_ lokal_sjo AS lok, "byeskille-nrk".rekebuffer_ fiskeridir_jan2016 AS reke
+
+WHERE (lok.art LIKE '%Laks%' OR lok.art LIKE '%ørret%' OR lok.art LIKE '%Ørret%')
+
+AND (produksjonsform = 'Matfisk' OR produksjonsform = 'MATFISK')
+
+AND
+
+ST_Contains(reke.the_geom,lok. the_geom)
+
+AND reke.buffer_m = '1000'</pre>
+<p>eller hvor hvor mange som hadde brukt lusemidlene som myndighetene hadde advart om:</p>
+<pre>SELECT COUNT(DISTINCT meds.lokalitet) FROM "byeskille-nrk". benzuroner2014_2016peruke36_ 2016_aggregated AS meds, "byeskille-nrk".rekebuffer_ fiskeridir_jan2016 AS reke
+
+WHERE ST_Contains(reke.the_geom, meds.the_geom)
+
+AND reke.buffer_m = '1000'</pre>
+<h3>Resultater</h3>
+<p>Etter å ha gjort dette og mer til fant vi ut følgende om de 1 014 oppdrettsanleggene (lokalitetene) som var registrert per 12. september:</p>
+<ul>
+<li>245 anlegg ligger nærmere enn 1000 meter fra kjente rekefelt</li>
+<li>59 av disse anleggene som egentlig er for nært har brukt lusemidlene det er advart mot i perioden 2014 til uke 36 i 2016</li>
+<li>Bare i 2016 har det blitt brukt slike lusemidler 54 ganger i 46 forskjellige anlegg langs norskekysten. 12 av anleggene som har brukt stoffene i 2016 har gjort det innenfor 1000 meter av et kjent rekefelt</li>
+</ul>
+<p>Her er et kart som viser alle anleggene som har brukt lusemidlene det er advart om nærmere enn 1000 meter fra kjente rekefelt:</p>
+
+<!-- iframe plugin v.4.3 wordpress.org/plugins/iframe/ -->
+<iframe src="https://snutt.nrk.no/kart_apps/atlas_plugin/1.2/dist/?id=5822fe59b0c80726338b4573" width="100%" height="500" scrolling="yes" class="iframe-class" frameborder="0"></iframe>
+
+]]></content:encoded>
+			</item>
+		<item>
+		<title>«Gåten i Isdalen» – og jakten på nye svar</title>
+		<link>/2016/10/gaten-i-isdalen-og-jakten-pa-nye-svar/</link>
+		<comments>/2016/10/gaten-i-isdalen-og-jakten-pa-nye-svar/#respond</comments>
+		<pubDate>Fri, 21 Oct 2016 07:11:13 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1177</guid>
+		<description><![CDATA[En 46 år gammel sak med mange mysterier, et funn i en kjeller og veien videre for om mulig finne svar med ny og moderne teknologi.]]></description>
+				<content:encoded><![CDATA[<p><strong>En 46 år gammel sak med mange mysterier, et funn i en kjeller og veien videre for om mulig finne svar med ny og moderne teknologi.</strong></p>
+<p><span id="more-1177"></span></p>
+<p>Over en periode har NRK jobbet med saken om Isdalskvinnen. Kvinnen ble funnet død og forbrent utenfor Bergen sentrum den 29. november 1970.</p>
+<p>Helt siden den gang har det vært mange mysterier i saken, men ingen har klart å finne ut hvem hun var.</p>
+<p><strong>Les bakgrunn for historien:</strong> <a href="https://www.nrk.no/dokumentar/xl/gaten-i-isdalen-1.12987220" target="_blank">Gåten i Isdalen</a></p>
+<p><strong>Se tidslinje:</strong> <a href="https://www.nrk.no/tidslinje---gaten-i-isdalen-1.13180269" target="_blank">Politijakten 1970</a></p>
+<p>NRK fant i 2016 igjen biologiske spor etter kvinnen, og vil la publikum følge prosessen der vi sammen med politiet og fagfolk forsøker å få analysert vevsprøver og tennene hennes.</p>
+<p>Alt publiseres på nrk.no, og sentralt er både videoepisoder, artikler og bilder.</p>
+<p><strong>Følg saken her:</strong> <a href="https://www.nrk.no/dokumentar/gaten-i-isdalen-1.13182053" target="_blank">Gåten i Isdalen på nrk.no</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/10/gaten-i-isdalen-og-jakten-pa-nye-svar/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hvordan fant journalistene egentlig ut det der?</title>
+		<link>/2016/05/hvordan-fant-journalistene-egentlig-ut-det-der/</link>
+		<comments>/2016/05/hvordan-fant-journalistene-egentlig-ut-det-der/#comments</comments>
+		<pubDate>Sun, 29 May 2016 14:20:26 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+		<category><![CDATA[åpenhet]]></category>
+		<category><![CDATA[innsyn]]></category>
+		<category><![CDATA[metode]]></category>
+		<category><![CDATA[metoderapport]]></category>
+
+		<guid isPermaLink="false">/?p=1099</guid>
+		<description><![CDATA[Åpenhet om metode og åpenhet som verktøy i jobben som journalist.]]></description>
+				<content:encoded><![CDATA[<p><strong>Åpenhet om metode og åpenhet som verktøy i jobben som journalist.</strong><span id="more-1099"></span></p>
+<p>Mange vet overraskende lite om hvordan journalister jobber. I møte med vanlige folk er det ofte kjent for dem at jeg som journalist lager nyhetssaker til radio, tv, på nett eller i ei avis hvis jeg sier at jeg er journalist.</p>
+<p>Hvordan de sakene er blitt til er derimot mer diffust for flere.</p>
+<p>Det er litt synd at mange ikke vet hvor omfattende bakgrunnsarbeid som kan ligge bak en nyhetssak. Slik kunnskap er med på å skape bedre forståelse mellom folk flest og mediene.</p>
+<h3>Åpenhet om metode</h3>
+<p>Fra norske medier og journalister har det heldigvis blitt mer vanlig med åpenhet rundt metodene som ligger bak sakene som kommer på trykk eller på lufta. Ved store satsninger, som kanskje også er litt kontroversielle, er det nå ikke så uvanlig at en redaktør eller leder skriver om hvordan arbeidet har vært og hvorfor saken publiseres.</p>
+<p>Et annet veldig godt eksempel på åpenhet er nok egentlig mest kjent internt i pressekretser.</p>
+<p>Hvert år publiseres det flere titalls rapporter om metodene bak de største sakene laget i året som gikk. Metoderapportene publiseres på <a href="http://www.skup.no/">www.skup.no</a> av Stiftelsen for en Kritisk og Undersøkende Pressse (SKUP).</p>
+<p>I metoderapportene er det mulig å lese hvordan norske journalister har jobbet seg fram til mye omtalte saker – saker som ofte satte dagsorden. Det kommer ofte fram både hva som var utgangspunktet for saken, hvilken bakgrunnsundersøkelser som ble gjort og hvilke humper i veien journalistene har møtt.</p>
+<p>Alt dette er veldig nyttig for å skjønne hvordan slike saker jobbes fram, og kanskje burde metoderapportene tilgjengeliggjøres og bli lesning for andre enn bare journalister i større grad enn slik det er nå.</p>
+<p>For noe av innholdet kan nok til tider virke faginternt for journalistkretser, og rapportene er tross alt skrevet som et bidrag til den årlige SKUP-konferansen og er inngangsbilletten for konkurransen om den høythengende SKUP-prisen. Samtidig er det helt sikkert mulig å lære noe både for vanlige folk og for andre journalister.</p>
+<p>Selv kan jeg si at jeg har lært helt konkrete triks og metoder fra å lese i metoderapporter og høre kolleger fortelle om sitt arbeid på SKUP-konferansen.</p>
+<div id="attachment_1127" style="width: 630px" class="wp-caption aligncenter"><img class="size-medium wp-image-1127" src="/wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o-620x349.jpg" alt="20110402 TØNSBERG: Nick Davies and David Leigh of The Guardian and Kristinn Hrafnsson of Wikileaks talks at a panel debate during the Norwegian journalism conference SKUP." width="620" height="349" srcset="/wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o-620x349.jpg 620w, /wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o-768x432.jpg 768w, /wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o-1000x563.jpg 1000w, /wp-content/uploads/2016/05/5595408696_a1f7ffd88d_o.jpg 1280w" sizes="(max-width: 620px) 100vw, 620px" /><p class="wp-caption-text"><em>På SKUP-konferansen deles det metoder, tips og triks mellom journalister. Her fra en paneldebatt om Wikileaks året etter de første store lekkasjene fra det amerikanske forsvaret: Skal alt publiseres rått som Wikileaks eller skal det filtreres som i vanlige medier? (foto: Øyvind Bye Skille)</em></p></div>
+<p>Her er metoderapportene som pdf-filer fra vinnerne av SKUP-prisen de siste årene:</p>
+<ul>
+<li>2015: <a href="http://www.skup.no/wp-content/uploads/2016/04/24-Våtdraktmysteriet.pdf" target="_blank">Dagbladet – Våtdraktmysteriet</a></li>
+<li>2014: <a href="http://2014.metoderapporter.skup.no/Nigeria%20full%20pakke%20-%20uten%20vedlegg.pdf" target="_blank">Dagbladet – Nigeria-båtene</a></li>
+<li>2013: <a href="http://2013.metoderapporter.skup.no/04-Jannes-historie-Bergens-Tidende.pdf" target="_blank">Bergens tidende – Jannes historie</a> og <a href="http://2013.metoderapporter.skup.no/21-Null%20CTRL%20-%20Dagbladet.pdf" target="_blank">Dagbladet – Null CTRL</a></li>
+<li>2012: <a href="http://2012.metoderapporter.skup.no/2012-9_Dopingmafiaen.pdf" target="_blank">Dagens Næringsliv – Dopingmafiaen</a></li>
+<li>2011: <a href="http://2011.metoderapporter.skup.no/2011-37%20Pengebingen.pdf" target="_blank">Dagens Næringsliv – Pengebingen</a></li>
+</ul>
+<p>Alle metoderapportene kan som nevnt <a href="http://www.skup.no/tidligere-metoderapporter/">finnes på nettsidene til SKUP</a>.</p>
+<h3>Forståelse for åpenhet</h3>
+<p>Selv har jeg opplevd at til og med svært medievante personer ikke forstår hva som er bakgrunnen for saker jeg har jobbet med.</p>
+<p>I fjor laget jeg noen saker som fikk Kristin Clemet til å først rope ut <strong>lekkasje! </strong></p>
+<p>Da hun fikk vite at NRK og VG hadde fått dokumenter gjennom normale metoder ved å be om å få innsyn hos offentlige etater <a href="http://clemet.blogg.no/1422571341_syretesten__ikke_best.html" target="_blank">skrev hun</a>: «Da er det, såvidt jeg kan skjønne, en saksbehandlingsfeil.»</p>
+<p>Sakene handlet om hvordan den mye omtalte instruksen som førte til at Najmuddin Faraj Ahmad skulle tvangsflyttes til Kyrksæterøra hadde blitt til i forvaltningen og hos politikerne i Høyre/Frp-regjeringen – ofte omtalt som Krekar-instruksen.</p>
+<p>Clemet reagerte visst svært kraftig på at de interne diskusjonene var blitt spredt i pressen, og at det kom fram hvilken informasjon politikerne hadde fått fra sine fagfolk før de laget de nye reglene. Regler som helt tydelig var svært tett knyttet til enkeltsaken til Najmuddin Faraj Ahmad.</p>
+<p>Som journalister hadde vi bare brukt et svært vanlig og nyttig arbeidsredskap, innsynsretten.</p>
+<p>Her er formuleringen jeg sendte til Justis- og beredskapsdepartementet for å be om å få vite hva som egentlig hadde skjedd i saken rundt instruksen:</p>
+<p style="padding-left: 30px;">«NRK ønsker innsyn i alle dokumenter i saken som omhandler</p>
+<p style="padding-left: 30px;"><em>Instruks om bestemt oppholdssted og meldeplikt</em></p>
+<p style="padding-left: 30px;">Med alle dokumenter mener vi alle registreringer som er relevante for saken. Dette inkluderer brev, e-poster, notater, SMS-er og alt annet som etter arkivloven og arkivforskriften burde være journalført på saken fordi de er relevante for saksbehandlingen.»</p>
+<p>Hovedregelen i Norge er at alle dokumentene som offentlige etater og kontorer jobber med er mulige å se for både journalister og vanlige innbyggere. Dette prinsippet kalles offentlighetsprinsippet, og er beskrevet slik i loven:</p>
+<blockquote><p><em>Formålet med lova er å leggje til rette for at offentleg verksemd er open og gjennomsiktig, for slik å styrkje informasjons- og ytringsfridommen, den demokratiske deltakinga, rettstryggleiken for den enkelte, tilliten til det offentlege og kontrollen frå ålmenta. Lova skal òg leggje til rette for vidarebruk av offentleg informasjon.</em><br />
+– <a href="https://lovdata.no/dokument/NL/lov/2006-05-19-16/KAPITTEL_1#§1" target="_blank">Offentleglova § 1</a></p></blockquote>
+<p>Dette prinsippet er så viktig at det til og med er tatt med i grunnloven:</p>
+<blockquote><p>Enhver har rett til innsyn i statens og kommunenes dokumenter og til å følge forhandlingene i rettsmøter og folkevalgte organer. Det kan i lov fastsettes begrensninger i denne rett ut fra hensyn til personvern og av andre tungtveiende grunner.<br />
+– <a href="https://lovdata.no/dokument/NL/lov/1814-05-17/KAPITTEL_5#§100" target="_blank">Grunnloven § 100</a></p></blockquote>
+<p>Disse reglene er noe jeg bruker mye i mitt arbeid, og det var blant annet med på å gjøre det mulig å lage saken om USAs ønske om at Snowden skulle arresteres om han kom hit.</p>
+<ul>
+<li><a href="/2015/10/hemmelig-snowden-press-us-pressure-on-snowden-kept-secret/">Hemmelig Snowden-press // US pressure on Snowden kept secret</a></li>
+</ul>
+<p>Nå er den saken <a href="http://www.nrk.no/kultur/medieorganisasjonene-skal-hjelpe-snowden-i-soksmalet-mot-norge-1.12959550" target="_blank">mer aktuell</a> enn på lenge med <a href="http://www.nrk.no/urix/edward-snowden-saksoker-norge-1.12911684" target="_blank">søksmålet Snowden har startet</a> mot staten.<br />
+Hvis noen vil vite litt mer om hvordan jeg og vi i NRK jobber.</p>
+<p>Her er noen av metoderapportene jeg har vært med på å lage:</p>
+<ul>
+<li>2015: <a href="/nrk-radondfare-metode-skup.pdf" target="_blank">Radonfare</a>: Påvirkning fra radon i norske boliger, skoler og barnehager<br />
+– sammen med Marit Higraff</li>
+<li>2015: <a href="/nrk-forsvaretsomforsvant-metode-skup.pdf" target="_blank">Forsvaret som forsvant</a>: Eiendomsforvaltning og bruk av offentlige midler etter den kalde krige<br />
+– sammen med Ståle Hansen, Marit Higraff, Espen Andersen og Eirik Veum</li>
+<li>2015: <a href="/nrk-scandiland-metode-skup.pdf" target="_blank">Scandiland</a>: Et skandinavisk forum for pedofile på det mørke nettet<br />
+– sammen med Henrik Lied, Marius Arnesen, Ellen Borge Kristoffersen, Ståle Hansen</li>
+<li>2014: <a href="http://2014.metoderapporter.skup.no/63%20-%20%20jakten%20p%c3%a5%20IS.pdf" target="_blank">Jakten på IS</a>: Om kontakt med en IS-avhopper og hvordan Norge betalte for et sykehus i IS-område – sammen med Mohammed Alayoubi og Tormod Strand</li>
+<li>2012: <a href="http://2012.metoderapporter.skup.no/2012-41_Trobbel_i_tarnet2_.pdf" target="_blank">Trøbbel i tårnet</a>: Om hvordan lønnskamp blant flygeledere og dårlig styring fra Avinor fikk store konsekvenser for mange flypassasjerer  – sammen med Peter Svaar</li>
+<li>2011: <a href="http://2011.metoderapporter.skup.no/2011-32%20En%20r%c3%b8d%20gummib%c3%a5t%20-%20Aksjon%20og%20beredskap%2022.%20juli.pdf" target="_blank">En rød gummibåt</a>: Om hvordan NRK jobbet med saker om beredskap etter 22. juli – sammen med resten av NRKs 22. juli-redaksjon</li>
+<li>2010: <a href="http://2010.metoderapporter.skup.no/2010-46%20Nåla%20i%20høystakken.pdf" target="_blank">Nåla i høystakken</a>: Om hvordan NRK jobbet med lekkede Wikileaks-dokumenter fra krigen i Afghanistan – sammen med bl.a. Astrid Randen og Espen Andersen</li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>/2016/05/hvordan-fant-journalistene-egentlig-ut-det-der/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Usikre offentlige nettsider // HTTPS usage on government domains in Norway</title>
+		<link>/2016/03/usikre-offentlige-nettsider-https-usage-on-government-domains-in-norway/</link>
+		<comments>/2016/03/usikre-offentlige-nettsider-https-usage-on-government-domains-in-norway/#respond</comments>
+		<pubDate>Thu, 31 Mar 2016 19:47:12 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">/?p=1087</guid>
+		<description><![CDATA[11.926 government owned domains in Norway tested for HTTPS usage. Only 4% of the active domains had implemented such secure connections.]]></description>
+				<content:encoded><![CDATA[<p><strong>NRK gjennomgikk 11 926 nettside-domener eid av det offentlige i Norge for bruk av sikker tilkobling over HTTPS. Undersøkelsen avdekket svært lav utbredelse på 4% og over hundre nettsteder med usikkert oppsett til tross for at de hadde teknologien.</strong></p>
+<p><strong>//</strong></p>
+<p><strong>English summary:</strong><br />
+<strong>Norwegian Broadcasting Corp. (NRK) tested 11.926 government owned domains in Norway for HTTPS usage using the SSL Labs API. Only 4% of the active domains had implemented such secure connections for their visitors. The tests also revealed 102 sites with lacking or outdated configurations granting them an F score by SSL Labs – including military web services and a site for reporting serious crime to national police.</strong><span id="more-1087"></span></p>
+<p>Her er en liste over nettartiklene laget etter undersøkelsen:</p>
+<ul>
+<li>nrk.no: <a href="http://www.nrk.no/dokumentar/xl/info-om-bombekjemikalier_-id-forfalskning-og-forsvarets-e-post-pa-sarbare-systemer-1.12859753" target="_blank">Ba om bombetips på sårbar nettside</a></li>
+<li>nrk.no: <a href="http://www.nrk.no/dokumentar/slik-gjor-du-livet-surere-for-nettsvindlere-1.12866173" target="_blank">Slik gjør du livet litt surere for nettsvindlere</a></li>
+<li>nrk.no: <a href="http://www.nrk.no/dokumentar/xl/usikkert-nett-1.12854582" target="_blank">Usikkert nett – lav utbredelse av HTTPS</a></li>
+<li>nrk.no: <a href="http://www.nrk.no/dokumentar/offentlige-nettsteder-bakpa-ogsa-innen-andre-sikkerhetsstandarder-1.12865594" target="_blank">Offentlige nettsteder bakpå også innen andre sikkerhetsstandarder</a></li>
+<li>nrk.no: <a href="http://www.nrk.no/dokumentar/difi-vurderer-nye-https-anbefalinger-1.12857676" target="_blank">Difi vurderer nye HTTPS-anbefalinger etter NRK-saker</a></li>
+</ul>
+<p><strong>NRK brukte Brønnøysundregistrene, databaseoppslag i det norske domeneregisteret og API-tilgang til en testtjeneste for å gjøre undersøkelsene av kryptering på offentlige nettsteder.</strong></p>
+<p><em>Beskrivelsen under ble opprinnelig <a href="https://nrkbeta.no/2016/03/30/slik-undersokte-nrk-offentlige-nettsteder/" target="_blank">publisert på NRKbeta.</a></em></p>
+<p>Av ren nysgjerrighet mens en vi lekte med oppsett av egne personlige nettsider testet vi i 2015 en del offentlige nettsteder med åpne testløsninger på nettet.</p>
+<p><a href="https://www.ssllabs.com/ssltest/index.html">SSL Labs</a> er en nettjeneste for å sjekke hvordan HTTPS-kryptering er satt opp.</p>
+<p>HTTPS-kryptering er er den teknologien som sikrer at informasjon sendes sikkert og kryptert mellom nettleseren på en datamaskin/mobiltelefon/nettbrett til serveren som drifter nettstedet.</p>
+<p>For folk flest er det snakk om hengelåsen i adressefeltet når man besøker nettbanken eller Facebook.</p>
+<p>I våre små eksperimenter i 2015 fant vi litt overraskende at flere nettsteder drevet av det offentlige hadde satt opp HTTPS, men likevel fikk strykkarakter og bokstaven F i testen hos SSL Labs.</p>
+<p>Videre undersøkelser viste at testen var ganske anerkjent. Både det norske Direktoratet for forvaltning og IKT (<a href="https://kvalitet.difi.no/artikkel/2015/11/32-tjenester-med-sensitiv-informasjon-er-kryptert">Difi</a>) og <a href="https://pulse.cio.gov/https/domains/">Det hvite hus</a> anbefalte og brukte testen. Dårlige karakterer betød stort sett at maskinene som drev nettstedet var dårlig satt opp eller ikke oppdatert med de siste sikkerhetsoppdateringene.</p>
+<p>Etter å ha funnet en håndfull slike dårlige eksempler bestemte vi oss for å gjøre en litt bredere undersøkelse.</p>
+<h2>Skaffe oversikt over offentlige nettsteder</h2>
+<p>Tanken var at vi ønsket å teste et større utvalg nettsteder eid av det offentlige i Norge.</p>
+<p>Først tok vi derfor kontakt med Difi og spurte om de hadde en liste over offentlige nettsteder siden de selv anbefalte testen, og drev med <a href="https://kvalitet.difi.no/om-kvalitet">vurdering av nettsteder og nettjenester</a>. Svaret var at de ikke hadde noen fullstendig oversikt liggende.</p>
+<p>NRK måtte dermed gå til andre kilder.</p>
+<p>Vi visste fra før at de aller fleste .no-domener er koblet til virksomheter registrert i Brønnøysundregistrene.</p>
+<p>Vi valgte derfor å gå til dataene i <a href="http://data.brreg.no/oppslag/enhetsregisteret/enheter.xhtml">Enhetsregisteret</a>, og hentet ut alle registrerte virksomheter under sektorkodene 6100 – Stats- og trygdeforvaltning, 6500 – Kommuneforvaltningen, 1100 – Statens forretningsdrift, 3900 – Statlige låneinstitutter mv.</p>
+<p>Fra registeret fikk vi da en liste på rundt 2 500 virksomheter med organisasjonsnummer.</p>
+<p>Listen inneholdt alle kommuner, fylkeskommuner, departementer og statlige direktorater. Samtidig inneholdt den også mange mindre organer som f.eks. mindre kommunale foretak eller kirkelige sogn.</p>
+<h2>Oppslag basert på organisasjonsnummer</h2>
+<p>Siden vi visste at domeneregisteret hos Norid inneholdt et felt for organisasjonsnummer for å vise hvem som eier domenet hadde vi et håp om at ei kjøring i en database kunne hjelpe oss.</p>
+<p>Vi tok derfor kontakt med <a href="https://www.norid.no/no/omnorid/">Norid som forvalter registeret over .no-domener</a>, og spurte:</p>
+<blockquote><p>«Jeg vurderer å gjøre en undersøkelse som journalist rundt bruken av kryptering (https/tls) på offentlige nettsteder i Norge.</p>
+<p>I den sammenheng hadde det vært veldig fint om Norid kunne vært behjelpelige med å gjøre en direkte spørring i databasen over domeneeierskap (whois) basert på en liste organisasjonsnummer jeg kan gi dere. Er dette mulig?»</p></blockquote>
+<p>Etter litt fram og tilbake var svaret ja.</p>
+<p>Vi sendte over ei Excel-fil med rundt 2 500 organisasjonsnummer. Tilbake fikk vi ei Excel-fil med 11 344 domener og hvilket organisasjonsnummer i vår oversikt det tilhørte. Norid hadde også lagt med info om domenet var signert med den nye sikkerhetsstandarden <a href="https://www.norid.no/no/dns/slik-virker-dnssec">DNSSEC</a>.</p>
+<div id="attachment_1093" style="width: 630px" class="wp-caption aligncenter"><img class="size-medium wp-image-1093" src="/wp-content/uploads/2016/03/norid-regneark-620x267.png" alt="Slik så regnearket ut etter databaseoppslaget hos Norid." width="620" height="267" srcset="/wp-content/uploads/2016/03/norid-regneark-620x267.png 620w, /wp-content/uploads/2016/03/norid-regneark-768x330.png 768w, /wp-content/uploads/2016/03/norid-regneark-1000x430.png 1000w, /wp-content/uploads/2016/03/norid-regneark.png 1051w" sizes="(max-width: 620px) 100vw, 620px" /><p class="wp-caption-text"><em>Slik så regnearket ut etter databaseoppslaget hos Norid.</em></p></div>
+<p>Med denne informasjonen kunne vi enkelt sammenstille våre data fra Brønnøysundregistrene og Norid i et databaseprogram siden de hadde organisasjonsnumrene felles.</p>
+<p>I tillegg til informasjonen fra Norid fikk vi hentet ut inforasjon om alle domener under .kommune.no/.herad.no fra <a href="http://www.ks.no/fagomrader/om-ks/Kommunikasjon/kommune.no/">KS</a> og om .dep.no/.stat.no fra<a href="https://dss.dep.no/">DSS</a> siden de ikke ligger i Norids base. Vi hentet også ut noen stikkprøver fra domener under .mil.no <a href="https://www.google.no/?gfe_rd=cr&amp;ei=ynnyVv3PDqer8wfB1r-gBA#q=site:*.mil.no">ved å lete på Google</a> etter kjente adresser for søkemotoren.</p>
+<p>Til slutt satt vi igjen med ei liste på 11 926 domener. Det er ikke en offisiell eller fullstendig liste over norske offentlig eide domener, men et ganske bredt og omfattende utvalg.</p>
+<h2>Automatisert sjekk</h2>
+<p><a href="https://www.ssllabs.com/ssltest/index.html">SSL Labs</a> er ei nettside som tilbyr sjekk av nettsteder for bruk av HTTPS med teknologiene TLS og SSL. Nettsiden tester om nettsted har satt opp HTTPS, og om det er satt opp riktig uten kjente sikkerhetssvakheter.</p>
+<p>For nettstedene som har HTTPS gir siden en karakter fra A+ til F avhengig av hvor godt systemet er satt opp.</p>
+<p>SSL Labs har i tillegg <a href="https://github.com/ssllabs/ssllabs-scan/blob/stable/ssllabs-api-docs.md">gjort testen sin tilgjengelig som en tjeneste gjennom et API</a>. Dette gjør det mulig å automatisere testingen.</p>
+<p>Ved å kjøre et lite program kunne NRK dermed gjennomføre testing av flere tusen domeneadresser basert på listene vi hadde fått satt sammen.</p>
+<div id="attachment_1095" style="width: 630px" class="wp-caption aligncenter"><img class="size-medium wp-image-1095" src="/wp-content/uploads/2016/03/ssllabs-scan-eksempel2-620x236.png" alt="En slik kommando ble kjørt fra kommandolinjen for å sjekke mange tusen domener, og deretter lagre resultatet til ei fil." width="620" height="236" srcset="/wp-content/uploads/2016/03/ssllabs-scan-eksempel2-620x236.png 620w, /wp-content/uploads/2016/03/ssllabs-scan-eksempel2-768x292.png 768w, /wp-content/uploads/2016/03/ssllabs-scan-eksempel2-1000x380.png 1000w, /wp-content/uploads/2016/03/ssllabs-scan-eksempel2.png 1212w" sizes="(max-width: 620px) 100vw, 620px" /><p class="wp-caption-text">En slik kommando ble kjørt fra kommandolinjen for å sjekke mange tusen domener, og deretter lagre resultatet til ei fil.</p></div>
+<p>Maskinen vår måtte så stå i mange timer og gjennomføre tester.</p>
+<p>Testresultatene kom ut som store mengder rådata på formen JSON med informasjon om både karakter, hvilke teknologier som hvert enkelt nettsted bruker og eventuelle kjente svakheter.</p>
+<p>Disse resultatene viderebehandlet vi så med et script som gjorde de mest interessante dataene for oss om til regneark-aktige filer på formen csv.</p>
+<p>Alt sammen ble så igjen lastet inn i et databaseprogram for viderebehandling. Der kunne vi telle opp de ulike kategoriene og hvilke resultater de hadde fått.</p>
+<p><strong>Resultatet var:</strong></p>
+<p>Vi startet med 11 926 domener i testen. 1 982 av domenene hadde i testperioden den 9. og 10. mars ingen aktiv webserver, og de er derfor ikke tatt med i opptellingen av HTTPS-bruk.</p>
+<p>Bare 422 av 9 944 aktive domener eid av det offentlige hadde fungerende https/tls – tilsvarer 4,2 %</p>
+<p>Av disse har:</p>
+<ul>
+<li>180 karakteren A/A-/A+ (42,7 %)</li>
+<li>55 har karakteren B (13 %)</li>
+<li>72 har karakteren C (17 %)</li>
+<li>102 får karakteren F = stryk (24,2 %)</li>
+</ul>
+<p>I tillegg har noen fått merking som å ha problemer med sertifikat-tillit, men ellers greit oppsett.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/03/usikre-offentlige-nettsider-https-usage-on-government-domains-in-norway/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hemmelig Snowden-press // US pressure on Snowden kept secret</title>
+		<link>/2015/10/hemmelig-snowden-press-us-pressure-on-snowden-kept-secret/</link>
+		<pubDate>Thu, 08 Oct 2015 15:39:49 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?post_type=portfolio&#038;p=992</guid>
+		<description><![CDATA[I august 2015 kunne NRK fortelle hvordan USA hadde presset Norge om varsleren Edward Snowden. Norske myndigheter hadde mottatt et krav om å arrestere og utlevere Snowden, men alt sammen var forsøkt holdt hemmelig.]]></description>
+				<content:encoded><![CDATA[<p><strong>I august 2015 kunne NRK fortelle hvordan USA hadde presset Norge om varsleren Edward Snowden. Norske myndigheter hadde mottatt et krav om å arrestere og utlevere Snowden, men alt sammen var forsøkt holdt hemmelig. </strong></p>
+<p>//</p>
+<p><strong>In August of 2015 the Norwegian Broadcasting Corp. (NRK) were able to tell the story about how the US asked Norway to arrest Edward Snowden in order to extradite him.</strong></p>
+<p><span id="more-992"></span></p>
+<p>The story in English:</p>
+<ul>
+<li><a href="http://www.nrk.no/fordypning/usa-asked-norway-to-arrest-edward-snowden-1.12521802" target="_blank">USA asked Norway to arrest Edward Snowden</a></li>
+</ul>
+<p>&nbsp;</p>
+<p>Les sakene på nrk.no:</p>
+<ul>
+<li><a href="http://www.nrk.no/fordypning/usa-ba-norge-arrestere-edward-snowden-1.12521290" target="_blank">USA ba Norge arrestere Edward Snowden</a></li>
+<li><a href="http://www.nrk.no/fordypning/snowden-dokumentene-skjult-og-hemmeligholdt-1.12521539" target="_blank">Snowden-dokumentene skjult og hemmeligholdt</a></li>
+<li><a href="http://www.nrk.no/norge/tom-stol-for-snowden-pa-prisutdeling-1.12522029" target="_blank">Tom stol for Snowden på prisutdeling: – Feigt av norske politikere</a></li>
+<li><a href="http://www.nrk.no/norge/_-norske-myndigheter-bor-garantere-for-snowdens-sikkerhet-1.12521987" target="_blank">Solhjell: – Norske myndigheter bør garantere for Snowdens sikkerhet</a></li>
+<li><a href="http://www.nrk.no/fordypning/vurderer-snowden-pris-pa-russergrensen-1.12521273" target="_blank">Vurderer Snowden-pris på russergrensen</a></li>
+<li><a href="http://www.nrk.no/fordypning/slik-ba-snowden-om-asyl-i-norge-1.12522589" target="_blank">Slik ba Snowden om asyl i Norge</a></li>
+</ul>
+<p>Sakene er et resultat av arbeid med å få innsyn i dokumenter i norsk forvaltning som omhandler behandlingen av Snowden-saken.</p>
+<p>Etter arbeid over tid med å få ut dokumenter fra Utenriksdepartementet fikk jeg i august 2015 oversendt en e-post med ordene «<em>Utenriksdepartementet har foretatt en ny vurdering av innsynsbegjæringen og funnet at opplysningene i disse dokumentene likevel ikke oppfyller vilkårene for å unntas under henvisning til offl. § 20, 1. ledd bokstav b.</em>»</p>
+<p>Som vedlegg i e-posten lå brev fra USAs ambassade der landet hadde bedt Norge om å arrestere og utlevere Edward Snowden så fort han satte sine bein på norsk jord.</p>
+<p>Hele arbeidet startet noen måneder tidligere.</p>
+<p>Jeg hadde sett dokumentarene Citizenfour og Snowdens store flukt. I begge filmer kom det fram hvor langt USA var villige til å gå for å få kontroll over varsleren som hadde fortalt verden om omfattende digital masseovervåking.</p>
+<p><strong>Tanken var da: Hva gjorde egentlig Norge da Snowden søkte asyl? Og har det vært kontakt med amerikanerne?</strong></p>
+<h3>Journalinnsyn</h3>
+<p>8. mars 2015 skrev jeg en e-post til Utenriksdepartementet med ønske om å få en liste over dokumenter/journalutskrift for relevante dokumenter:</p>
+<blockquote><p><em>NRK ber med dette om innsyn i følgende:</em><br />
+<em>Journalutskrift for alle saker i UDs og ambassadene i Moskva og Washingtons journalsystemer som omhandler:</em><br />
+<em>Edward Snowdens asylsøknad til Norge</em><br />
+<em>Eventuell korrespondanse mellom USA, Russland og Norge angående Edward Snowden</em><br />
+<em>Eventuell korrespondanse mellom Norge og advokater som representerer Edward Snowden</em></p>
+<p><em>NRK kjenner ikke de nøyaktige saksnumrene for slike journaloppføringer, men ber om bistand til å identifisere aktuelle saker med henvisning til forvaltningslovens § 11 om veiledningsplikt.</em></p>
+<p><em>Som bakgrunn for at vi tror det finnes slike dokumenter viser vi til UDs uttalelse til NTB den 2. juli 2013:</em><br />
+<em>– Norges ambassade i Moskva mottok en telefaks med søknad om asyl i Norge i går ettermiddag, bekrefter underdirektør Frode Andersen i UD overfor NTB.</em></p></blockquote>
+<p>Etter rundt to uker kom det et svar som inneholdt ei veldig spennende liste.</p>
+<p>Blant åtte dokumenter identifisert av UD til å passe med mitt spørsmål var det flere oppført som <em>demarcé fra den amerikanske ambassaden. </em>Raske undersøkelser fortalte meg at begrepet demarché brukes om diplomatiske meldinger, og til dels om dem som krever handling.</p>
+<p>Jeg ba derfor om innsyn i dokumentene fra UD.</p>
+<p>Etter litt tid fikk jeg innsyn i selve asylsøknaden fra Snowden.</p>
+<h3>Første avslag</h3>
+<p>De andre og kanskje mest spennende dokumentene fikk jeg derimot avslag på innsyn i. Svaret kom som litt standard korte og lite begrunnede e-poster:</p>
+<p><img class="size-medium wp-image-998" src="/wp-content/uploads/2015/10/innsynsavslag_snowden-620x413.jpg" alt="Innsynsavslag i Snowden-dokumenter (montasje): &quot;Hoveddokumentet er vurdert og blir unntatt i sin helhet iht. Offl. § 20 (1) b og § 12 (1) c.&quot;" width="620" height="413" srcset="/wp-content/uploads/2015/10/innsynsavslag_snowden-620x413.jpg 620w, /wp-content/uploads/2015/10/innsynsavslag_snowden-1000x666.jpg 1000w" sizes="(max-width: 620px) 100vw, 620px" /></p>
+<p>Avslagene var begrunnet i <a href="http://lovdata.no/lov/2006-05-19-16/§20" target="_blank">offentlighetslovens § 2</a>0 om hensyn til Norges utenrikspolitiske interesser, og spesifikt når «opplysningane er mottekne under føresetnad av eller det følgjer av fast praksis at dei ikkje skal offentleggjerast».</p>
+<p>I utgangspunktet er det ofte litt vanskelig å forholde seg til disse vide unntakene fra innsyn for dokumenter knyttet til utenrikspolitikk eller rikets sikkerhet (<a href="http://lovdata.no/lov/2006-05-19-16/§21" target="_blank">§ 21</a>).</p>
+<p>Jeg valgte likevel å gjøre et skikkelig forsøk på å få ut dokumentene likevel, og satte meg inn i reglene for utenriksdokumenter og unntakene.</p>
+<p>Etter å ha lest både <a href="https://lovdata.no/dokument/NL/lov/2006-05-19-16" target="_blank">offentlighetsloven</a>, <a href="https://lovdata.no/dokument/SF/forskrift/2008-10-17-1119" target="_blank">forskriften</a>, <a href="https://www.regjeringen.no/no/dokumenter/rettleiar-til-offenntleglova/id590165/" target="_blank">veilederen</a> til loven og en del av den politiske behandlingen og forarbeidene oppdaget jeg at unntaket UD hadde påberopt seg ikke var absolutt.</p>
+<p>Blant annet sa veilederen og forarbeidene at unntaket for opplysninger mottatt under forutsetning om taushet ikke kan brukes om forhold som allerede er offentlig kjent på annet vis.</p>
+<h3>Klage til UD</h3>
+<p>Jeg mente å huske fra Snowden-filmene og annen mediedekning at amerikanske myndigheter hadde vært ganske så tydelige på at de hadde lagt press på andre land. Etter litt leting fant jeg offisielle referater fra flere pressekonferanser hos det amerikanske utenriksdepartementet der de rett ut sa at de hadde bedt andre land om handling i Snowden-saken og i tilknytning til hans flukt.</p>
+<p>Med bakgrunn i dette valgte jeg å klage på innsynsavslaget til UD.</p>
+<p>Ved klager til departementene er det da viktig å understreke at de ikke må sende saken videre til Kongen i statsråd uten din godkjenning, fordi du ønsker å vurdere en klage til Sivilombudsmannen i stedet. Om saken behandles i Kongen i statsråd mister du denne klageadgangen. Og ingen har nådd fram med innsynsklager til Kongen i statsråd de siste 20 årene&#8230;</p>
+<p>Klagebehandlingen tok svært lang tid. Jeg måtte flere ganger purre på hva som skjedde med saken.</p>
+<p>Først etter to måneder fikk jeg til svar at UD ikke ville endre vurderingen sin.</p>
+<p><strong>Men de tok ikke stilling til mitt argument om at press fra USA var kjent, og at § 20 ikke kunne brukes.</strong></p>
+<p>UD mente at de måtte ha rett til å unnta alle diplomatiske meldinger:</p>
+<blockquote><p>«Det er i norsk interesse at utenriksdepartementet og utenriksstasjonene fortsatt har mulighet til å utveksle sensitiv informasjon med andre lands utenrikstjenester under forutsetning av at sensitiv informasjon ikke offentliggjøres.»</p></blockquote>
+<p>Etter disse svarene valgte jeg å klage saken videre til Sivilombudsmannen.</p>
+<p>Hovedargumentet var at UD ikke hadde tatt stilling til om unntaket faktisk kunne brukes om opplysningene var gjort kjent av USA på generell basis fra før av.</p>
+<h3>UD gir seg</h3>
+<p>Sivilombudsmannen tok saken. I juli ba de om å få ut alle dokumentene i saken fra UD.</p>
+<p>Noen uker etter stilte de det samme spørsmålet til UD som jeg hadde stilt:</p>
+<blockquote><p>«Det fremgår ikke av Utenriksdepartementets avgjørelse 26. mai 2015 at departementet har foretatt en vurdering av om noen av opplysningene i dokumentene det er bedt innsyn i allerede er allment kjente og derfor ikke kan unntas etter offentleglova § 20 første ledd bokstav b). Departementet bes derfor om å foreta en slik vurdering.»</p></blockquote>
+<p>Etter dette ga UD seg.</p>
+<p>Det kom en kort og konsis e-post en fredag ettermiddag med noen vedlegg:</p>
+<blockquote><p>«Utenriksdepartementet har foretatt en ny vurdering av innsynsbegjæringene og funnet at opplysningene i disse dokumentene likevel ikke oppfyller vilkårene for å unntas under henvisning til offl. § 20, 1. ledd bokstav b).»</p></blockquote>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Radonfare</title>
+		<link>/2015/07/radonfare/</link>
+		<pubDate>Sun, 05 Jul 2015 21:01:02 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?post_type=portfolio&#038;p=982</guid>
+		<description><![CDATA[Med en undersøkelse av nye radonaktsomhetskart kunne NRK fortelle at rundt 160 000 bolighus i Norge ligger på områder med høy radonfare. Det startet med at jeg fikk et tips om et [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>Med en undersøkelse av nye radonaktsomhetskart kunne NRK fortelle at rundt 160 000 bolighus i Norge ligger på områder med høy radonfare.</strong></p>
+<p><span id="more-982"></span></p>
+<p>Det startet med at jeg fikk et tips om et nytt datasett med kartinformasjon som snart ville være klart. Tipset kom fra noen i Statens strålevern som hadde hørt om <a href="https://nrkbeta.no/2014/05/28/flomsoner-pa-innlandet/">tidligere </a>prosjekter vi <a href="https://nrkbeta.no/2014/05/12/luftambulanse-beredskap-metoder-og-kartanalyse/">hadde gjort</a> med kart og kartdata.</p>
+<p>NRK fikk tilgang til kartdata fra det første nasjonale aktsomhetskartet for radon. Kartet er laget av Norges geologiske undersøkelse for Statens strålevern, og sier noe om sannsynligheten for høye radonverdier innendørs.</p>
+<p>Etter hvert fikk jeg gjennomført en ganske omfattende analyse av kartmaterialet der aktsomhetskartet er koblet med data fra SSB, Statens kartverk, Utdanningsdirektoratet og til slutt også en egen NRK-versjon av en stedsnavndatabase.</p>
+<p><strong>Les mer om undersøkelsene av kartdataene:</strong> <a href="https://nrkbeta.no/2015/06/25/slik-undersokte-nrk-radonkartene/" target="_blank">nrkbeta.no – Slik undersøkte NRK radonkartene</a></p>
+<p>&nbsp;</p>
+<p><img class="aligncenter size-medium wp-image-985" src="/wp-content/uploads/2015/07/radon-dagsrevyen-kopi-620x349.jpg" alt="Radon på Dagsrevyen" width="620" height="349" srcset="/wp-content/uploads/2015/07/radon-dagsrevyen-kopi-620x349.jpg 620w, /wp-content/uploads/2015/07/radon-dagsrevyen-kopi.jpg 900w" sizes="(max-width: 620px) 100vw, 620px" /><br />
+Her er noen av sakene vi laget:</p>
+<p>nrk.no <a href="http://nrk.no/fordypning/mange-norske-bolighus-i-omrader-med-hoy-radonfare-1.12425861">Over 10 prosent av norske boliger ligger i områder med høy radonfare<br />
+</a>Dagsrevyen <a href="https://tv.nrk.no/serie/dagsrevyen/NNFA19062515/25-06-2015#t=8m32s" target="_blank">Store deler av Norge har høy radonfare<br />
+</a>nrk.no <a href="http://www.nrk.no/fordypning/sjekk-radonfaren-i-ditt-naermiljo-1.12426583" target="_blank">Sjekk radonfaren i ditt nærmiljø</a></p>
+<p>&nbsp;</p>
+<p>nrk.no <a href="http://www.nrk.no/fordypning/ikke-oversikt-over-om-skoler-har-radonmalt-1.12428614" target="_blank">Ingen har nasjonal oversikt over om skoler og barnehager er sjekket for radon</a><br />
+nrk.no <a href="http://www.nrk.no/fordypning/mangler-radoninfo-for-store-deler-av-norge-1.12429856" target="_blank">Mangler radoninfo for store deler av Norge</a><br />
+nrk.no <a href="http://www.nrk.no/fordypning/forbrukerradet_-ma-vurderes-krav-til-radoninfo-ved-boligsalg-1.12433644" target="_blank">Forbrukerrådet: Må vurderes krav til radoninfo ved boligsalg</a></p>
+<p>nrk.no <a href="http://www.nrk.no/fordypning/sporsmal-og-svar-om-radon-1.12423488" target="_blank">Spørsmål og svar om radon</a><br />
+nrk.no <a href="http://www.nrk.no/fordypning/kobling-mellom-radonaktsomhet-og-kreftforekomst-vanskelig-1.12422620" target="_blank">Kreftregisteret: Radon helseskadelig, men kobling med kart vanskelig</a></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Helsefare i Forsvaret</title>
+		<link>/2015/03/helsefare-i-forsvaret/</link>
+		<pubDate>Tue, 17 Mar 2015 09:32:31 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?post_type=portfolio&#038;p=964</guid>
+		<description><![CDATA[Et bekymringsbrev, et kartleggingsprosjekt og en forsker. Det resulterte i saker om at over 30 prosent av ansatte ombord på Sjøforsvarets skip har hørselsskader. I et brev til blant annet [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>Et bekymringsbrev, et kartleggingsprosjekt og en forsker. Det resulterte i saker om at over 30 prosent av ansatte ombord på Sjøforsvarets skip har hørselsskader.</strong></p>
+<p><span id="more-964"></span></p>
+<p>I et brev til blant annet Forsvarets øverste leder forsvarssjefen skrev Forsvarets sentrale hovedverneombud om en tydelig bekymring. Hovedverneombudet fryktet at hensyn til de ansattes helse, miljø og sikkerhet (HSM) ikke ble tatt nok på alvor når det ble kjøpt inn nytt utstyr.</p>
+<p>Man var bekymret for at innkjøp kunne føre til problematiske nye skip, fly eller kjøretøyer.</p>
+<p>Bekymringen kom fra erfaring:</p>
+<ul>
+<li>Forsvaret har kjøpt skip hvor de ansatte må sove med hørselvern på</li>
+<li>Forsvaret har kjøpt kjøretøyer med helsefarlig mye vibrasjoner</li>
+<li>Forsvaret er i gang med å kjøpe nye lastevogner som ikke tilfredsstiller norske krav til støy og utslipp.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Jeg begynte først å undersøke det første erfaringspunktet.</p>
+<p>Det var i disse undersøkelsene at jeg kom over Sjøforsvarets støyprosjekt som både hadde kartlagt støyverdiene på Forsvarets skip, men også hadde målt hørselen til de ansatte på skipene.</p>
+<p><strong>Les sakene:</strong></p>
+<p><a title="En av tre i Sjøforsvaret har hørselstap" href="http://www.nrk.no/norge/en-av-tre-i-sjoforsvaret-har-horselstap-1.12253396" target="_blank">En av tre i Sjøforsvaret har hørselstap</a></p>
+<p><a title="Her må han sove med hørselvern" href="http://www.nrk.no/norge/han-ma-sove-med-horselvern-1.12255965" target="_blank">Her må han sove med hørselvern</a></p>
+<p><a title="Forsvaret: Gjør det vi kan for å unngå helseskader" href="http://www.nrk.no/norge/forsvaret_-gjor-det-vi-kan-for-a-unnga-helseskader-1.12256775" target="_blank">Forsvaret: Gjør det vi kan for å unngå helseskader</a></p>
+<p><a title="Offisersforbundet: Reagerer kraftig på forslag om støyunntak for Forsvarets skip" href="http://www.nrk.no/norge/offisersforbundet-mener-forsvaret-forsoker-a-fa-stoyunntak-1.12258260" target="_blank">Offisersforbundet: Reagerer kraftig på forslag om støyunntak for Forsvarets skip</a></p>
+<p>&nbsp;</p>
+<p>Hvis du som leser dette har tips om saken – eller andre lignende eller interessante saker – er det bare å ta kontakt med meg:</p>
+<p>E-post (privat): <a href="mailto:oyvind@byeskille.no">oyvind@byeskille.no</a><br />
+E-post (jobb): <a title="oyvind.bye.skille@nrk.no" href="mailto:oyvind.bye.skille@nrk.no">oyvind.bye.skille@nrk.no<br />
+</a>Mobil: +47 41 47 32 20</p>
+<p><em>(for begge e-postadressene kan det brukes kryptert e-post, se <a title="Kontakt" href="/kontakt/">kontaktsiden</a>)</em></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>UD-penger til sykehus i IS-område</title>
+		<link>/2015/02/ud-penger-til-sykehus-i-is-omrade/</link>
+		<pubDate>Mon, 02 Feb 2015 16:11:20 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?post_type=portfolio&#038;p=972</guid>
+		<description><![CDATA[NRK kunne fortelle hvordan penger fra Utenriksdepartementet i Norge fant veien via organisasjonen Norwac til et sykehus i nordlige Syria – et område som terrororganisasjonen IS hadde tatt kontrollen over. [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>NRK kunne fortelle hvordan penger fra Utenriksdepartementet i Norge fant veien via organisasjonen Norwac til et sykehus i nordlige Syria – et område som terrororganisasjonen IS hadde tatt kontrollen over.</strong></p>
+<p><span id="more-972"></span></p>
+<p>Sakene var et samarbeid der jeg fikk jobbe sammen med de gode kollegene mine Mohammed Alayoubi og Tormod Strand.</p>
+<p>Gjennom en serie tv-, nett- og radiosaker dokumenterte NRK at et sykehus som finansieres av Utenriksdepartementet og norske skattepenger drives i et område som kontrolleres av IS.</p>
+<p>Vi brakte også fram flere uavhengige lokale kilder som mente sykehuset er under helt eller delvis kontroll av IS. Organisasjonen Norwac bestred dette.</p>
+<p>Til slutt førte våre reportasjer til at Utenriksdepartementet stoppet norsk støtte til sykehuset.</p>
+<p><strong>Nettsaker:</strong></p>
+<p>24. november 2014<br />
+<strong><a title="Norge betaler for sykehus som behandler IS-krigere" href="http://www.nrk.no/verden/norge-betaler-for-sykehus-som-behandler-is-krigere-1.12057340" target="_blank">Norge betaler for sykehus som behandler IS-krigere </a></strong></p>
+<p>24. november 2014<br />
+<strong><a title="– Norskstøttet sykehus kan drive i strid med Genèvekonvensjonene" href="http://www.nrk.no/verden/_-norskstottet-sykehus-kan-drive-i-strid-med-genevekonvensjonen-1.12060112" target="_blank">– Norskstøttet sykehus kan drive i strid med Genèvekonvensjonen</a></strong></p>
+<p>24. november 2014<br />
+<strong><a title="– Denne barnesoldaten fra IS fikk behandling på norskstøttet sykehus" href="http://www.nrk.no/verden/_-denne-barnesoldaten-fra-is-fikk-behandling-pa-norskstottet-sykehus-%201.12060531" target="_blank">– Denne barnesoldaten fra IS fikk behandling på norskstøttet sykehus</a></strong></p>
+<p>24. november 2014<br />
+<strong><a title="Utenrikskomiteens leder: – Viktig å undersøke raskt" href="http://www.nrk.no/verden/_-viktig-a-fa-undersokt-dette-grundig-og-raskt-1.12062756" target="_blank">Utenrikskomiteens leder: – Viktig å få undersøkt dette grundig og raskt</a></strong></p>
+<p>25. november 2014<br />
+<strong><a title="Startet sykehushjelpen – ber UD kutte støtten" href="http://www.nrk.no/verden/startet-sykehushjelpen-_-ber-ud-kutte-stotten-1.12060844" target="_blank">«Norsk» sykehus i IS-område: Startet sykehushjelpen – ber UD kutte støtten</a></strong></p>
+<p>&nbsp;</p>
+<p>11. desember 2014<br />
+<strong><a title="UD trekker pengestøtten til Syria-sykehus" href="http://www.nrk.no/verden/ud-trekker-stotte-til-sykehus-i-syria-1.12095058" target="_blank">UD trekker pengestøtte til Syria-sykehus: – IS har innført religiøse regler</a></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Langvarig kildearbeid</h3>
+<p>&nbsp;</p>
+<p>Før saken om sykehuset ble publisert hadde Mohammed Alayoubi og Tormod Strand over lengre tid jobbet med kilder inne i Syria og i grenseområdene i Tyrkia.</p>
+<p>I forbindelse med en reportasjereise for å lage saker om en IS-avhopper fikk de mulighet til å gjøre mer research.</p>
+<p>Vel hjemme ble saker om avhopperen publisert:</p>
+<p>16. november 2014:<br />
+<strong><a title="IS-avhopper til NRK: – De vestlige er mest brutale" href="http://www.nrk.no/verden/is-avhopper-til-nrk_-_-de-vestlige-jihadistene-er-mest-brutale-1.12046962" target="_blank">IS-avhopper til NRK: – De vestlige jihadistene er mest brutale</a></strong></p>
+<p>16. november 2014:<br />
+<strong><a title="Mistet nevøen til IS som barnesoldat" href="http://www.nrk.no/verden/mistet-nevoen-til-is-som-barnesoldat-1.12044756" target="_blank">Mistet nevøen til IS som barnesoldat</a></strong></p>
+<p>17. november 2014<br />
+<strong><a title="Avhopper til NRK: – IS har sovende celler i Europa" href="http://www.nrk.no/verden/avhopper-til-nrk_-_-is-har-sovende-celler-i-europa-1.12044095" target="_blank">Avhopper til NRK: – IS har sovende celler i Europa</a></strong></p>
+<p>&nbsp;</p>
+<p>Hvis du som leser dette har tips om saken – eller andre lignende eller interessante saker – er det bare å ta kontakt med meg:</p>
+<p>E-post (privat): <a href="mailto:oyvind@byeskille.no">oyvind@byeskille.no</a><br />
+E-post (jobb): <a title="oyvind.bye.skille@nrk.no" href="mailto:oyvind.bye.skille@nrk.no">oyvind.bye.skille@nrk.no<br />
+</a>Mobil: +47 41 47 32 20</p>
+<p><em>(for begge e-postadressene kan det brukes kryptert e-post, se <a title="Kontakt" href="/kontakt/">kontaktsiden</a>)</em></p>
+<p>eller mine kollegaer <a href="mailto:tormod.strand@nrk.no" target="_blank">Tormod Strand</a> og <a href="mailto:mohammed.alayoubi@nrk.no" target="_blank">Mohammed Alayoubi</a>.</p>
+<p>&nbsp;</p>
+<p>Etter at sakene var publisert valgte NRK å sende inn satsningen med <a title="SKUP2014 metoderapport: Jakten på IS" href="http://2014.metoderapporter.skup.no/63%20-%20%20jakten%20på%20IS.pdf" target="_blank">metoderapport</a> til SKUP.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Aktuelt &#8211; Bye Skille</title>
+	<atom:link href="/category/aktuelt/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Luftambulanse, 45 minutter og SSB-data på rutenett</title>
+		<link>/2014/05/luftambulanse-45-minutter-og-ssb-data-pa-rutenett/</link>
+		<pubDate>Sun, 18 May 2014 21:23:16 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Aktuelt]]></category>
+		<category><![CDATA[Jobb]]></category>
+		<category><![CDATA[cartodb]]></category>
+		<category><![CDATA[GIS]]></category>
+		<category><![CDATA[kart]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?p=708</guid>
+		<description><![CDATA[Kartverktøy og data fra SSB gjorde det mulig å regne ut hvor mange som bor utenfor rekkevidden legehelikoptre kan nå på 45 minutter. &#160; English summary: With the use of CartoDB, [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>Kartverktøy og data fra SSB gjorde det mulig å regne ut hvor mange som bor utenfor rekkevidden legehelikoptre kan nå på 45 minutter.</strong></p>
+<p><span id="more-708"></span></p>
+<p>&nbsp;</p>
+<p><em><strong>English summary:</strong> With the use of CartoDB, data from Norwegian helicopter services for health care and population data from Statistics Norway projected on a grid it was possible to both calculate how many live outside a defined response time of 45 minutes, and provide a service for the readers where they could get an estimated response time for any location in Norway.</em></p>
+<p>I uka som gikk publiserte vi i NRK flere saker om akuttberedskap i helsevesenet.</p>
+<p>Les: <a title="Kritisk skadde fraktes til sykehus uten kompetanse - nrk.no" href="http://www.nrk.no/norge/kompetansemangel-pa-norske-sykehus-1.11706976" target="_blank">Kritisk skadde pasienter fraktes til sykehus uten kompetanse</a><br />
+Les: <a title="Sjekk kompetansen ved ditt sykehus - nrk.no" href="http://www.nrk.no/norge/store-forskjeller-i-akuttberedskap-1.11712048" target="_blank">Sjekk kartet for kompetansen ved ditt sykehus</a></p>
+<p>Som en del av arbeidet med sakene tok vi utgangspunkt i hvor helikopterbaser ligger med legeberedskap. Vi regnet ut med CartoDB hvor langt helikoptrene nådde med det som av helsevesenet og helikoptertjenestene selv ble ansett som beredskapsmålet &#8211; en utrykningstid på 45 minutter (15 min klargjøring og 30 min flytid).</p>
+<p><strong>Videre koblet vi disse dekningssirklene med SSBs datasett over befolkningstall fordelt på rutenett. Slik kunne vi regne ut at 166 000 bor utenfor dekningssirklene.</strong></p>
+<p>Jeg skrev en lengre forklaring på NRKbeta om hvordan vi gikk fram:<br />
+<a title="Luftambulanse-beredskap, metoder og kartanalyse - nrkbeta.no" href="http://nrkbeta.no/2014/05/12/luftambulanse-beredskap-metoder-og-kartanalyse/" target="_blank">NRKbeta – Luftambulanse-beredskap, metoder og kartanalyse</a></p>
+<p>Norge har heller ikke de høyeste målene til utrykningstid. I Tyskland f.eks. opererer de med flytid på 15 minutter når de beregner beredskapen.</p>
+<p>Med en slik tysk sammenligning regnet vi ut at 1,28 millioner mennesker i Norge bor utenfor der legehelikoptrene kan nå på 15 minutter flytid.</p>
+<p>Les: <a title="166 000 får ikke legehelikopterhjelp innen 45 minutter - nrk.no" href="http://www.nrk.no/norge/166.000-utenfor-helikopterhjelp-1.11711669" target="_blank">166 000 får ikke legehelikopterhjelp innen 45 minutter</a><br />
+Les: <a title="Hjertestans i det svarte hullet - nrk.no" href="http://www.nrk.no/magasin/hjertestans-i-det-svarte-hullet-1.11703927" target="_blank">Hjertestans i det svarte hullet</a><br />
+Les: <a title="Ordførere krever bedre helikopterdekning - nrk.no" href="http://www.nrk.no/norge/ordforeroppror-mot-uttrykningstid-1.11714195" target="_blank">Ordførere krever bedre helikopterdekning<br />
+</a>Les: <a title="Europeisk luftambulanse-leder: – 45 minutter er lenge - nrk.no" href="http://www.nrk.no/norge/_-45-minutter-er-lenge-1.11714881" target="_blank">Europeisk luftambulanse-leder: – 45 minutter er lenge</a><br />
+Les: <a title="Mads Gilbert: – Bilambulanse viktigere" href="http://www.nrk.no/norge/_-bilambulansane-er-viktigast-1.11715805" target="_blank">Mads Gilbert: – Bilambulanse viktigere</a></p>
+<p>Her er noen av kartene:</p>
+
+<!-- iframe plugin v.4.3 wordpress.org/plugins/iframe/ -->
+<iframe src="https://nrk.cartodb.com/viz/0ca40d00-d541-11e3-b0ca-0e230854a1cb/embed_map?title=false&amp;description=false&amp;search=false&amp;shareable=false&amp;cartodb_logo=false&amp;layer_selector=false&amp;legends=true&amp;scrollwheel=true&amp;fullscreen=true&amp;sublayer_options=1|1|1&amp;sql=&amp;sw_lat=58.00809779306888&amp;sw_lon=0.17578125&amp;ne_lat=71.76019138754775&amp;ne_lon=32.255859375" width="960" height="600" scrolling="yes" class="iframe-class" frameborder="0"></iframe>
+
+<div></div>
+<h3>Sjekk også selv hvor lang tid helikopteret til huset eller hytta:</h3>
+<p>(klikk på <a href="http://www.nrk.no/norge/sjekk-helikopter-tiden-selv-1.11705222" target="_blank">kartet</a> for å få opp artikkelen med et interaktivt kart)<br />
+<a href="http://www.nrk.no/norge/sjekk-helikopter-tiden-selv-1.11705222" target="_blank"><img class="alignnone size-full wp-image-721" src="/wp-content/uploads/2014/05/Skjermbilde-2014-05-19-kl.-07.33.57-e1400477774721.png" alt="Sjekk selv - nrk.no (skjermdump)" width="600" height="409" /></a></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>DNA i rettspleien</title>
+		<link>/2014/05/dna-i-rettspleien/</link>
+		<pubDate>Mon, 05 May 2014 18:39:08 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Aktuelt]]></category>
+		<category><![CDATA[Fotografi]]></category>
+		<category><![CDATA[Jobb]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?p=723</guid>
+		<description><![CDATA[Her er noen av mange bilder jeg tok i forbindelse med en del saker vi laget i NRK om DNA i rettspleien. &#160; Her er sakene: Politiet tar flere ukjente [...]]]></description>
+				<content:encoded><![CDATA[<h4>Her er noen av mange bilder jeg tok i forbindelse med en del saker vi laget i NRK om DNA i rettspleien.</h4>
+<p><span id="more-723"></span></p>
+
+<a href='/2014/05/dna-i-rettspleien/20140410_dna-rgs_2600px-7640/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7640-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7640-150x150.jpg 150w, /wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7640-90x90.jpg 90w, /wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7640-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140410_dna-rgs_2600px-7616/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7616-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7616-150x150.jpg 150w, /wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7616-90x90.jpg 90w, /wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7616-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140410_dna-rgs_2600px-7607/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7607-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7607-150x150.jpg 150w, /wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7607-90x90.jpg 90w, /wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7607-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140410_dna-rgs_2600px-7622/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7622-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7622-150x150.jpg 150w, /wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7622-90x90.jpg 90w, /wp-content/uploads/2014/05/20140410_dna-rgs_2600px-7622-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7352/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7352-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7352-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7352-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7352-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7485/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7485-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7485-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7485-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7485-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7391/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7391-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7391-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7391-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7391-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7428/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7428-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7428-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7428-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7428-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7423/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7423-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7423-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7423-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7423-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7465/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7465-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7465-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7465-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7465-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7492/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7492-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7492-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7492-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7492-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7503/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7503-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7503-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7503-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7503-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7508/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7508-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7508-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7508-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7508-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7513/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7513-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7513-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7513-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7513-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7525/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7525-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7525-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7525-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7525-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7557/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7557-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7557-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7557-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7557-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140411_dna-hund_2600px-7538/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7538-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140411_dna-hund_2600px-7538-150x150.jpg 150w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7538-90x90.jpg 90w, /wp-content/uploads/2014/05/20140411_dna-hund_2600px-7538-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140410_dna-fhi_2600px-7739/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140410_dna-fhi_2600px-7739-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140410_dna-fhi_2600px-7739-150x150.jpg 150w, /wp-content/uploads/2014/05/20140410_dna-fhi_2600px-7739-90x90.jpg 90w, /wp-content/uploads/2014/05/20140410_dna-fhi_2600px-7739-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2014/05/dna-i-rettspleien/20140410_dna-fhi_2600px-7736/'><img width="150" height="150" src="/wp-content/uploads/2014/05/20140410_dna-fhi_2600px-7736-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2014/05/20140410_dna-fhi_2600px-7736-150x150.jpg 150w, /wp-content/uploads/2014/05/20140410_dna-fhi_2600px-7736-90x90.jpg 90w, /wp-content/uploads/2014/05/20140410_dna-fhi_2600px-7736-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+
+<p>&nbsp;</p>
+<p>Her er sakene:</p>
+<p><a title="Politiet tar flere ukjente gjerningsmenn med utvidet DNA-praksis" href="http://www.nrk.no/norge/politiet-tar-ukjente-med-dna-1.11684571" target="_blank">Politiet tar flere ukjente voldtektsmenn med utvidet DNA-praksis</a><br />
+<a title="Her er de 30 ukjente som knyttes til voldtektsaker med DNA" href="http://www.nrk.no/norge/de-30-ukjente-tatt-med-dna-1.11690050" target="_blank">Her er de 30 ukjente som knyttes til voldtektsaker med DNA</a><br />
+<a title="Magasin på nrk.no: Avslørt av DNA tre år senere" href="http://www.nrk.no/magasin/avslort-av-dna-tre-ar-senere-1.11690299" target="_blank">Avslørt av DNA tre år senere (magasin)</a><br />
+<a title="Spørsmål og svar om bruk av DNA" href="http://www.nrk.no/norge/sporsmal-og-svar-om-dna-1.11690984" target="_blank">Spørsmål og svar om politiets bruk av DNA</a><br />
+<a title="Forsvarer advarer mot å tro blindt på DNA" href="http://www.nrk.no/norge/advarer-mot-a-stole-for-mye-pa-dna-1.11691018" target="_blank">– Selv om man har DNA-treff, så har man ikke svar på hvordan eller hvorfor</a><br />
+<a title="Politijuristene: – Treg DNA-analyse fører til henleggelser" href="http://www.nrk.no/norge/_-ikke-dna-svar-gir-til-henleggelse-1.11691288" target="_blank">Politijuristene: – Treg DNA-analyse fører til henleggelser</a><br />
+<a title="Politiet: – DNA var avgjørende i Aksla-saken" href="http://www.nrk.no/mr/dna-avgjorende-i-aksla-saken-1.11692092" target="_blank">Politiet: DNA var avgjørende for å oppklare Aksla-saken</a><br />
+<a title="Høyre: – DNA-kø meget alvorlig" href="http://www.nrk.no/norge/lover-rask-losning-pa-dna-ko-1.11692164" target="_blank">Høyre: – DNA-kø meget alvorlig</a><br />
+<a title="DNA-lab til 22 mill brukes ikke - nrk.no" href="http://www.nrk.no/norge/dna-lab-i-tromso-brukes-ikke-1.11693241" target="_blank">Har brukt 22 mill. skattekroner – DNA-lab får likevel ikke hjelpe politiet</a></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Oppdatering byggeprosjektet</title>
+		<link>/2014/04/oppdatering-byggeprosjektet/</link>
+		<comments>/2014/04/oppdatering-byggeprosjektet/#respond</comments>
+		<pubDate>Thu, 17 Apr 2014 12:44:56 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Aktuelt]]></category>
+		<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[qben]]></category>
+		<category><![CDATA[tomtebefaring]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=611</guid>
+		<description><![CDATA[En realistisk bakgårdskisse og innflytting satt til september. Oppdaget at jeg ikke hadde lagt ut noe om hva bakgårdsendringene endte med da utbygger JM Norge for kort siden valgte å [...]]]></description>
+				<content:encoded><![CDATA[<div id="attachment_612" style="width: 970px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2014/04/qben_bakgaard_13042014_960px.jpg"><img class="size-full wp-image-612" src="/wp-content/uploads/2014/04/qben_bakgaard_13042014_960px.jpg" alt="Qben 13. april 2014 og ny bakgårdskisse" width="960" height="540" srcset="/wp-content/uploads/2014/04/qben_bakgaard_13042014_960px.jpg 960w, /wp-content/uploads/2014/04/qben_bakgaard_13042014_960px-620x349.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /></a><p class="wp-caption-text">Ny bakgårdskisse og status på byggeplassen den 13. april 2014</p></div>
+<p>En realistisk bakgårdskisse og innflytting satt til september.</p>
+<p><span id="more-611"></span></p>
+<p>Oppdaget at jeg ikke hadde lagt ut noe om hva bakgårdsendringene endte med da utbygger <a title="JM Norge - Qben" href="http://www.jm.no/qben" target="_blank">JM Norge</a> for kort siden valgte å legge ned <a title="Qben - Facebook (nedlagt)" href="http://www.facebook.com/qbenjm" target="_blank">Facebook-siden</a> for prosjektet Qben som jeg er kjøper i.</p>
+<div id="attachment_432" style="width: 310px" class="wp-caption alignright"><a href="/wp-content/uploads/2013/04/205222_328522440574651_756841450_n.jpg"><img class="size-medium wp-image-432" src="/wp-content/uploads/2013/04/205222_328522440574651_756841450_n-300x214.jpg" alt="Slik ble bakgården presentert i salgsmateriell. Kartene som per nå foreligger vil slett ikke gi en så grønn bakgård, men vi får se hva det ender med." width="300" height="214" /></a><p class="wp-caption-text">Slik ble bakgården presentert i salgsmateriell.</p></div>
+<p>Etter lit fram og tilbake endte bakgården omtrent slik den var på tegningene vi som kjøpere ble vist ved kontraktsignering. Planskissen for slik det ender ble offentliggjort for ganske lenge siden, men jeg har visst glemt å oppdatere.</p>
+<p>Nå i mars 2014 la JM Norge ut en ny 3D-skisse av bakgården (se over) som er mer slik det faktisk blir enn de skissene de hadde lagt ved salgsmateriellet (til høyre).</p>
+<p>Tidligere har jeg skrevet og engasjert meg etter at utbygger planla å kutte i grøntarealene i prosjektet. Noe slik jeg så det ville resultere i at bakgården i all hovedsak bare ble stein og betong.</p>
+<p>Les også: <a style="color: #428ce7;" title="Endring av bakgård – Qben" href="/2013/04/endring-av-bakgard-qben/">Endring av bakgård – Qben</a><br />
+Les også: <a style="color: #428ce7;" title="Kommunen: – Oppfordrer likevel til å gi bakgården et grønnere preg" href="/2013/04/oppfordrer-gronnere-preg/">Kommunen: – Oppfordrer likevel til å gi bakgården et grønnere preg</a><br />
+Les også: <a style="color: #666666;" title="JM: – Vi skal få på plass mer grøntareal" href="/2013/04/jm-vi-skal-fa-pa-plass-mer-grontareal/">JM: – Vi skal få på plass mer grøntareal</a></p>
+<p>Nå endte det med at de fikk tilbake store deler av det grøntarealet som faktisk opprinnelig var tegnet inn.</p>
+<h4>Oppdatering fremdrift:</h4>
+<p>Byggeprosessen går fremover. Det sees ikke lenger så store endringer utvendig fordi mye der er ferdig. De største endringene som har vært mulig å se de senere månedene utendørs er at teglsteinsfasadene mot bakgården virker å være ganske ferdig. Det er i alle fall mye mer synlig nå som de har tatt ned stillasene (se bilde i toppen).</p>
+<p>I løpet av våren vil utbygger JM invitere oss kjøpere inn i bygget for å se hvordan akkurat vår leilighet ser ut. For min del virker det å bli i begynnelsen av juni.</p>
+<p>Til da virker JM å tro at de har kommet svært langt skriver de i et <a title="JM Norge: Byggeplasssvisning på Qben" href="http://evt.mdlnk.se/Show.aspx?AccountId=162b6669-2c93-4ccc-8034-6c07fcb5524b&amp;IssueId=ec1e5907-01a6-4ae5-a1e2-f12912810efc&amp;ContactId=b59fc903-c8dc-4d4e-b07b-964662586988" target="_blank">informasjonsskriv</a>:</p>
+<blockquote><p>&laquo;For at dere skal få best mulig utbytte av byggeplassvisningen, ønsker vi at leiligheten skal være ferdig malt, og at noe av den øvrige innredningen skal være på plass.&raquo;</p></blockquote>
+<p>Innflytting er satt til en gang i september.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2014/04/oppdatering-byggeprosjektet/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Høst</title>
+		<link>/2013/10/host/</link>
+		<comments>/2013/10/host/#respond</comments>
+		<pubDate>Tue, 15 Oct 2013 21:29:56 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Aktuelt]]></category>
+		<category><![CDATA[Fotografi]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=540</guid>
+		<description><![CDATA[Bilder tatt 12. oktober 2013]]></description>
+				<content:encoded><![CDATA[<p>Bilder tatt 12. oktober 2013</p>
+<p><span id="more-540"></span></p>
+<p><a href="/wp-content/uploads/2013/10/20131012-hosttur-4869.jpg"><img class="aligncenter size-full wp-image-678" src="/wp-content/uploads/2013/10/20131012-hosttur-4869.jpg" alt="20131012-hosttur-4869" width="960" height="638" srcset="/wp-content/uploads/2013/10/20131012-hosttur-4869.jpg 960w, /wp-content/uploads/2013/10/20131012-hosttur-4869-620x412.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+
+<a href='/2013/10/host/20131012-hosttur-4918/'><img width="150" height="150" src="/wp-content/uploads/2013/10/20131012-hosttur-4918-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/10/20131012-hosttur-4918-150x150.jpg 150w, /wp-content/uploads/2013/10/20131012-hosttur-4918-90x90.jpg 90w, /wp-content/uploads/2013/10/20131012-hosttur-4918-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2013/10/host/20131012-hosttur-4916/'><img width="150" height="150" src="/wp-content/uploads/2013/10/20131012-hosttur-4916-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/10/20131012-hosttur-4916-150x150.jpg 150w, /wp-content/uploads/2013/10/20131012-hosttur-4916-90x90.jpg 90w, /wp-content/uploads/2013/10/20131012-hosttur-4916-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2013/10/host/20131012-hosttur-4863/'><img width="150" height="150" src="/wp-content/uploads/2013/10/20131012-hosttur-4863-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/10/20131012-hosttur-4863-150x150.jpg 150w, /wp-content/uploads/2013/10/20131012-hosttur-4863-90x90.jpg 90w, /wp-content/uploads/2013/10/20131012-hosttur-4863-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2013/10/host/20131012-hosttur-4900/'><img width="150" height="150" src="/wp-content/uploads/2013/10/20131012-hosttur-4900-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/10/20131012-hosttur-4900-150x150.jpg 150w, /wp-content/uploads/2013/10/20131012-hosttur-4900-90x90.jpg 90w, /wp-content/uploads/2013/10/20131012-hosttur-4900-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/2013/10/host/20131012-hosttur-4865/'><img width="150" height="150" src="/wp-content/uploads/2013/10/20131012-hosttur-4865-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/10/20131012-hosttur-4865-150x150.jpg 150w, /wp-content/uploads/2013/10/20131012-hosttur-4865-90x90.jpg 90w, /wp-content/uploads/2013/10/20131012-hosttur-4865-75x75.jpg 75w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+
+]]></content:encoded>
+			<wfw:commentRss>/2013/10/host/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hiphop virtual machine &#8211; Bye Skille</title>
+	<atom:link href="/tag/hiphop-virtual-machine/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Hva er sammenhengen mellom HipHop og PHP?</title>
+		<link>/2014/06/hva-er-sammenhengen-mellom-hiphop-og-php/</link>
+		<comments>/2014/06/hva-er-sammenhengen-mellom-hiphop-og-php/#respond</comments>
+		<pubDate>Mon, 09 Jun 2014 17:36:36 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[hhvm]]></category>
+		<category><![CDATA[hiphop virtual machine]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[webserver]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?p=863</guid>
+		<description><![CDATA[Etter at jeg la om det tekniske bak byeskille.no har en del vanlige programvaresnutter for servere blitt byttet ut med andre og kanskje mer effektive. I dag stiftet jeg bekjentskap [...]]]></description>
+				<content:encoded><![CDATA[<div id="attachment_864" style="width: 970px" class="wp-caption alignnone"><a href="/wp-content/uploads/2014/06/kanye_p3_hhvm.jpg"><img class="size-full wp-image-864" src="/wp-content/uploads/2014/06/kanye_p3_hhvm.jpg" alt="Siste versjon av HipHop Virtual Machine (HHVM) er døpt Kanye West (foto: Kim Erlandsen, NRK P3 (montasje)" width="960" height="540" srcset="/wp-content/uploads/2014/06/kanye_p3_hhvm.jpg 960w, /wp-content/uploads/2014/06/kanye_p3_hhvm-620x349.jpg 620w" sizes="(max-width: 960px) 100vw, 960px" /></a><p class="wp-caption-text">Siste versjon av HipHop Virtual Machine (HHVM) er døpt Kanye West (foto: <a title="Kanye West på Øyafestivalen 2011 på Flickr" href="https://www.flickr.com/photos/nrk-p3/6030994544/in/photolist-4ybnkT-4zP57P-abWquo-abUsom-abTzD8-abWqyy-abWq3f-abTzyv-abTz2V-abUnqN-abWrBA-abTyWv-abWq71">Kim Erlandsen, NRK P3</a> (montasje) lisensiert under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0</a></p></div>
+<p>Etter at jeg la om det tekniske bak byeskille.no har en del vanlige programvaresnutter for servere blitt byttet ut med andre og kanskje mer effektive. I dag stiftet jeg bekjentskap med et serverprogram som døper nye versjoner etter kjente rappere. Akkurat nå kjører byeskille.no HHVM versjon Kanye West.</p>
+<p><span id="more-863"></span></p>
+<p><em>Dette er nok ikke interessant for så veldig mange, men en del av lenkene kan være greie for andre som tenker å sette opp samme type programvare.</em></p>
+<p><a title="HHVM.com" href="http://hhvm.com/" target="_blank">HHVM</a> er serverprogramvare for behandling av dynamisk innhold og scripts, eller som de selv kaller det server-side scripting.</p>
+<p>For nettsidebruk er <a title="php.net" href="http://www.php.net/" target="_blank">PHP</a> et svært vanlig slikt script-språk. Plattformen WordPress som driver denne nettsiden er basert på PHP, og vanligvis drives slik sider av programvare med samme navn: PHP (eller <a title="PHP-FPM" href="http://php-fpm.org/" target="_blank">PHP-FPM</a>).</p>
+<p>HHVM som har det fulle navnet HipHop Virtual Machine er serverprogramvare laget av Facebook for å drive ulike deler av nettsider og tjenester som de tilbyr sine brukere. HHVM er laget for å kunne behandle PHP, og er til dels mye raskere enn f.eks. PHP5-FPM (se eksempler <a title="Kinsta.com – HHVM vs PHP" href="https://kinsta.com/blog/hhvm-and-wordpress/" target="_blank">her</a> og <a title="medium.com – WordPress faster in HHVM than PHP" href="https://medium.com/wordpress-school/wordpress-is-faster-in-hhvm-99bdbec8e0d3" target="_blank">her</a>).</p>
+<p>Dermed kan HHVM i mange tilfeller helt erstatte PHP-programvaren og gi bedre ytelse og opplevelse for brukeren. Litt spesielt at en slik modul som brukes av svært mange nettsider kan byttes ut med noe Facebook har laget.</p>
+<p>Her er siste annonsering av ny versjon slik Facebook formidlet den (på Facebook så klart):</p>
+<div id="fb-root"></div>
+<p><script>// <![CDATA[
+(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
+// ]]&gt;</script></p>
+<div class="fb-post" style="overflow-x: auto; max-width: 95%;" data-href="https://www.facebook.com/hhvm/posts/10152430184934326" data-width="350">
+<div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hhvm/posts/10152430184934326">Post</a> by <a href="https://www.facebook.com/hhvm">HHVM</a>.</div>
+</div>
+<p>&nbsp;</p>
+<h3>Litt om annen programvare som nå kjører byeskille.no:</h3>
+<p>&nbsp;</p>
+<ul>
+<li><a title="Apache HTTP server" href="http://httpd.apache.org/" target="_blank">Apache</a> er byttet ut med <a title="nginx.org" href="http://nginx.org/" target="_blank">Nginx</a></li>
+<li><a title="MySQL.com" href="http://www.mysql.com/" target="_blank">MySQL</a> er byttet ut med <a title="MariaDB.org" href="https://mariadb.org/" target="_blank">MariaDB</a></li>
+<li>+ serveren kjører <a title="varnish-cache.org" href="https://www.varnish-cache.org/" target="_blank">Varnish</a> cache for å øke hastighet og tåle mer trafikk (ikke det at det er så veldig mye trafikk på denne siden ;)</li>
+</ul>
+<p>Det kan nevnes at jeg kjører et slikt oppsett for webserver og caching for å få https-levering av sidene:</p>
+<blockquote><p>nginx TLS/SSL frontend proxy -&gt; Varnish cache (lokalt på samme maskin) -&gt; Nginx backend (lokalt på samme maskin) med kobling mot HHVM for PHP og MariaDB for database</p></blockquote>
+<p>Det å kjøre Varnish med TLS-kryptering og https-adresser virker det ikke som det er veldig mange som gjør, og dermed slet jeg litt med å finne perfekte instruksjoner. Ved å lese disse sidene fikk jeg det likevel til:</p>
+<p><a title="Varnish + SSL – Mikkel Høegh" href="http://mikkel.hoegh.org/blog/2012/07/24/varnish-as-reverse-proxy-with-nginx-as-web-server-and-ssl-terminator/" target="_blank">Varnish as reverse proxy with nginx as web server and SSL terminator @ mikkel.hoegh.org</a></p>
+<p><a title="Varnish + SSL – wiki.deimos.fr" href="https://wiki.deimos.fr/Nginx_%2B_Varnish_:_Cache_even_in_HTTPS_by_offloading_SSL" target="_blank">Nginx + Varnish : Cache even in HTTPS by offloading SSL @ wiki.deimos.fr</a></p>
+<p>WordPress-oppsett med Varnish: <a title="Varnish and WordPress – ewan.im" href="http://ewan.im/900/10-million-hits-a-day-with-wordpress-using-a-15-server" target="_blank">10 Million hits a day with WordPress using a $15 server</a></p>
+<p>&nbsp;</p>
+<p>Alt sammen kjører på en server i et datasenter i Nederland leid hos <a title="DigitalOcean" href="https://www.digitalocean.com/?refcode=a1b05e631bba" target="_blank">DigitalOcean.</a></p>
+<p><strong>For å få satt opp grunnoppsettet for webservern har jeg hatt mye glede av serien &laquo;<a title="Web served – Ars Technica" href="http://arstechnica.com/series/web-served/" target="_blank">Web served&raquo; hos Ars Technica</a> – anbefales virkelig selv om det er litt tid siden det ble publisert nå. </strong></p>
+<p>Og det måtte litt god gammeldags IRC til for å finne ut hvor HipHop-en hos Facebook kom fra:</p>
+<p>[8:40pm] Byeskille: stupid question, but here it comes: Why is HHVM named HipHop Virtual Machine?<br />
+[8:40pm] Scyks: facebooks first prove of concept was named by HipHop<br />
+[8:44pm] Scyks: Byeskille: the initiatin person at facebook is named by Haiping Zhao and he startet &laquo;HipHop for PHP&raquo;<br />
+[8:45pm] Scyks: Byeskille: this was just a codename by starting prove of conept in 2008<br />
+[8:46pm] Byeskille: ok, thanks for a detailed look back in time at Facebook<br />
+[8:47pm] Scyks: when you live in Germany, you can buy a magzin called PHPMagazin &#8211; there are 5 articles about hhvm and hack inside<br />
+[8:47pm] Scyks: Sebastian Bergman (PHPUnit) wrote the article about the history and how it works<br />
+[8:55pm] fred: Scyks: Byeskille: not quite right &#8211; it was originally hphp<br />
+[8:55pm] fred: it was renamed to HipHop when we released it externally, as the PHP license wouldn&#8217;t let us call it hphp<br />
+[8:55pm] Scyks: fred: HPHPc and HPHPi?<br />
+[8:55pm] fred: originally just hphp<br />
+[8:56pm] fred: then hphp + hphpi &#8211; then when hhvm came along, hphp got renamed to hphpc<br />
+[8:56pm] fred: (I think, not so sure there)<br />
+[9:05pm] Byeskille: fred: so the story about it being named partly after it’s lead developer is not so straight forward?<br />
+[9:06pm] fred: Byeskille: it doesn&#8217;t really change anything &#8211; just change the question to &#8216;Why was it called hphp?&#8217; ;)<br />
+[9:07pm] Byeskille: :)</p>
+<p><em>(fra irc-kanalen #hhvm på freenode-nettverket – brukeren fred er en av utviklerne på hhvm-prosjektet i Facebook)</em></p>
+]]></content:encoded>
+			<wfw:commentRss>/2014/06/hva-er-sammenhengen-mellom-hiphop-og-php/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

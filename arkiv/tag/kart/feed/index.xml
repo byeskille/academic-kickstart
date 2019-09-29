@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>kart &#8211; Bye Skille</title>
+	<atom:link href="/tag/kart/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Luftambulanse, 45 minutter og SSB-data på rutenett</title>
+		<link>/2014/05/luftambulanse-45-minutter-og-ssb-data-pa-rutenett/</link>
+		<pubDate>Sun, 18 May 2014 21:23:16 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Aktuelt]]></category>
+		<category><![CDATA[Jobb]]></category>
+		<category><![CDATA[cartodb]]></category>
+		<category><![CDATA[GIS]]></category>
+		<category><![CDATA[kart]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?p=708</guid>
+		<description><![CDATA[Kartverktøy og data fra SSB gjorde det mulig å regne ut hvor mange som bor utenfor rekkevidden legehelikoptre kan nå på 45 minutter. &#160; English summary: With the use of CartoDB, [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>Kartverktøy og data fra SSB gjorde det mulig å regne ut hvor mange som bor utenfor rekkevidden legehelikoptre kan nå på 45 minutter.</strong></p>
+<p><span id="more-708"></span></p>
+<p>&nbsp;</p>
+<p><em><strong>English summary:</strong> With the use of CartoDB, data from Norwegian helicopter services for health care and population data from Statistics Norway projected on a grid it was possible to both calculate how many live outside a defined response time of 45 minutes, and provide a service for the readers where they could get an estimated response time for any location in Norway.</em></p>
+<p>I uka som gikk publiserte vi i NRK flere saker om akuttberedskap i helsevesenet.</p>
+<p>Les: <a title="Kritisk skadde fraktes til sykehus uten kompetanse - nrk.no" href="http://www.nrk.no/norge/kompetansemangel-pa-norske-sykehus-1.11706976" target="_blank">Kritisk skadde pasienter fraktes til sykehus uten kompetanse</a><br />
+Les: <a title="Sjekk kompetansen ved ditt sykehus - nrk.no" href="http://www.nrk.no/norge/store-forskjeller-i-akuttberedskap-1.11712048" target="_blank">Sjekk kartet for kompetansen ved ditt sykehus</a></p>
+<p>Som en del av arbeidet med sakene tok vi utgangspunkt i hvor helikopterbaser ligger med legeberedskap. Vi regnet ut med CartoDB hvor langt helikoptrene nådde med det som av helsevesenet og helikoptertjenestene selv ble ansett som beredskapsmålet &#8211; en utrykningstid på 45 minutter (15 min klargjøring og 30 min flytid).</p>
+<p><strong>Videre koblet vi disse dekningssirklene med SSBs datasett over befolkningstall fordelt på rutenett. Slik kunne vi regne ut at 166 000 bor utenfor dekningssirklene.</strong></p>
+<p>Jeg skrev en lengre forklaring på NRKbeta om hvordan vi gikk fram:<br />
+<a title="Luftambulanse-beredskap, metoder og kartanalyse - nrkbeta.no" href="http://nrkbeta.no/2014/05/12/luftambulanse-beredskap-metoder-og-kartanalyse/" target="_blank">NRKbeta – Luftambulanse-beredskap, metoder og kartanalyse</a></p>
+<p>Norge har heller ikke de høyeste målene til utrykningstid. I Tyskland f.eks. opererer de med flytid på 15 minutter når de beregner beredskapen.</p>
+<p>Med en slik tysk sammenligning regnet vi ut at 1,28 millioner mennesker i Norge bor utenfor der legehelikoptrene kan nå på 15 minutter flytid.</p>
+<p>Les: <a title="166 000 får ikke legehelikopterhjelp innen 45 minutter - nrk.no" href="http://www.nrk.no/norge/166.000-utenfor-helikopterhjelp-1.11711669" target="_blank">166 000 får ikke legehelikopterhjelp innen 45 minutter</a><br />
+Les: <a title="Hjertestans i det svarte hullet - nrk.no" href="http://www.nrk.no/magasin/hjertestans-i-det-svarte-hullet-1.11703927" target="_blank">Hjertestans i det svarte hullet</a><br />
+Les: <a title="Ordførere krever bedre helikopterdekning - nrk.no" href="http://www.nrk.no/norge/ordforeroppror-mot-uttrykningstid-1.11714195" target="_blank">Ordførere krever bedre helikopterdekning<br />
+</a>Les: <a title="Europeisk luftambulanse-leder: – 45 minutter er lenge - nrk.no" href="http://www.nrk.no/norge/_-45-minutter-er-lenge-1.11714881" target="_blank">Europeisk luftambulanse-leder: – 45 minutter er lenge</a><br />
+Les: <a title="Mads Gilbert: – Bilambulanse viktigere" href="http://www.nrk.no/norge/_-bilambulansane-er-viktigast-1.11715805" target="_blank">Mads Gilbert: – Bilambulanse viktigere</a></p>
+<p>Her er noen av kartene:</p>
+
+<!-- iframe plugin v.4.3 wordpress.org/plugins/iframe/ -->
+<iframe src="https://nrk.cartodb.com/viz/0ca40d00-d541-11e3-b0ca-0e230854a1cb/embed_map?title=false&amp;description=false&amp;search=false&amp;shareable=false&amp;cartodb_logo=false&amp;layer_selector=false&amp;legends=true&amp;scrollwheel=true&amp;fullscreen=true&amp;sublayer_options=1|1|1&amp;sql=&amp;sw_lat=58.00809779306888&amp;sw_lon=0.17578125&amp;ne_lat=71.76019138754775&amp;ne_lon=32.255859375" width="960" height="600" scrolling="yes" class="iframe-class" frameborder="0"></iframe>
+
+<div></div>
+<h3>Sjekk også selv hvor lang tid helikopteret til huset eller hytta:</h3>
+<p>(klikk på <a href="http://www.nrk.no/norge/sjekk-helikopter-tiden-selv-1.11705222" target="_blank">kartet</a> for å få opp artikkelen med et interaktivt kart)<br />
+<a href="http://www.nrk.no/norge/sjekk-helikopter-tiden-selv-1.11705222" target="_blank"><img class="alignnone size-full wp-image-721" src="/wp-content/uploads/2014/05/Skjermbilde-2014-05-19-kl.-07.33.57-e1400477774721.png" alt="Sjekk selv - nrk.no (skjermdump)" width="600" height="409" /></a></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

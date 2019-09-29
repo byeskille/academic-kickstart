@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Get Lat Long</title>
+    <script src="//maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyBhd9cXgAxsLD0xiX31ACNC2GGSnEB5850"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+ 
+		
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(new GLatLng(65.946472,13.697205), 4);
+		
+
+		  
+		  GEvent.addListener(map, 'click', function(overlay, point) {
+     var latLngStr = "Lat = " + point.y + ", Long = " + point.x;
+    map.openInfoWindow(point, latLngStr);
+	document.getElementById("latbox").value=point.y;
+	document.getElementById("lonbox").value=point.x;
+        });
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+		map.enableScrollWheelZoom();
+      }
+    }
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="//byeskille.net/wp-content/themes/on-assignment/style.css" />
+  </head>
+
+  <body onload="initialize()" onunload="GUnload()" bgcolor="#ffffff">
+ 
+  <div align="center" style="background-color:#FFF">
+
+<p><strong>Fyll inn hvor du kommer fra, og hva som er din favorittfarge!</strong></p>
+<p>1. Klikk på kartet for å markere hvor du kommer fra &nbsp;2. Fyll inn navnet ditt og favorittfargen din i boksen under &nbsp;3. Trykk send inn.<br>
+<div id="map_canvas" style="width: 462px; height: 380px" align="right"></div>
+<form action="https://docs.google.com/forms/d/1Ytw3QC_DsL5B27sFqQRO1boZPDNP5NiLb2ntpIUV3xQ/formResponse" method="POST">
+ 	Latitude:   
+          <input size="19" type="text" id="latbox" class="ss-q-short" name="entry.1802441994" value="" >
+             Longitude:
+          <input size="19" type="text" id="lonbox" class="ss-q-short" name="entry_1325373307" value="" >
+          <br><br>
+	<span class="ss-q-title"><p style="color: black;">Hva heter du? (fornavn)&nbsp;</span><input type="text" class="ss-q-short" name="entry.594929979" />
+<br />Hva er din favorittfarge? (på engelsk, f.eks: yellow)&nbsp;<input type="text" class="ss-q-short" name="entry_1479448674" />
+	<br /><input type="submit" value="Send inn" name="submit" /></p>
+	</form>
+    
+<h2>Dette har dere svart:</h2>
+<strong>Her er fargekartet litt mer fancy</strong>
+<iframe src="//byeskille.cartodb.com/tables/fav_color/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&scrollwheel=true&sql=&sw_lat=61.56980478209997&sw_lon=-4.5648193359375&ne_lat=69.96420360278803&ne_lon=37.6226806640625" width="100%" height="650"></iframe>
+</div></body>
+</html>

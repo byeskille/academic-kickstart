@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>sne &#8211; Bye Skille</title>
+	<atom:link href="/tag/sne/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Påske – væromslag</title>
+		<link>/2013/03/paske-vaeromslag/</link>
+		<comments>/2013/03/paske-vaeromslag/#respond</comments>
+		<pubDate>Sun, 31 Mar 2013 14:27:42 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Fotografi]]></category>
+		<category><![CDATA[påske]]></category>
+		<category><![CDATA[sne]]></category>
+		<category><![CDATA[snø]]></category>
+		<category><![CDATA[vær]]></category>
+		<category><![CDATA[vinter]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=328</guid>
+		<description><![CDATA[Iphone og speilrefleks i påskeferie hjemme i nord.]]></description>
+				<content:encoded><![CDATA[<p>Iphone og speilrefleks i påskeferie hjemme i nord.<br />
+<span id="more-328"></span><br />
+<a href="/wp-content/uploads/2013/03/wpid-20130331_BYESKILLE_paaske-iphone-3_960px.jpg"><img alt="" src="/wp-content/uploads/2013/03/wpid-20130331_BYESKILLE_paaske-iphone-3_960px.jpg" width="960" /><br />
+</a><a href="/wp-content/uploads/2013/03/wpid-20130330_BYESKILLE_paaske-iphone-1_960px.jpg"><img alt="" src="/wp-content/uploads/2013/03/wpid-20130330_BYESKILLE_paaske-iphone-1_960px.jpg" width="300" /></a><br />
+<a href="/wp-content/uploads/2013/03/wpid-20130330_BYESKILLE_hvag-3676_960px.jpg"><img alt="" src="/wp-content/uploads/2013/03/wpid-20130330_BYESKILLE_hvag-3676_960px.jpg" width="300" height="300" /></a><a href="/wp-content/uploads/2013/03/wpid-20130330_BYESKILLE_hvag-3679_960px.jpg"><img alt="" src="/wp-content/uploads/2013/03/wpid-20130330_BYESKILLE_hvag-3679_960px.jpg" width="300" height="300" /></a></p>
+<p><a href="/wp-content/uploads/2013/03/wpid-20130331_BYESKILLE_paaske-iphone-4_960px.jpg"><img alt="" src="/wp-content/uploads/2013/03/wpid-20130331_BYESKILLE_paaske-iphone-4_960px.jpg" width="300" /></a><a href="/wp-content/uploads/2013/03/wpid-20130331_BYESKILLE_paaske-iphone-2_960px.jpg"><img alt="" src="/wp-content/uploads/2013/03/wpid-20130331_BYESKILLE_paaske-iphone-2_960px.jpg" width="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2013/03/paske-vaeromslag/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

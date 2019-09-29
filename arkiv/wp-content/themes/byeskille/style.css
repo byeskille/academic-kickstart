@@ -1,0 +1,61 @@
+/*
+Theme Name:     byeskille
+Description:    dattertema til Dynamic News Lite
+Author:         Oyvind Bye Skille
+Template:       dynamic-news-lite
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+/* Header
+-------------------------------------------------------------- */
+#logo {
+	float: left;
+	max-width: 100%;
+}
+#logo .site-title {
+	display: inline-block;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #000000;
+	font-family: 'Francois One', Tahoma, Arial;
+}
+#logo .site-title a:link, 
+#logo .site-title a:visited {
+	color: #000000;
+}
+#logo .site-title a:hover,
+#logo .site-title a:active {
+	color: #000000;
+	text-decoration: underline;
+}
+#logo .site-description {
+	margin-top: 0.4em;
+	color: #a0a0a0;
+}
+#logo .custom-logo {
+	margin: 0 1.5em 0 0;
+	padding: 0;
+	border: none;
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+/*CSS for Twitter Stream plugin */
+.twitter-stream  p {
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+.twitter-stream  .twitter-date {
+	font-size: 60%; 
+	margin: 0 0 0 1em; 
+}
+
+.twitter-stream  .profile-link {
+	margin: 0 1em 0.5em 1em; 
+}

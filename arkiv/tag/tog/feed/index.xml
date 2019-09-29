@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tog &#8211; Bye Skille</title>
+	<atom:link href="/tag/tog/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Høst – lese-søndag</title>
+		<link>/2012/10/host-lese-sondag/</link>
+		<comments>/2012/10/host-lese-sondag/#respond</comments>
+		<pubDate>Sun, 07 Oct 2012 16:43:59 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[høst]]></category>
+		<category><![CDATA[tog]]></category>
+		<category><![CDATA[togspotting]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=272</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><span id="more-272"></span><br />
+<a href="/wp-content/uploads/2012/10/wpid-20121007_BYESKILLE_hoest-papirer-2243.jpg"><img src="/wp-content/uploads/2012/10/wpid-20121007_BYESKILLE_hoest-papirer-2243.jpg" alt="" width="500" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2012/10/host-lese-sondag/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

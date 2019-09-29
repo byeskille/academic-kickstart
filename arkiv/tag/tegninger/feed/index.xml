@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tegninger &#8211; Bye Skille</title>
+	<atom:link href="/tag/tegninger/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Prosjektet på nabotomta</title>
+		<link>/2014/08/prosjektet-pa-nabotomta/</link>
+		<comments>/2014/08/prosjektet-pa-nabotomta/#respond</comments>
+		<pubDate>Wed, 20 Aug 2014 21:33:22 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[Malmøgata 1]]></category>
+		<category><![CDATA[qben]]></category>
+		<category><![CDATA[tegninger]]></category>
+
+		<guid isPermaLink="false">https://byeskille.net/?p=935</guid>
+		<description><![CDATA[Nabotomta til Qben har blitt prosjektert til bolig og kontorer, Malmøgata 1 &#8211; 5 &#8211; Gøteborggata 26 Enerhaugen arkitektkontor AS har laget planene og har en egen kort presentasjon her. Byggesaken [...]]]></description>
+				<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-941" src="/wp-content/uploads/2014/08/kveldsbilde_2-674x504.jpg" alt="kveldsbilde_2-674x504" width="674" height="504" srcset="/wp-content/uploads/2014/08/kveldsbilde_2-674x504.jpg 674w, /wp-content/uploads/2014/08/kveldsbilde_2-674x504-620x464.jpg 620w" sizes="(max-width: 674px) 100vw, 674px" /></p>
+<p>Nabotomta til Qben har blitt prosjektert til bolig og kontorer, Malmøgata 1 &#8211; 5 &#8211; Gøteborggata 26<br />
+Enerhaugen arkitektkontor AS har laget planene og har en egen kort presentasjon <a title="Malmøgata 1 – Enerhaugen Arkitektkontor AS" href="http://www.enerhaugen.com/prosjekt/malmogata-1/" target="_blank">her</a>.</p>
+<p>Byggesaken hos Plan- og bygningsetaten i Oslo kommune har saksnummer <a title="Malmøgata 1 saksnr 201105299 – PBE Oslo kommune" href="http://web102881.pbe.oslo.kommune.no/saksinnsyn/casedet.asp?mode=all&amp;caseno=201105299" target="_blank">201105299 og kan følges her.</a></p>
+<p>Jeg fikk ut noen av fasadetegningene og utomhusplanen fra arkitekten i desember 2013 (så tar forbehold om at de mindre endringene i senere tid har ført til at ikke alt ser nøyaktig slik ut)</p>
+<p>Her er PDF-filer</p>
+<p><a href="/wp-content/uploads/2014/08/A-233-Snitt-E-og-F.pdf">A 233 Snitt E og F</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-232-Snitt-C-og-D.pdf">A 232 Snitt C og D</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-231-Snitt-A-og-B.pdf">A 231 Snitt A og B</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-242-Gårdsfasader.pdf">A 242 Gårdsfasader</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-241-Gatefasader.pdf">A 241 Gatefasader</a></p>
+<p><a href="/wp-content/uploads/2014/08/A-203-Utomhusplan-gårdsnivå_-tak.pdf">A 203 Utomhusplan gårdsnivå_ tak</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2014/08/prosjektet-pa-nabotomta/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>crowdsourcing &#8211; Bye Skille</title>
+	<atom:link href="/tag/crowdsourcing/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2018 20:22:26 +0000</lastBuildDate>
+	<language>nb-NO</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Eksperiment: Hvilke farger liker vestlendinger, sørlendinger osv?</title>
+		<link>/2013/06/eksperiment-hvilke-farger-liker-vestlendinger-sorlendinger-osv/</link>
+		<comments>/2013/06/eksperiment-hvilke-farger-liker-vestlendinger-sorlendinger-osv/#comments</comments>
+		<pubDate>Fri, 07 Jun 2013 22:40:35 +0000</pubDate>
+		<dc:creator><![CDATA[Øyvind Bye Skille]]></dc:creator>
+				<category><![CDATA[Diverse]]></category>
+		<category><![CDATA[crowdsourcing]]></category>
+		<category><![CDATA[google drive]]></category>
+		<category><![CDATA[google forms]]></category>
+
+		<guid isPermaLink="false">http://byeskille.net/?p=456</guid>
+		<description><![CDATA[Dette er et lite eksperiment der jeg med mine begrensede kodekunnskaper tester hvordan det går an å la besøkende fylle ut et skjema. For så å vise det fram igjen [...]]]></description>
+				<content:encoded><![CDATA[<p>Dette er et lite eksperiment der jeg med mine begrensede kodekunnskaper tester hvordan det går an å la besøkende fylle ut et skjema.</p>
+<p>For så å vise det fram igjen etterpå. I dette tilfellet på et kart.<br />
+(enn så lenge oppdaterer ikke kartet seg automatisk, men jeg må gjøre noen små trykk for å få vist infoen ut)</p>
+<p><strong>Oppdatert:</strong> Takk til de 35 som tok seg tiden med å fylle ut skjemaet i løpet av helga! Testen fungerte i all hovedsak som planlagt. Blant erfaringene jeg fikk ut av dette var at ikke alle plasserer markøren helt nøyaktig ved å først zoome inn, og det er også ganske fort gjort å sende inn to ganger. Med så få innspill var ikke det noe problem å rydde opp i dobbeltoppføringer, men ved mange innspill vil nok det bli en større utfordring.</p>
+<p>Det er fortsatt mulig å sende inn fargevalg, men jeg har ikke hatt tid til å løse auto-oppdatering ennå.</p>
+<p><iframe src="/media/fargekart.html" height="1400" width="100%"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>/2013/06/eksperiment-hvilke-farger-liker-vestlendinger-sorlendinger-osv/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
