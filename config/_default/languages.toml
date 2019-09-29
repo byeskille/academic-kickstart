@@ -6,6 +6,15 @@
 [en]
   languageCode = "en-us"
   contentDir = "content"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  [[en.menu.main]]
+    name = "Old site (archive)"
+    url = "../index-old.html"
+    weight = 50
+
+  [[en.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 60
 
 # Uncomment the lines below to configure your website in a second language.
 [nb]

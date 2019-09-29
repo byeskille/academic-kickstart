@@ -24,12 +24,12 @@
 #  weight = 40
 
 [[main]]
-  name = "Gammel side/old site"
-  url = "index-old.html"
+  name = "Gammel side (arkiv)"
+  url = "/index-old.html"
   weight = 50
 
 [[main]]
-  name = "Contact"
+  name = "Kontakt"
   url = "#contact"
   weight = 60
 
