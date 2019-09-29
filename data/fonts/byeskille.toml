@@ -2,7 +2,7 @@
 name = "Byeskille"
 
 # Optional Google font URL
-google_fonts = "Roboto+Mono|Open+Sans"
+google_fonts = "Open+Sans|Open+Sans+Condensed|Roboto+Mono"
 
 # Font families
 heading_font = "Open Sans"
