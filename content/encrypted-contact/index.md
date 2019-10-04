@@ -1,8 +1,8 @@
 ---
 title: Kryptert kontakt
 date: 2019-09-18
-math: true
-diagram: true
+math: false
+diagram: false
 markup: mmark
 image:
   placement: 3
