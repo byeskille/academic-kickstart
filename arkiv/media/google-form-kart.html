@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Get Lat Long</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyBhd9cXgAxsLD0xiX31ACNC2GGSnEB5850"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+ 
+		
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(new GLatLng(65.946472,13.697205), 4);
+		
+
+		  
+		  GEvent.addListener(map, 'click', function(overlay, point) {
+     var latLngStr = "Lat = " + point.y + ", Long = " + point.x;
+    map.openInfoWindow(point, latLngStr);
+	document.getElementById("latbox").value=point.y;
+	document.getElementById("lonbox").value=point.x;
+        });
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+		map.enableScrollWheelZoom();
+ map.enableGoogleBar();
+      }
+    }
+
+    </script>
+  </head>
+
+  <body onload="initialize()" onunload="GUnload()"><div align="center">
+<h2>Har du hørt om eksplosiver i ditt nærområde?</h2>
+
+<p>1. Klikk på kartet for å markere hvor du har hørt om eksplosiver &nbsp;2. Fyll inn navnet ditt i boksen under &nbsp;3. Trykk send inn.<br>
+<div id="map_canvas" style="width: 462px; height: 380px" align="right"></div><br>
+    <br>
+
+<form action="https://docs.google.com/forms/d/1UctXDkPNJioPzTKLAoDtyb0C_YT79HO6tRu16MSJa2E/formResponse" method="POST">
+	<span class="ss-q-title">Hva heter du?</span>
+    <input type="text" class="ss-q-short" name="entry.21870361" />
+	Latitude:   
+          <input size="19" type="text" id="latbox" class="ss-q-short" name="entry.1567548979" value="" >
+             Longitude:
+          <input size="19" type="text" id="lonbox" class="ss-q-short" name="entry.1540444432" value="" >
+          <br><br>
+	
+	<input type="submit" value="Send inn" name="submit" />
+	</form></div>
+
+  </body>
+</html>

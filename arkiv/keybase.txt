@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/byeskille
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://byeskille.no
+  * I am byeskille (https://keybase.io/byeskille) on keybase.
+  * I have a public key with fingerprint D901 EA75 C112 A105 2AD9  90B3 BA37 21AF 33FB 6D2A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010154912b23c58d579158d3f1959fc6e9bcf1b3046e879ee4cdf1a27d17f2e21dbd0a",
+      "fingerprint": "d901ea75c112a1052ad990b3ba3721af33fb6d2a",
+      "host": "keybase.io",
+      "key_id": "ba3721af33fb6d2a",
+      "kid": "0101bf06015d3997a5400709d06d52905724a0f5e581455b4f9328c312992cec04ba0a",
+      "uid": "37095a7cee7683d67fe3a4245a224019",
+      "username": "byeskille"
+    },
+    "merkle_root": {
+      "ctime": 1528836541,
+      "hash_meta": "3cf1f79347c58e35a2bce8f2135334b9df704ff8382695c52ded334d087dfa7a",
+      "seqno": 3066855
+    },
+    "revoke": {
+      "sig_ids": [
+        "048c2619ed11d2f8b63be9c27f6aee8bcd8e3212f5c93ab5c1d11a46e0d960c60f"
+      ]
+    },
+    "service": {
+      "hostname": "byeskille.no",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1528836557,
+  "expire_in": 157680000,
+  "prev": "d0362ddc7e3480add7af7b0227f5569a90abb60c7b26c2003925fef302c0291f",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtU3tsFEUcvgJSWkGqgWKDaLtQG/SgszP7miupaWMamxQoEUGo5NzZmW3XXm+v
+t9fSSoFWQIGQIIpVHqIGyrstVKyoIFWS8ihvLByikoJg4EJBqP/wKM42EhLi/jPZ
+me/3/b7f9818OKS/JzEuEK2rCc/zbYrruEo8RaniqTkCsWm14JsjlLK+hQUocyL+
+UosKPgGIQJQlLEICkSFrVFaxyBdkiljGpqEwTAxTJAhICtNUzJhkUFPUoUpF1YQM
+ipRQoAtewbSCxSwcClvBCKelGIhMV2VDFKEuAhnqFGNAENGRCkXdRMgkCoVuYYnt
+uBVcHNEdNt6y+R7/8ffJ+x/8I93EBApXTxHGqi5LAKgAU6BQGWIgq1DSgSkzWRMl
+WSaSiRHUDCRCjKHBDCARvU93RR8d4qWyrhqMqYqGqKKaDOkSlGQdQgmI2AU6LBzU
+y5irqpo5pVYgwIS5XqGMhUsDzB+27YjrrhGxXIwoQ01DiiyJfELdKfGXsYjuNuJu
+mipGksrdZojzE4NpJhSRjJBEMDVVIJmmhjSoYNmQIWWUH1CgqdTUVVexw8qDtuBD
+QFE0WeYKwqzSLmVuc8cq5r45gq9IAJLWVmVARcSMiiKFpkYURBg2oGoqOmMaMSgX
+AEVoygZGOuFZcaDOcwYUK8BQgCnMmuu2C1daRh+9G9XjFowPuoGFwnbENuwAPymJ
+REKOz3UmUh1yobMZ8f9H4idWkPKLwisqWdix7CB3iiMfM01WvQKrCllh5rdchMxD
+Afxz+7BK93oBpEBKDZUhSQM6papuqgRAPpssK1jHQCeEz6ASqBgQAIShbDITAWgA
+iEXzkYuQt4roxZyTexfUIxVhHmrikn5ogCcu0TMqOW2A/ud3baRgUt5bnvjUh4/r
+iX7uy/IkJiQ93Hm1dWivlpdy9Y9BsaJGFLBbatK65w9ZtSB+/9OHlqVPKN65uoGs
+SGic3tI1YmT9T+Xpi5eDX+J6bv417PVma3vV8eaWv5N6Ln/aNW9qc2drxr3nX266
+4J1ximY4pcd+ntJdfqe8Lf79hvkzri4YWHgyvefIfvj2psz2yat6vp12Ztc127Oz
+9u6583JQWTQ7/3rVtNrYvcoHN30XVh+tGb4JZT3nW9L6AS74KAdndw+6fGWgd+n1
+6NbueHPhLv/cPLGio2LFsvi601qTPWnb5t/yDyntD5y99QcSz/V6NmafSJnZ23/7
+x/1fE9btbq5rcyYOPn9iw8zeqcmZp78oS8vz3opd2qJ+gysLbhs5qRum7Tv65mcj
+Cm70y0oYfOzH9ee9qQdCRRN3r+2wjnUmfTn0XkljWfTrKFkzevr8aLuvMfnzwHsr
+PcOqpAL74KuvrF57eVSo8/fl4579IU0fXpi4fNmeoo6xtfsOD+yM7c0bV5f9Rlpu
+bgk8fP9BYWxp+uIbwcE1X915p/RsNH/HGXVK9O7oRVduleRk1N5O2jGGTLx0MGWV
+M+v73fWFs4+nWxfXZ+UGr10aG+lKmVy+uejkC4eGNBQnNo1wXtpTnrNu4dmVDTfy
+GmMj25NC/t5/MrdM2Nh1p2HP/qdCRlZP25PJoz55JuN+bOeY3uatuYUJm3EXJNsy
+382uP9Ly4tSmi86v+YGRp1qr15z+Fw==
+=1v4r
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/byeskille
+
+==================================================================
+

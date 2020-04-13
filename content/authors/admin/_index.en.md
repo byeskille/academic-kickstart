@@ -62,4 +62,4 @@ user_groups:
 - Visitors
 ---
 
-Øyvind Bye Skille is a 34 year old journalist.<br/> Experience from the Norwegian Broadcasting Corp. from large investigative projects, as well as general news reporting online and on radio.
+Øyvind Bye Skille is a 35 year old journalist.<br/> Experience from the Norwegian Broadcasting Corp. from large investigative projects, as well as general news reporting online and on radio.

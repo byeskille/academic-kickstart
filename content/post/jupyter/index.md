@@ -8,10 +8,10 @@ tags: []
 categories: []
 date: "2019-02-05T00:00:00Z"
 featured: false
-draft: false
+draft: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: ""
   focal_point: ""
@@ -19,7 +19,7 @@ image:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references 
+#   E.g. `projects = ["internal-project"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
@@ -88,4 +88,4 @@ Open `index.md` in your text editor and edit the title etc. in the [front matter
 
 To set a [featured image](https://sourcethemes.com/academic/docs/managing-content/#featured-image), place an image named `featured` into your post's folder.
 
-For other tips, such as using math, see the guide on [writing content with Academic](https://sourcethemes.com/academic/docs/writing-markdown-latex/). 
+For other tips, such as using math, see the guide on [writing content with Academic](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

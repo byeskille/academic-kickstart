@@ -62,4 +62,4 @@ user_groups:
 - Visitors
 ---
 
-Øyvind Bye Skille er en 34 år gammel journalist.<br/> Erfaring fra NRK både med større prosjekter som undersøkende journalist, og som nyhetsjournalist for nett (nrk.no) og radio (Dagsnytt / P2s Nyhetsmorgen).
+Øyvind Bye Skille er en 35 år gammel journalist.<br/> Erfaring fra NRK både med større prosjekter som undersøkende journalist, og som nyhetsjournalist for nett (nrk.no) og radio (Dagsnytt / P2s Nyhetsmorgen).
